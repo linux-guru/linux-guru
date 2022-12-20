@@ -1,0 +1,4257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SupportCandy\n"
+"POT-Creation-Date: 2022-07-23 10:30+0530\n"
+"PO-Revision-Date: 2022-07-26 02:06+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: supportcandy.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: class-wpsc-installation.php:312
+msgid "ID"
+msgstr "ID"
+
+#: class-wpsc-installation.php:326 class-wpsc-installation.php:1411
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:644
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:86
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:78
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:272
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:684
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:769
+msgid "Customer"
+msgstr "Клиент"
+
+#: class-wpsc-installation.php:327
+msgid "Select customer for whom you wish to create a ticket"
+msgstr "Выберите клиента, для которого вы хотите создать заявку"
+
+#: class-wpsc-installation.php:342
+#: includes/admin/customers/class-wpsc-customers.php:72
+#: includes/admin/customers/class-wpsc-customers.php:226
+#: includes/admin/settings/class-wpsc-ticket-categories.php:51
+#: includes/admin/settings/class-wpsc-ticket-categories.php:138
+#: includes/admin/settings/class-wpsc-ticket-categories.php:280
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:53
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:139
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:302
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:55
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:138
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:304
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:383
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1832
+#: includes/admin/tickets/class-wpsc-new-ticket.php:483
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1892
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:137
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:383
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:739
+#: includes/class-wpsc-current-user.php:681
+msgid "Name"
+msgstr "Имя"
+
+#: class-wpsc-installation.php:343
+msgid "Please insert your name"
+msgstr "Пожалуйста, введите свое имя"
+
+#: class-wpsc-installation.php:360
+#: includes/admin/customers/class-wpsc-customers.php:230
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1840
+#: includes/admin/tickets/class-wpsc-new-ticket.php:493
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:392
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:746
+#: includes/class-wpsc-current-user.php:418
+#: includes/class-wpsc-current-user.php:682
+#: includes/custom-field-types/class-wpsc-cf-email.php:195
+#: includes/frontend/class-wpsc-shortcode-three.php:107
+msgid "Email Address"
+msgstr "Адреса электронной почты"
+
+#: class-wpsc-installation.php:361
+msgid "Please insert your email address"
+msgstr "Пожалуйста, введите свой адрес электронной почты"
+
+#: class-wpsc-installation.php:378
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:59
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:381
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:59
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:453
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1505
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1752
+msgid "Subject"
+msgstr "Предмет"
+
+#: class-wpsc-installation.php:379
+msgid "Short description of the ticket"
+msgstr "Краткое описание заявки"
+
+#: class-wpsc-installation.php:395
+msgid "Description"
+msgstr "Описание"
+
+#: class-wpsc-installation.php:396
+msgid "Detailed description of the ticket"
+msgstr "Подробное описание заявки"
+
+#: class-wpsc-installation.php:411
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:113
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:370
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:208
+msgid "Status"
+msgstr "Статус"
+
+#: class-wpsc-installation.php:412
+msgid "Please select status"
+msgstr "Пожалуйста, выберите статус"
+
+#: class-wpsc-installation.php:429
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:209
+msgid "Priority"
+msgstr "Приоритет"
+
+#: class-wpsc-installation.php:430
+msgid "Please select priority"
+msgstr "Пожалуйста, выберите приоритет"
+
+#: class-wpsc-installation.php:447
+msgid "Category"
+msgstr "Категория"
+
+#: class-wpsc-installation.php:448
+msgid "Please select category"
+msgstr "Пожалуйста, выберите категорию"
+
+#: class-wpsc-installation.php:465 class-wpsc-installation.php:1413
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:645
+msgid "Assignee"
+msgstr "Назначенный специалист"
+
+#: class-wpsc-installation.php:466
+msgid "Please select an agent"
+msgstr "Пожалуйста, выберите специалиста"
+
+#: class-wpsc-installation.php:482
+msgid "Date Created"
+msgstr "Дата создания"
+
+#: class-wpsc-installation.php:497
+msgid "Date Updated"
+msgstr "Дата обновления"
+
+#: class-wpsc-installation.php:512
+msgid "Agent Created"
+msgstr "Специалист создан"
+
+#: class-wpsc-installation.php:526
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:457
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1853
+msgid "IP Address"
+msgstr "IP-адрес"
+
+#: class-wpsc-installation.php:541
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1848
+#: includes/models/class-wpsc-attachment.php:612
+#: includes/models/class-wpsc-attachment.php:785
+msgid "Source"
+msgstr "Источник"
+
+#: class-wpsc-installation.php:555
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:461
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1858
+#: includes/custom-field-types/class-wpsc-df-source.php:199
+msgid "Browser"
+msgstr "Браузер"
+
+#: class-wpsc-installation.php:569
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:465
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1863
+msgid "Operating System"
+msgstr "Операционная система"
+
+#: class-wpsc-installation.php:583
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:656
+msgid "Additional Recipients"
+msgstr "Дополнительные получатели"
+
+#: class-wpsc-installation.php:584
+msgid "Please insert email addresses (one per line)"
+msgstr "Пожалуйста, введите адрес электронной почты (по одному на строку)"
+
+#: class-wpsc-installation.php:600
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:649
+msgid "Previous Assignee"
+msgstr "Предыдущий назначенный специалист"
+
+#: class-wpsc-installation.php:615
+msgid "Date Closed"
+msgstr "Дата закрытия"
+
+#: class-wpsc-installation.php:631
+msgid "User Type"
+msgstr "Тип пользователя"
+
+#: class-wpsc-installation.php:646
+msgid "Last Reply On"
+msgstr "Последний ответ в"
+
+#: class-wpsc-installation.php:662
+msgid "Last Reply By"
+msgstr "Последний ответ от"
+
+#: class-wpsc-installation.php:678
+#: includes/admin/settings/appearence/class-wpsc-appearence-settings.php:51
+#: includes/admin/settings/general-settings/class-wpsc-gs.php:51
+msgid "General"
+msgstr "Общий"
+
+#: class-wpsc-installation.php:689
+msgid "Open"
+msgstr "Открытый"
+
+#: class-wpsc-installation.php:701
+msgid "Awaiting customer reply"
+msgstr "В ожидании ответа от клиента"
+
+#: class-wpsc-installation.php:713
+msgid "Awaiting agent reply"
+msgstr "В ожидании ответа от специалиста"
+
+#: class-wpsc-installation.php:725 class-wpsc-installation.php:1008
+#: class-wpsc-installation.php:1056
+msgid "Closed"
+msgstr "Закрыто"
+
+#: class-wpsc-installation.php:738
+msgid "Low"
+msgstr "Низкий"
+
+#: class-wpsc-installation.php:750
+msgid "Medium"
+msgstr "Средний"
+
+#: class-wpsc-installation.php:762
+msgid "High"
+msgstr "Высокий"
+
+#: class-wpsc-installation.php:1004 class-wpsc-installation.php:1054
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1874
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:119
+#: includes/custom-field-types/class-wpsc-cf-date.php:962
+#: includes/custom-field-types/class-wpsc-cf-date.php:1151
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:942
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1138
+#: includes/custom-field-types/class-wpsc-cf-time.php:687
+#: includes/custom-field-types/class-wpsc-cf-time.php:876
+msgid "All"
+msgstr "Все"
+
+#: class-wpsc-installation.php:1005 class-wpsc-installation.php:1055
+msgid "Unresolved"
+msgstr "Нерешенный"
+
+#: class-wpsc-installation.php:1006
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:153
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:172
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:191
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:210
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:229
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:248
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:267
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:286
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:305
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:324
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:343
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:362
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:381
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:577
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:596
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:615
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:634
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:653
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:672
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:691
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:710
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:729
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:748
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:767
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:786
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:805
+msgid "Unassigned"
+msgstr "Неназначенный"
+
+#: class-wpsc-installation.php:1007
+msgid "Mine"
+msgstr "Мой"
+
+#: class-wpsc-installation.php:1009
+msgid "Deleted"
+msgstr "Удаленный"
+
+#: class-wpsc-installation.php:1410
+msgid "Ticket status"
+msgstr "Статус заявки"
+
+#: class-wpsc-installation.php:1412
+msgid "Ticket info"
+msgstr "Информация о заявке"
+
+#: class-wpsc-installation.php:1414
+msgid "Ticket fields"
+msgstr "Поля заявки"
+
+#: class-wpsc-installation.php:1415
+msgid "Agent only fields"
+msgstr "Поля только специалистов"
+
+#: class-wpsc-installation.php:1416
+msgid "Additional recipients"
+msgstr "Дополнительные получатели"
+
+#: class-wpsc-installation.php:1417
+msgid "Biographical Info"
+msgstr "Биографическая информация"
+
+#. translators: %1$s: attachment max file size, %2$s: allowed file extenstions.
+#: class-wpsc-installation.php:1496
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:34
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:34
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:34
+#, php-format
+msgid "You can upload files maximum size %1$s mb of types %2$s."
+msgstr ""
+"Максимальный размер файлов которые вы можете загрузить %1$s, типов %2$s."
+
+#: framework/class-wpsc-framework.php:335
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите…"
+
+#: framework/class-wpsc-framework.php:336
+msgid "Requied fields missing!"
+msgstr "Обязательные поля не заполнены!"
+
+#: framework/class-wpsc-framework.php:337
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: framework/class-wpsc-framework.php:338
+msgid "Something went wrong!"
+msgstr "Что-то пошло не так!"
+
+#: framework/class-wpsc-framework.php:339
+msgid "View more!"
+msgstr "Показать еще!"
+
+#: framework/class-wpsc-framework.php:340
+msgid "View less!"
+msgstr "Свернуть!"
+
+#: framework/class-wpsc-framework.php:341
+msgid ""
+"There is unposted text in the reply area. Are you sure you want to discard "
+"and proceed?"
+msgstr ""
+"В области ответа есть неопубликованный текст. Вы уверены, что хотите удалить "
+"и продолжить?"
+
+#: framework/class-wpsc-framework.php:342
+msgid "Incorrect username or password!"
+msgstr "Неправильное имя пользователя или пароль!"
+
+#: framework/class-wpsc-framework.php:343
+msgid "Incorrect password!"
+msgstr "Неправильный пароль!"
+
+#: framework/class-wpsc-framework.php:344
+#: includes/class-wpsc-current-user.php:396
+msgid "Username is already taken!"
+msgstr "Имя пользователя уже занято!"
+
+#: framework/class-wpsc-framework.php:345
+msgid "Incorrect email address!"
+msgstr "Неправильный адрес электронной почты!"
+
+#: framework/class-wpsc-framework.php:346
+msgid "Ticket URL copied!"
+msgstr "Ссылка на заявку скопирована!"
+
+#: framework/class-wpsc-framework.php:347
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:376
+#: includes/custom-field-types/class-wpsc-cf-email.php:471
+#: includes/custom-field-types/class-wpsc-df-customer-email.php:246
+msgid "Invalid email address!"
+msgstr "Недействительный адрес электронной почты!"
+
+#: global-functions.php:31
+msgid "Please activate your license!"
+msgstr "Пожалуйста, активируйте свою лицензию!"
+
+#: global-functions.php:34
+msgid "Your license key activated!"
+msgstr "Ваш лицензионный ключ активирован!"
+
+#. translators: %s: date
+#: global-functions.php:38
+#, php-format
+msgid "Your license key expires on %s"
+msgstr "Срок вашего лицензионного ключа истекает в %s"
+
+#. translators: %s: date
+#: global-functions.php:42
+#, php-format
+msgid "Your license key expired on %s"
+msgstr "Срок вашего лицензионного ключа истек в %s"
+
+#: global-functions.php:45
+msgid "View Details"
+msgstr "Показать подробную информацию"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:42
+#: includes/admin/agent-settings/class-wpsc-support-agents.php:88
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:72
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:444
+msgid "Leaves"
+msgstr "Посты"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:90
+msgid "Are you sure to delete this leave?"
+msgstr "Вы уверены, что хотите удалить этот пост?"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:226
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:70
+#: includes/admin/agent-settings/class-wpsc-support-agents.php:70
+msgid "Agents"
+msgstr "Специалисты"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:233
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:539
+#: includes/models/class-wpsc-holiday.php:492
+msgid "Repeate every year"
+msgstr "Повторять каждый год"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:236
+#: includes/admin/custom-fields/class-wpsc-tff.php:207
+#: includes/admin/custom-fields/class-wpsc-tff.php:459
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:77
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:68
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:60
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:68
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:71
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:80
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:109
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:71
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:80
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:109
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:71
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:80
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:109
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:526
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:791
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:525
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:789
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:542
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1873
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:238
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:247
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:280
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:307
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:316
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:103
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:326
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:335
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:365
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:171
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:180
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:292
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:301
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:104
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:942
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:955
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:976
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:985
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1049
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1078
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1094
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1110
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1220
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1249
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1265
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1281
+#: includes/custom-field-types/class-wpsc-cf-date.php:936
+#: includes/custom-field-types/class-wpsc-cf-date.php:1036
+#: includes/custom-field-types/class-wpsc-cf-date.php:1052
+#: includes/custom-field-types/class-wpsc-cf-date.php:1068
+#: includes/custom-field-types/class-wpsc-cf-date.php:1125
+#: includes/custom-field-types/class-wpsc-cf-date.php:1225
+#: includes/custom-field-types/class-wpsc-cf-date.php:1241
+#: includes/custom-field-types/class-wpsc-cf-date.php:1257
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:916
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1020
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1036
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1052
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1112
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1220
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1236
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1252
+#: includes/custom-field-types/class-wpsc-cf-email.php:860
+#: includes/custom-field-types/class-wpsc-cf-email.php:902
+#: includes/custom-field-types/class-wpsc-cf-email.php:918
+#: includes/custom-field-types/class-wpsc-cf-email.php:934
+#: includes/custom-field-types/class-wpsc-cf-email.php:985
+#: includes/custom-field-types/class-wpsc-cf-email.php:1027
+#: includes/custom-field-types/class-wpsc-cf-email.php:1043
+#: includes/custom-field-types/class-wpsc-cf-email.php:1059
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:664
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:680
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:696
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:733
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:749
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:765
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:650
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:666
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:682
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:719
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:735
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:751
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:920
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:962
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:978
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:994
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1104
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1146
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1162
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1178
+#: includes/custom-field-types/class-wpsc-cf-number.php:943
+#: includes/custom-field-types/class-wpsc-cf-number.php:998
+#: includes/custom-field-types/class-wpsc-cf-number.php:1014
+#: includes/custom-field-types/class-wpsc-cf-number.php:1030
+#: includes/custom-field-types/class-wpsc-cf-number.php:1081
+#: includes/custom-field-types/class-wpsc-cf-number.php:1136
+#: includes/custom-field-types/class-wpsc-cf-number.php:1152
+#: includes/custom-field-types/class-wpsc-cf-number.php:1168
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:852
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:865
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:886
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:895
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:961
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:990
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1006
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1022
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1127
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1156
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1172
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1188
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:861
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:903
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:919
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:935
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1040
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1082
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1098
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1114
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:869
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:924
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:940
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:956
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1007
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1062
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1078
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1094
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:823
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:865
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:881
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:897
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:948
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:990
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1006
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1022
+#: includes/custom-field-types/class-wpsc-cf-time.php:661
+#: includes/custom-field-types/class-wpsc-cf-time.php:769
+#: includes/custom-field-types/class-wpsc-cf-time.php:785
+#: includes/custom-field-types/class-wpsc-cf-time.php:801
+#: includes/custom-field-types/class-wpsc-cf-time.php:863
+#: includes/custom-field-types/class-wpsc-cf-time.php:977
+#: includes/custom-field-types/class-wpsc-cf-time.php:993
+#: includes/custom-field-types/class-wpsc-cf-time.php:1009
+#: includes/custom-field-types/class-wpsc-cf-url.php:859
+#: includes/custom-field-types/class-wpsc-cf-url.php:901
+#: includes/custom-field-types/class-wpsc-cf-url.php:917
+#: includes/custom-field-types/class-wpsc-cf-url.php:933
+#: includes/custom-field-types/class-wpsc-cf-url.php:984
+#: includes/custom-field-types/class-wpsc-cf-url.php:1026
+#: includes/custom-field-types/class-wpsc-cf-url.php:1042
+#: includes/custom-field-types/class-wpsc-cf-url.php:1058
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:664
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:674
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:749
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:759
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:988
+#: includes/custom-field-types/class-wpsc-df-category.php:618
+#: includes/custom-field-types/class-wpsc-df-description.php:576
+#: includes/custom-field-types/class-wpsc-df-priority.php:616
+#: includes/custom-field-types/class-wpsc-df-subject.php:606
+#: includes/models/class-wpsc-holiday.php:495
+msgid "No"
+msgstr "Нет"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:237
+#: includes/admin/custom-fields/class-wpsc-tff.php:206
+#: includes/admin/custom-fields/class-wpsc-tff.php:458
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:76
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:67
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:59
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:67
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:70
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:79
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:108
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:70
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:79
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:108
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:70
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:79
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:108
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:525
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:790
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:524
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:788
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:543
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:237
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:246
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:279
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:306
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:315
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:102
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:325
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:334
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:364
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:170
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:179
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:291
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:300
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:103
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:943
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:956
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:975
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:984
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1050
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1079
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1095
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1111
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1221
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1250
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1266
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1282
+#: includes/custom-field-types/class-wpsc-cf-date.php:937
+#: includes/custom-field-types/class-wpsc-cf-date.php:1037
+#: includes/custom-field-types/class-wpsc-cf-date.php:1053
+#: includes/custom-field-types/class-wpsc-cf-date.php:1069
+#: includes/custom-field-types/class-wpsc-cf-date.php:1126
+#: includes/custom-field-types/class-wpsc-cf-date.php:1226
+#: includes/custom-field-types/class-wpsc-cf-date.php:1242
+#: includes/custom-field-types/class-wpsc-cf-date.php:1258
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:917
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1021
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1037
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1053
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1113
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1221
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1237
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1253
+#: includes/custom-field-types/class-wpsc-cf-email.php:861
+#: includes/custom-field-types/class-wpsc-cf-email.php:903
+#: includes/custom-field-types/class-wpsc-cf-email.php:919
+#: includes/custom-field-types/class-wpsc-cf-email.php:935
+#: includes/custom-field-types/class-wpsc-cf-email.php:986
+#: includes/custom-field-types/class-wpsc-cf-email.php:1028
+#: includes/custom-field-types/class-wpsc-cf-email.php:1044
+#: includes/custom-field-types/class-wpsc-cf-email.php:1060
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:665
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:681
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:697
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:734
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:750
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:766
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:651
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:667
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:683
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:720
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:736
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:752
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:921
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:963
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:979
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:995
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1105
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1147
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1163
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1179
+#: includes/custom-field-types/class-wpsc-cf-number.php:944
+#: includes/custom-field-types/class-wpsc-cf-number.php:999
+#: includes/custom-field-types/class-wpsc-cf-number.php:1015
+#: includes/custom-field-types/class-wpsc-cf-number.php:1031
+#: includes/custom-field-types/class-wpsc-cf-number.php:1082
+#: includes/custom-field-types/class-wpsc-cf-number.php:1137
+#: includes/custom-field-types/class-wpsc-cf-number.php:1153
+#: includes/custom-field-types/class-wpsc-cf-number.php:1169
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:853
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:866
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:885
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:894
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:962
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:991
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1007
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1023
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1128
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1157
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1173
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1189
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:862
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:904
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:920
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:936
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1041
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1083
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1099
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1115
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:870
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:925
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:941
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:957
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1008
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1063
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1079
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1095
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:824
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:866
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:882
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:898
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:949
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:991
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1007
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1023
+#: includes/custom-field-types/class-wpsc-cf-time.php:662
+#: includes/custom-field-types/class-wpsc-cf-time.php:770
+#: includes/custom-field-types/class-wpsc-cf-time.php:786
+#: includes/custom-field-types/class-wpsc-cf-time.php:802
+#: includes/custom-field-types/class-wpsc-cf-time.php:864
+#: includes/custom-field-types/class-wpsc-cf-time.php:978
+#: includes/custom-field-types/class-wpsc-cf-time.php:994
+#: includes/custom-field-types/class-wpsc-cf-time.php:1010
+#: includes/custom-field-types/class-wpsc-cf-url.php:860
+#: includes/custom-field-types/class-wpsc-cf-url.php:902
+#: includes/custom-field-types/class-wpsc-cf-url.php:918
+#: includes/custom-field-types/class-wpsc-cf-url.php:934
+#: includes/custom-field-types/class-wpsc-cf-url.php:985
+#: includes/custom-field-types/class-wpsc-cf-url.php:1027
+#: includes/custom-field-types/class-wpsc-cf-url.php:1043
+#: includes/custom-field-types/class-wpsc-cf-url.php:1059
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:663
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:673
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:748
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:758
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:989
+#: includes/custom-field-types/class-wpsc-df-category.php:619
+#: includes/custom-field-types/class-wpsc-df-description.php:577
+#: includes/custom-field-types/class-wpsc-df-priority.php:617
+#: includes/custom-field-types/class-wpsc-df-subject.php:607
+#: includes/models/class-wpsc-holiday.php:496
+msgid "Yes"
+msgstr "Да"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:285
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:427
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:853
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:224
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:359
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:214
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:615
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:875
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:410
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:616
+#: includes/admin/custom-fields/class-wpsc-tff.php:293
+#: includes/admin/custom-fields/class-wpsc-tff.php:604
+#: includes/admin/customers/class-wpsc-customers.php:353
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:145
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:106
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:228
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:505
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:146
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:100
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:161
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:121
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:138
+#: includes/admin/settings/class-wpsc-ticket-categories.php:173
+#: includes/admin/settings/class-wpsc-ticket-categories.php:320
+#: includes/admin/settings/class-wpsc-ticket-categories.php:467
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:185
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:353
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:510
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:187
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:358
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:515
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:89
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:236
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:215
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:143
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:284
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:167
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:100
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:77
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:145
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-advanced.php:69
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:135
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:135
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:135
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:79
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:283
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:561
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:827
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1132
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1314
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1456
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:284
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:560
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:825
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1130
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1313
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1455
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:312
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:507
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:620
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:566
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:616
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1520
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1768
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2096
+#: includes/admin/tickets/class-wpsc-new-ticket.php:184
+#: includes/admin/tickets/class-wpsc-new-ticket.php:507
+#: includes/admin/tickets/class-wpsc-ticket-list.php:839
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1762
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1949
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:139
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:282
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:198
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:314
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:204
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:350
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:137
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:224
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:378
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:214
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:408
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:894
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:204
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:335
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:138
+#: includes/class-wpsc-current-user.php:560
+#: includes/class-wpsc-current-user.php:739
+#: includes/custom-field-types/class-wpsc-df-subject.php:486
+#: includes/frontend/class-wpsc-shortcode-three.php:116
+#: includes/frontend/class-wpsc-shortcode-three.php:295
+#: includes/models/class-wpsc-attachment.php:731
+#: includes/models/class-wpsc-attachment.php:866
+#: includes/models/class-wpsc-holiday.php:519
+#: includes/models/class-wpsc-wh-exception.php:595
+#: includes/models/class-wpsc-wh-exception.php:821
+#: includes/models/class-wpsc-working-hour.php:457
+msgid "Submit"
+msgstr "Отправить"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:288
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:430
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:856
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:227
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:362
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:620
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:880
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:414
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:620
+#: includes/admin/custom-fields/class-wpsc-tff.php:296
+#: includes/admin/custom-fields/class-wpsc-tff.php:607
+#: includes/admin/customers/class-wpsc-customers.php:356
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:231
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:510
+#: includes/admin/settings/class-wpsc-ticket-categories.php:176
+#: includes/admin/settings/class-wpsc-ticket-categories.php:323
+#: includes/admin/settings/class-wpsc-ticket-categories.php:470
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:188
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:356
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:513
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:190
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:361
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:518
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:286
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:564
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:830
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1135
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1317
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1459
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:287
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:563
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:828
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1133
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1316
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1458
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:569
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1523
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1771
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2097
+#: includes/admin/tickets/class-wpsc-new-ticket.php:510
+#: includes/admin/tickets/class-wpsc-ticket-list.php:842
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1219
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1268
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1533
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1765
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1952
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:142
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:285
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:201
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:317
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:207
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:353
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:140
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:227
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:381
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:217
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:411
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:897
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:207
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:338
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:141
+#: includes/class-wpsc-current-user.php:450
+#: includes/class-wpsc-current-user.php:684
+#: includes/custom-field-types/class-wpsc-df-subject.php:489
+#: includes/frontend/class-wpsc-shortcode-three.php:117
+#: includes/models/class-wpsc-attachment.php:734
+#: includes/models/class-wpsc-attachment.php:869
+#: includes/models/class-wpsc-holiday.php:522
+#: includes/models/class-wpsc-wh-exception.php:598
+#: includes/models/class-wpsc-wh-exception.php:824
+msgid "Cancel"
+msgstr "Отменить"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:45
+#: includes/admin/agent-settings/class-wpsc-support-agents.php:76
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:683
+msgid "Agent Roles"
+msgstr "Роли специалистов"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:53
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:81
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:336
+msgid "Role"
+msgstr "Роль"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:54
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:82
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:370
+#: includes/admin/custom-fields/class-wpsc-aof.php:76
+#: includes/admin/custom-fields/class-wpsc-cf.php:76
+#: includes/admin/custom-fields/class-wpsc-tf.php:73
+#: includes/admin/custom-fields/class-wpsc-tff.php:62
+#: includes/admin/customers/class-wpsc-customers.php:75
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:114
+#: includes/admin/settings/class-wpsc-ticket-categories.php:52
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:54
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:56
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:161
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1009
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:160
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1006
+#: includes/class-wpsc-macros.php:191
+#: includes/models/class-wpsc-wh-exception.php:419
+msgid "Actions"
+msgstr "Действия"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:65
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:95
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:391
+#: includes/admin/custom-fields/class-wpsc-aof.php:90
+#: includes/admin/custom-fields/class-wpsc-cf.php:90
+#: includes/admin/custom-fields/class-wpsc-tf.php:87
+#: includes/admin/custom-fields/class-wpsc-tff.php:76
+#: includes/admin/customers/class-wpsc-customers.php:158
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:127
+#: includes/admin/settings/class-wpsc-ticket-categories.php:63
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:65
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:67
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:176
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1023
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:174
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1020
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:370
+#: includes/admin/tickets/class-wpsc-ticket-list.php:476
+#: includes/models/class-wpsc-wh-exception.php:446
+msgid "Edit"
+msgstr "Редактировать"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:69
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:96
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:392
+#: includes/admin/custom-fields/class-wpsc-aof.php:95
+#: includes/admin/custom-fields/class-wpsc-cf.php:95
+#: includes/admin/custom-fields/class-wpsc-tf.php:92
+#: includes/admin/custom-fields/class-wpsc-tff.php:81
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:129
+#: includes/admin/settings/class-wpsc-ticket-categories.php:67
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:69
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:69
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:177
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1024
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:175
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1021
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:301
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:378
+#: includes/admin/tickets/class-wpsc-ticket-list.php:483
+#: includes/admin/tickets/class-wpsc-ticket-list.php:2134
+#: includes/models/class-wpsc-wh-exception.php:447
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:93
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:132
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:117
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:156
+#: includes/admin/custom-fields/class-wpsc-aof.php:118
+#: includes/admin/custom-fields/class-wpsc-cf.php:118
+#: includes/admin/custom-fields/class-wpsc-tf.php:115
+#: includes/admin/custom-fields/class-wpsc-tff.php:105
+#: includes/admin/custom-fields/class-wpsc-tff.php:254
+#: includes/admin/custom-fields/class-wpsc-tff.php:558
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:150
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:190
+#: includes/admin/settings/class-wpsc-ticket-categories.php:92
+#: includes/admin/settings/class-wpsc-ticket-categories.php:130
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:94
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:131
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:94
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:130
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:197
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:414
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:486
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:748
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1045
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:195
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:413
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:485
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:746
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1041
+#: includes/admin/tickets/class-wpsc-new-ticket.php:113
+#: includes/admin/tickets/class-wpsc-new-ticket.php:473
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1133
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1452
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:903
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1022
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1179
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:893
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1063
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:820
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:932
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1091
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:832
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1004
+#: includes/models/class-wpsc-wh-exception.php:467
+msgid "Add new"
+msgstr "Добавить новый"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:140
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:564
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:324
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:555
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:454
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:668
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:453
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:667
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1252
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1380
+msgid "Label"
+msgstr "Ярлык"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:148
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:572
+msgid "View Tickets"
+msgstr "Показать заявки"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:157
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:176
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:195
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:214
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:233
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:252
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:271
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:290
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:309
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:328
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:347
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:366
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:385
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:581
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:600
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:619
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:638
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:657
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:676
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:695
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:714
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:733
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:752
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:771
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:790
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:809
+msgid "Assigned to me"
+msgstr "Назначено мне"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:161
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:180
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:199
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:218
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:237
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:256
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:275
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:294
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:313
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:332
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:351
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:370
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:389
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:585
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:604
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:623
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:642
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:661
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:680
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:699
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:718
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:737
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:756
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:775
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:794
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:813
+msgid "Assigned to others"
+msgstr "Назначено другим"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:167
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:591
+msgid "Reply Tickets"
+msgstr "Ответные заявки"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:186
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:610
+msgid "Private Notes"
+msgstr "Частные заметки"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:205
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:629
+#: includes/admin/tickets/class-wpsc-ticket-list.php:2125
+msgid "Assign Agents"
+msgstr "Назначить специалистов"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:224
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:648
+#: includes/admin/tickets/class-wpsc-ticket-list.php:2116
+msgid "Change Status"
+msgstr "Изменить статус"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:243
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:667
+msgid "Change Ticket Fields"
+msgstr "Изменить поля заявки"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:262
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:686
+msgid "Change Agent Only Fields"
+msgstr "Изменить поля только специалистов"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:281
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:705
+msgid "Change Raised By"
+msgstr "Изменение осуществил"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:300
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:724
+msgid "Modify Additional Recipients"
+msgstr "Изменить дополнительных получателей"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:319
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:743
+msgid "Edit Threads"
+msgstr "Редактировать темы"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:338
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:762
+msgid "Delete Threads"
+msgstr "Удалить темы"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:357
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:781
+msgid "View Logs"
+msgstr "Показать логи"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:376
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:800
+msgid "Delete Ticket"
+msgstr "Удалить заявку"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:396
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:820
+msgid "Other permissions"
+msgstr "Другие разрешения"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:401
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:825
+msgid "WP dashboard accees"
+msgstr "Доступ к панели инструментов WP"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:405
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:829
+msgid "Create ticket on others behalf"
+msgstr "Удалить заявку за кого-то"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:409
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:833
+msgid "Deleted filter access"
+msgstr "Доступ к удаленному фильтру"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:413
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:837
+#: includes/admin/customers/class-wpsc-customers.php:308
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:828
+msgid "Edit customer info"
+msgstr "Редактировать информацию о клиенте"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:556
+msgid "Edit role"
+msgstr "Редактировать роль"
+
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:79
+msgid "Agent name"
+msgstr "Имя специалиста"
+
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:80
+msgid "Agent Email"
+msgstr "Электронная почта специалиста"
+
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:163
+msgid "Select users"
+msgstr "Выбрать пользователей"
+
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:202
+msgid "Select role"
+msgstr "Выбрать роль"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:82
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:93
+#: includes/admin/agent-settings/class-wpsc-support-agents.php:82
+#: includes/admin/settings/class-wpsc-settings.php:112
+#: includes/admin/settings/working-hrs/class-wpsc-working-hrs.php:51
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:323
+msgid "Working Hours"
+msgstr "Часы работы"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:86
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:79
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:273
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:125
+#: includes/class-wpsc-ticket-conditions.php:316
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:683
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:768
+msgid "Agent"
+msgstr "Специалист"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:94
+#: includes/admin/settings/working-hrs/class-wpsc-working-hrs.php:61
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:324
+msgid "Exceptions"
+msgstr "Исключения"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:367
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:530
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:785
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:111
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:198
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:354
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:228
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:270
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:297
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:93
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:316
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:161
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:282
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:94
+#: includes/class-wpsc-macros.php:190
+#: includes/models/class-wpsc-wh-exception.php:416
+#: includes/models/class-wpsc-wh-exception.php:509
+#: includes/models/class-wpsc-wh-exception.php:730
+msgid "Title"
+msgstr "Название"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:368
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:537
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:796
+#: includes/custom-field-types/class-wpsc-cf-date.php:192
+#: includes/models/class-wpsc-wh-exception.php:417
+#: includes/models/class-wpsc-wh-exception.php:516
+#: includes/models/class-wpsc-wh-exception.php:741
+msgid "Date"
+msgstr "Дата"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:369
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:544
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:803
+#: includes/models/class-wpsc-wh-exception.php:418
+#: includes/models/class-wpsc-wh-exception.php:523
+#: includes/models/class-wpsc-wh-exception.php:748
+msgid "Schedule"
+msgstr "Расписание"
+
+#. translators: %1$s: start time, %2$s: end time e.g. 04:00 - 05:00
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:387
+#: includes/models/class-wpsc-wh-exception.php:438
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: includes/admin/agent-settings/class-wpsc-support-agents.php:139
+#: includes/admin/class-wpsc-admin.php:140
+#: includes/admin/class-wpsc-admin.php:141
+msgid "Support Agents"
+msgstr "Специалисты службы поддержки"
+
+#: includes/admin/class-wpsc-admin.php:111
+#: includes/admin/class-wpsc-admin.php:112
+#: upgrade/class-wpsc-upgrade-db-v1.php:50
+#: upgrade/class-wpsc-upgrade-db-v1.php:51
+#: upgrade/class-wpsc-upgrade-db-v2.php:42
+#: upgrade/class-wpsc-upgrade-db-v2.php:43
+msgid "Support"
+msgstr "Поддержка"
+
+#: includes/admin/class-wpsc-admin.php:122
+#: includes/admin/class-wpsc-admin.php:158
+#: includes/admin/class-wpsc-admin.php:159
+#: includes/admin/settings/appearence/class-wpsc-appearence-settings.php:56
+#: includes/admin/ticket-list/class-wpsc-ticket-list-settings.php:132
+#: includes/admin/tickets/class-wpsc-tickets.php:75
+#: includes/frontend/class-wpsc-shortcode-one.php:156
+msgid "Ticket List"
+msgstr "Список заявок"
+
+#: includes/admin/class-wpsc-admin.php:123
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:360
+msgid "Tickets"
+msgstr "Заявки"
+
+#: includes/admin/class-wpsc-admin.php:131
+#: includes/admin/class-wpsc-admin.php:132
+#: includes/admin/customers/class-wpsc-customers.php:47
+msgid "Customers"
+msgstr "Клиенты"
+
+#: includes/admin/class-wpsc-admin.php:149
+#: includes/admin/class-wpsc-admin.php:150
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:172
+msgid "Custom Fields"
+msgstr "Пользовательские поля"
+
+#: includes/admin/class-wpsc-admin.php:167
+#: includes/admin/class-wpsc-admin.php:168
+#: includes/admin/email-notifications/class-wpsc-en-settings.php:125
+msgid "Email Notifications"
+msgstr "Уведомления электронной почты"
+
+#: includes/admin/class-wpsc-admin.php:178
+#: includes/admin/class-wpsc-admin.php:179
+#: includes/admin/settings/working-hrs/class-wpsc-working-hrs.php:66
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/admin/class-wpsc-admin.php:187
+#: includes/admin/class-wpsc-admin.php:188
+#: includes/admin/misc/class-wpsc-license.php:27
+msgid "Licenses"
+msgstr "Лицензии"
+
+#: includes/admin/class-wpsc-admin.php:196
+#: includes/admin/class-wpsc-admin.php:197
+msgid "Addons"
+msgstr "Приложения"
+
+#: includes/admin/class-wpsc-admin.php:224
+#: includes/frontend/class-wpsc-frontend.php:127
+msgid "Required fields can not be empty!"
+msgstr "Обязательные поля не могут быть пусты!"
+
+#: includes/admin/class-wpsc-admin.php:226
+#: includes/admin/class-wpsc-admin.php:227
+#: includes/frontend/class-wpsc-frontend.php:129
+#: includes/frontend/class-wpsc-frontend.php:130
+msgid "No Records"
+msgstr "Нет записей"
+
+#. translators: e.g. Showing 1 to 20 of 300 records
+#: includes/admin/class-wpsc-admin.php:230
+#: includes/frontend/class-wpsc-frontend.php:133
+#, php-format
+msgid "Showing %1$s to %2$s of %3$s records"
+msgstr "Показаны записи %1$s по %2$s из %3$s"
+
+#: includes/admin/class-wpsc-admin.php:239
+#: includes/frontend/class-wpsc-frontend.php:142
+msgid "Search:"
+msgstr "Искать:"
+
+#: includes/admin/class-wpsc-admin.php:241
+#: includes/frontend/class-wpsc-frontend.php:144
+msgid "First"
+msgstr "Первый"
+
+#: includes/admin/class-wpsc-admin.php:242
+#: includes/frontend/class-wpsc-frontend.php:145
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: includes/admin/class-wpsc-admin.php:243
+#: includes/frontend/class-wpsc-frontend.php:146
+msgid "Next"
+msgstr "Следующий"
+
+#: includes/admin/class-wpsc-admin.php:244
+#: includes/frontend/class-wpsc-frontend.php:147
+msgid "Last"
+msgstr "Последний"
+
+#: includes/admin/custom-fields/class-wpsc-aof.php:68
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:121
+msgid "Agent Only Fields"
+msgstr "Поля только специалистов"
+
+#: includes/admin/custom-fields/class-wpsc-aof.php:74
+#: includes/admin/custom-fields/class-wpsc-cf.php:74
+#: includes/admin/custom-fields/class-wpsc-tf.php:71
+#: includes/admin/custom-fields/class-wpsc-tff.php:61
+#: includes/admin/customers/class-wpsc-customers.php:220
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:160
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1008
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:159
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1005
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:733
+msgid "Field"
+msgstr "Поля"
+
+#: includes/admin/custom-fields/class-wpsc-aof.php:75
+#: includes/admin/custom-fields/class-wpsc-cf.php:75
+#: includes/admin/custom-fields/class-wpsc-tf.php:72
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1004
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1131
+#: includes/custom-field-types/class-wpsc-cf-date.php:903
+#: includes/custom-field-types/class-wpsc-cf-date.php:1089
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:878
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1073
+#: includes/custom-field-types/class-wpsc-cf-email.php:831
+#: includes/custom-field-types/class-wpsc-cf-email.php:955
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:648
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:717
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:634
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:703
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:875
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1015
+#: includes/custom-field-types/class-wpsc-cf-number.php:914
+#: includes/custom-field-types/class-wpsc-cf-number.php:1051
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:914
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1043
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:814
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:956
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:840
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:977
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:794
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:918
+#: includes/custom-field-types/class-wpsc-cf-time.php:621
+#: includes/custom-field-types/class-wpsc-cf-time.php:822
+#: includes/custom-field-types/class-wpsc-cf-url.php:830
+#: includes/custom-field-types/class-wpsc-cf-url.php:954
+#: includes/custom-field-types/class-wpsc-df-additional-recipients.php:374
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:910
+#: includes/custom-field-types/class-wpsc-df-category.php:573
+#: includes/custom-field-types/class-wpsc-df-customer-email.php:295
+#: includes/custom-field-types/class-wpsc-df-customer-name.php:282
+#: includes/custom-field-types/class-wpsc-df-customer.php:467
+#: includes/custom-field-types/class-wpsc-df-description.php:546
+#: includes/custom-field-types/class-wpsc-df-priority.php:571
+#: includes/custom-field-types/class-wpsc-df-status.php:533
+#: includes/custom-field-types/class-wpsc-df-subject.php:576
+msgid "Extra info"
+msgstr "Дополнительная информация"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:103
+#: includes/admin/custom-fields/class-wpsc-tff.php:55
+msgid "Ticket Form Fields"
+msgstr "Поля формы заявки"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:109
+#: includes/admin/custom-fields/class-wpsc-tf.php:64
+msgid "Ticket Fields"
+msgstr "Поля заявки"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:115
+#: includes/admin/custom-fields/class-wpsc-cf.php:68
+msgid "Customer Fields"
+msgstr "Поля для клиентов"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:334
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:565
+#: includes/admin/custom-fields/class-wpsc-tff.php:222
+#: includes/admin/custom-fields/class-wpsc-tff.php:477
+#: includes/admin/settings/class-wpsc-ticket-categories.php:146
+#: includes/admin/settings/class-wpsc-ticket-categories.php:288
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:158
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:321
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:158
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:324
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1285
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1427
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1284
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1426
+msgid "Load after"
+msgstr "Загрузить после"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:338
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:569
+#: includes/admin/custom-fields/class-wpsc-tff.php:225
+#: includes/admin/custom-fields/class-wpsc-tff.php:480
+#: includes/admin/settings/class-wpsc-ticket-categories.php:150
+#: includes/admin/settings/class-wpsc-ticket-categories.php:292
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:162
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:325
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:162
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:328
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1288
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1430
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1287
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1429
+msgid "TOP"
+msgstr "ВЕРХ"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:349
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:581
+#: includes/admin/custom-fields/class-wpsc-tff.php:237
+#: includes/admin/custom-fields/class-wpsc-tff.php:492
+#: includes/admin/settings/class-wpsc-ticket-categories.php:158
+#: includes/admin/settings/class-wpsc-ticket-categories.php:304
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:170
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:337
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:170
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:340
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1300
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1442
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1299
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1441
+msgid "END"
+msgstr "КОНЕЦ"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:357
+msgid "Select field type"
+msgstr "Выберите тип поля"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:592
+msgid "Field Type"
+msgstr "Тип поля"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:799
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:862
+msgid "Default value exceeds character limit!"
+msgstr "Значение по умолчанию превышает ограничение по количеству символов!"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:813
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:876
+msgid "Default value is not in the range!"
+msgstr "Значение по умолчанию не в диапазоне!"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:946
+msgid "Incorrect number value!"
+msgstr "Неверное значение числа!"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:959
+msgid "Incorrect email!"
+msgstr "Неверный адрес электронной почты!"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:972
+msgid "Incorrect url!"
+msgstr "Неверная ссылка!"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:141
+msgid "Add new field"
+msgstr "Добавить новое поле"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:152
+#: includes/admin/custom-fields/class-wpsc-tff.php:265
+#: includes/admin/custom-fields/class-wpsc-tff.php:524
+#: includes/admin/custom-fields/class-wpsc-tff.php:573
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:537
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:720
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:803
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:536
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:719
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:801
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1106
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1181
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1425
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1503
+#: includes/class-wpsc-ticket-conditions.php:107
+#: includes/class-wpsc-ticket-conditions.php:163
+msgid "Select field"
+msgstr "Выбрать тип поля"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:203
+#: includes/admin/custom-fields/class-wpsc-tff.php:455
+msgid "Is required?"
+msgstr "Необходимо?"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:212
+#: includes/admin/custom-fields/class-wpsc-tff.php:467
+msgid "Width"
+msgstr "Ширина"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:215
+#: includes/admin/custom-fields/class-wpsc-tff.php:470
+msgid "1/3rd of row"
+msgstr "1/3 ряда"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:216
+#: includes/admin/custom-fields/class-wpsc-tff.php:471
+msgid "Half-width of row"
+msgstr "Половина ширины ряда"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:217
+#: includes/admin/custom-fields/class-wpsc-tff.php:472
+msgid "Full-width of row"
+msgstr "Полная ширина ряда"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:245
+#: includes/admin/custom-fields/class-wpsc-tff.php:504
+msgid "Visibility conditions"
+msgstr "Условия видимости"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:249
+#: includes/admin/custom-fields/class-wpsc-tff.php:508
+#: includes/class-wpsc-ticket-conditions.php:82
+msgid "AND"
+msgstr "И"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:250
+#: includes/admin/custom-fields/class-wpsc-tff.php:509
+#: includes/class-wpsc-ticket-conditions.php:83
+#: includes/frontend/class-wpsc-shortcode-three.php:65
+msgid "OR"
+msgstr "ИЛИ"
+
+#: includes/admin/customers/class-wpsc-customers.php:73
+msgid "Email address"
+msgstr "Адрес электронной почты"
+
+#: includes/admin/customers/class-wpsc-customers.php:74
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:246
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:441
+msgid "Number of tickets"
+msgstr "Количество заявок"
+
+#: includes/admin/customers/class-wpsc-customers.php:155
+msgid "View"
+msgstr "Вид"
+
+#: includes/admin/customers/class-wpsc-customers.php:161
+msgid "Logs"
+msgstr "Логи"
+
+#: includes/admin/customers/class-wpsc-customers.php:209
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:720
+msgid "Customer info"
+msgstr "Информация о клиенте"
+
+#: includes/admin/customers/class-wpsc-customers.php:221
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:734
+msgid "Value"
+msgstr "Значение"
+
+#: includes/admin/customers/class-wpsc-customers.php:266
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:788
+msgid "Edit Info"
+msgstr "Редактировать информацию"
+
+#: includes/admin/customers/class-wpsc-customers.php:269
+#: includes/admin/customers/class-wpsc-customers.php:491
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:285
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1887
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2441
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2538
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:688
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:794
+#: includes/class-wpsc-macros.php:266
+msgid "Close"
+msgstr "Закрыть"
+
+#: includes/admin/customers/class-wpsc-customers.php:453
+msgid "Customer logs"
+msgstr "Логи клиентов"
+
+#. translators: %1$s: User Name, %2$s: Field Name
+#: includes/admin/customers/class-wpsc-customers.php:542
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1078
+#: includes/models/class-wpsc-thread.php:626
+#, php-format
+msgid "%1$s changed the %2$s"
+msgstr "%1$s заменил %2$s"
+
+#: includes/admin/email-notifications/class-wpsc-en-add-private-note.php:51
+msgid "Submit private note"
+msgstr "Отправить частную заметку"
+
+#: includes/admin/email-notifications/class-wpsc-en-assign-agent.php:63
+msgid "Change assignee"
+msgstr "Изменить назначенного специалиста"
+
+#: includes/admin/email-notifications/class-wpsc-en-change-ticket-category.php:58
+msgid "Change ticket category"
+msgstr "Изменить категорию заявки"
+
+#: includes/admin/email-notifications/class-wpsc-en-change-ticket-priority.php:58
+msgid "Change ticket priority"
+msgstr "Изменить приоритет заявки"
+
+#: includes/admin/email-notifications/class-wpsc-en-change-ticket-status.php:58
+msgid "Change ticket status"
+msgstr "Изменить статус заявки"
+
+#: includes/admin/email-notifications/class-wpsc-en-create-ticket.php:44
+msgid "Create new ticket"
+msgstr "Создать новую заявку"
+
+#: includes/admin/email-notifications/class-wpsc-en-delete-ticket.php:44
+msgid "Delete ticket"
+msgstr "Удалить заявку"
+
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:54
+#: includes/class-wpsc-current-user.php:887
+msgid "Guest Login OTP"
+msgstr "Одноразовый пароль для входа гостя"
+
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:67
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:394
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:67
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:77
+msgid "Body"
+msgstr "Тело"
+
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:72
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:401
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:72
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:64
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:87
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:78
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:151
+msgid "Visual"
+msgstr "Вид"
+
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:73
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:402
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:73
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:65
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:88
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:79
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:152
+msgid "Text"
+msgstr "Текст"
+
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:149
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:110
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:150
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:104
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:165
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:125
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:142
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:93
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:240
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:219
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:147
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:288
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:171
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:104
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:81
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:149
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-advanced.php:73
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:139
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:139
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:139
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:83
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:316
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:511
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:624
+msgid "Reset default"
+msgstr "Перезапустить по умолчанию"
+
+#: includes/admin/email-notifications/class-wpsc-en-reply-ticket.php:51
+msgid "Ticket reply"
+msgstr "Ответ на заявку"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:54
+#: includes/admin/email-notifications/class-wpsc-en-settings.php:68
+#: includes/admin/settings/class-wpsc-settings.php:70
+#: includes/admin/settings/class-wpsc-settings.php:169
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:54
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:137
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:60
+msgid "From name"
+msgstr "От имени"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:66
+msgid "From email"
+msgstr "От электронной почты"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:72
+msgid "Reply to"
+msgstr "Ответить"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:78
+msgid "Number of emails per cron job (background emails)"
+msgstr "Количество писем на одну задачу cron (фоновые письма)"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:84
+msgid "Blocked emails (one per line)"
+msgstr "Заблокированные письма (по одному в строке)"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:91
+msgid "Email sending preference"
+msgstr "Предпочтения по отправке электронной почты"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:94
+msgid "Instant"
+msgstr "Немедленный"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:95
+msgid "Backgound"
+msgstr "Фон"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:105
+#: includes/admin/email-notifications/class-wpsc-en-settings.php:74
+msgid "Ticket Notifications"
+msgstr "Уведомления о заявках"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:112
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:206
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:363
+msgid "Event"
+msgstr "Событие"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:125
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:373
+msgid "Enabled"
+msgstr "Включено"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:125
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:374
+msgid "Disabled"
+msgstr "Отключено"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:128
+msgid "Clone"
+msgstr "Клон"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:412
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:75
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:565
+#: includes/custom-field-types/class-wpsc-df-description.php:365
+msgid "Insert Macro"
+msgstr "Вставить макро"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:466
+msgid "To address"
+msgstr "На адрес"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:653
+msgid "Current User"
+msgstr "Текущий пользователь"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:670
+msgid "General Recipients"
+msgstr "Общие получатели"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:696
+msgid "Custom Email Addresses (one per line)"
+msgstr "Пользовательские адреса электронной почты (по одному на строку)"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:703
+msgid "Click to select options"
+msgstr "Нажмите, чтобы выбрать параметры"
+
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:54
+#: includes/class-wpsc-current-user.php:659
+msgid "User Registration OTP"
+msgstr "Одноразовый пароль для регистрации пользователя"
+
+#: includes/admin/misc/class-wpsc-license.php:29
+msgid "Activate license keys for add-ons in order to get support and updates."
+msgstr ""
+"Активируйте лицензионные ключи для приложений, чтобы получать поддержку и "
+"обновления."
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:58
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:76
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:94
+msgid "Primary color"
+msgstr "Основной цвет"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:65
+msgid "Main container"
+msgstr "Главный контейнер"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:69
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:119
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:135
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:65
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:81
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:66
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:82
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:98
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:114
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:151
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:314
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:150
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:316
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:70
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:120
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:137
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:66
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:83
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:67
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:83
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:99
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:115
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:81
+msgid "Link color"
+msgstr "Цвет ссылки"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:72
+msgid "Reply thread"
+msgstr "Ветвь ответов"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:77
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:95
+msgid "Secondary color"
+msgstr "Второстепенный цвет"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:78
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:96
+msgid "Icon color"
+msgstr "Цвет иконки"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:90
+msgid "Private note thread"
+msgstr "Тема с частными заметками"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:108
+msgid "Log text"
+msgstr "Текст лога"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:115
+msgid "Widget header"
+msgstr "Заголовок виджета"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:131
+msgid "Widget body"
+msgstr "Основной текст виджета"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:136
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:82
+msgid "Label color"
+msgstr "Цвет ярлыка"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:61
+msgid "Header"
+msgstr "Заголовок"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:95
+msgid "Footer background color"
+msgstr "Цвет фона нижнего колонтитула"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:102
+msgid "z-index"
+msgstr "z-индекс"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-settings.php:61
+msgid "Individual Ticket"
+msgstr "Индивидуальная заявка"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-settings.php:66
+msgid "Modal Popup"
+msgstr "Модальное всплывающее окно"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:62
+msgid "List header"
+msgstr "Заголовок списка"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:78
+msgid "List item (odd)"
+msgstr "Элемент списка (нечетный)"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:94
+msgid "List item (even)"
+msgstr "Элемент списка (четный)"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:110
+msgid "List item (hover)"
+msgstr "Элемент списка ( при наведении)"
+
+#: includes/admin/settings/class-wpsc-settings.php:76
+#: includes/admin/settings/class-wpsc-ticket-categories.php:45
+msgid "Ticket Categories"
+msgstr "Категории заявки"
+
+#: includes/admin/settings/class-wpsc-settings.php:82
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:49
+msgid "Ticket Statuses"
+msgstr "Статусы заявки"
+
+#: includes/admin/settings/class-wpsc-settings.php:88
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:46
+msgid "Ticket Priorities"
+msgstr "Приоритеты заявки"
+
+#: includes/admin/settings/class-wpsc-settings.php:94
+msgid "Miscellaneous"
+msgstr "Разное"
+
+#: includes/admin/settings/class-wpsc-settings.php:100
+#: includes/admin/settings/class-wpsc-ticket-widgets.php:36
+msgid "Ticket Widgets"
+msgstr "Виджеты заявок"
+
+#: includes/admin/settings/class-wpsc-settings.php:106
+msgid "Rich Text Editor"
+msgstr "Редактор насыщенного текста"
+
+#: includes/admin/settings/class-wpsc-settings.php:118
+msgid "Appearence"
+msgstr "Внешний вид"
+
+#: includes/admin/settings/class-wpsc-ticket-categories.php:424
+msgid "Delete category"
+msgstr "Удалить категорию"
+
+#: includes/admin/settings/class-wpsc-ticket-categories.php:442
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:485
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:490
+msgid "Replace with"
+msgstr "Заменить на"
+
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:145
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:308
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:144
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:310
+msgid "Color"
+msgstr "Цвет"
+
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:467
+msgid "Delete priority"
+msgstr "Удалить приоритет"
+
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:472
+msgid "Delete status"
+msgstr "Удалить статус"
+
+#: includes/admin/settings/class-wpsc-ticket-widgets.php:64
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:415
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:414
+msgid "Save Order"
+msgstr "Сохранить порядок"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:62
+msgid "Attachment max file size(mb)"
+msgstr "Максимальный размер файла вложения(мб)"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:68
+msgid "Allowed file extensions(comma seperated)"
+msgstr "Допустимые расширения файлов (через запятую)"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:74
+msgid "Download behaviour"
+msgstr "Поведение при загрузке"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:77
+msgid "Try opening in browser"
+msgstr "Попробуйте открыть в браузере"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:78
+msgid "Download"
+msgstr "Загрузить"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:166
+msgid "Attached file type not allowed!"
+msgstr "Тип прикрепленного файла запрещен!"
+
+#. translators: %1$s: attachment max file size in MB
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:173
+#, php-format
+msgid "File size exceeds allowed limit (%1$s MB)!"
+msgstr "Размер файла превышает допустимое ограничение (%1$s МБ)!"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:78
+msgid "Registered user"
+msgstr "Зарегистрированный пользователь"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:79
+#: includes/custom-field-types/class-wpsc-df-user-type.php:217
+#: includes/custom-field-types/class-wpsc-df-user-type.php:413
+msgid "Guest"
+msgstr "Гость"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:95
+msgid "Ticket status after customer reply"
+msgstr "Статус заявки после ответа клиента"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:98
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:119
+msgid "Do not change"
+msgstr "Не менять"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:116
+msgid "Ticket status after agent reply"
+msgstr "Статус заявки после ответа специалиста"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:137
+msgid "Close ticket status"
+msgstr "Закрыть статус заявки"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:157
+msgid "Reply form position"
+msgstr "Положение формы ответа"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:160
+msgid "Top"
+msgstr "Верх"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:161
+msgid "Bottom"
+msgstr "Низ"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:166
+msgid "Default date format"
+msgstr "Формат даты по умолчанию"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:172
+msgid "Ticket alice"
+msgstr "Заявка alice"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:178
+msgid "Allow close ticket"
+msgstr "Разрешить закрыть заявку"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:194
+msgid "Allow create new ticket"
+msgstr "Разрешить создать новую заявку"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:210
+msgid "Thread email visibility"
+msgstr "Видимость ветви электронных писем"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:70
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:111
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:120
+msgid "Support page"
+msgstr "Страница поддержки"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:89
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:112
+msgid "Open ticket page"
+msgstr "Открыть страницу заявки"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:108
+msgid "Ticket url page"
+msgstr "Ссылка на страницу заявки"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:117
+msgid "New ticket page"
+msgstr "Страница с новой заявкой"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:121
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:134
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:148
+msgid "Custom"
+msgstr "Пользовательский"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:129
+msgid "User login"
+msgstr "Вход пользователя"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:132
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:146
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:133
+msgid "WP Default Login"
+msgstr "Вход в WP по умолчанию"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:142
+msgid "User registration"
+msgstr "Регистрация пользователя"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:145
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:159
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:91
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:100
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:109
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:133
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:195
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:230
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:239
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:248
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-advanced.php:58
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:59
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:68
+msgid "Disable"
+msgstr "Отключить"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:147
+msgid "WP Default Registration"
+msgstr "Регистрация в WP по умолчанию"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:156
+msgid "OTP Login"
+msgstr "Одноразовый пароль для входа"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:160
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:90
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:99
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:108
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:132
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:194
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:229
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:238
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:247
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:73
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:64
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:56
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:64
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-advanced.php:57
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:67
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:67
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:67
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:58
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:67
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:522
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:787
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:521
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:785
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:234
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:276
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:303
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:99
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:322
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:167
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:288
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:100
+msgid "Enable"
+msgstr "Включить"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:59
+msgid "Thank you text"
+msgstr "Текст благодарности"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:129
+msgid "Thank you page url (optional)"
+msgstr "Ссылка на страницу благодарности (по желанию)"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs.php:56
+msgid "Page Settings"
+msgstr "Параметры страницы"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs.php:61
+msgid "File Attachments"
+msgstr "Прикрепленные файлы"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs.php:66
+msgid "Thank you page"
+msgstr "Страница благодарности"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-miscellaneous-settings.php:51
+msgid "Term & Conditions"
+msgstr "Правила и условия"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-miscellaneous-settings.php:56
+msgid "GDPR"
+msgstr "Общий регламент защиты персональных данных"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-miscellaneous-settings.php:61
+msgid "reCaptcha"
+msgstr "reCaptcha"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-miscellaneous-settings.php:74
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:140
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:135
+msgid "Advanced"
+msgstr "Продвинутый"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:87
+msgid "Public mode"
+msgstr "Публичный режим"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:96
+msgid "Allow others to reply to public tickets"
+msgstr "Разрешить другим отвечать на публичные заявки"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:105
+msgid "Reply confirmation"
+msgstr "Подтверждение ответа"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:114
+msgid "Thread date display as"
+msgstr "Отображать дату темы как"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:117
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:447
+#: includes/custom-field-types/class-wpsc-df-date-created.php:480
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:473
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:390
+msgid "Date Format"
+msgstr "Формат даты"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:118
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:448
+#: includes/custom-field-types/class-wpsc-df-date-created.php:481
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:474
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:391
+msgid "Date Difference (e.g. 1 hour ago)"
+msgstr "Разница в дате (например, 1 час назад)"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:123
+msgid "Thread date format"
+msgstr "Формат даты темы"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:129
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:385
+msgid "Do not notify owner"
+msgstr "Не уведомлять владельца"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:138
+msgid "Do not notify owner status"
+msgstr "Не уведомлять о статусе владельца"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:141
+msgid "Checked"
+msgstr "Проверено"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:142
+msgid "Unchecked"
+msgstr "Не проверено"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:147
+#: includes/class-wpsc-macros.php:50
+msgid "Ticket id"
+msgstr "id заявки"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:150
+msgid "Sequential"
+msgstr "Последовательный"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:151
+msgid "Random"
+msgstr "Случайный"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:170
+msgid "Starting ticket id"
+msgstr "id начальной заявки"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:179
+msgid "Random id length"
+msgstr "Случайная длина id"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:185
+msgid "Ticket history macro threads"
+msgstr "Макро ветви истории заявок"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:191
+msgid "Register user if not exist"
+msgstr "Зарегистрировать пользователя, если его не существует"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:200
+msgid "Auto delete closed tickets"
+msgstr "Автоматически удалить закрытые заявки"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:205
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:218
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:152
+msgid "Day(s)"
+msgstr "День(дни)"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:206
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:219
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:153
+msgid "Month(s)"
+msgstr "Месяц(ы)"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:207
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:220
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:154
+msgid "Year(s)"
+msgstr "Год(ы)"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:213
+msgid "Permanently delete tickets"
+msgstr "Удалять заявки постоянно"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:244
+msgid "View more/less thread"
+msgstr "Показать больше/меньше тем"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:253
+msgid "Allow reply to closed tickets"
+msgstr "Разрешить отвечать на закрытые заявки"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:269
+msgid "Raised By User"
+msgstr "Открытая пользователем"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:82
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:73
+msgid "Checkbox text"
+msgstr "Текст флажка"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:147
+msgid "Personal data retention"
+msgstr "Сохранение персональных данных"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:355
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:406
+msgid "Ticket Customer"
+msgstr "Клиент заявки"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:387
+msgid "Email"
+msgstr "Электронная почта"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:449
+#: includes/frontend/class-wpsc-shortcode-three.php:102
+msgid "Ticket ID"
+msgstr "ID заявки"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:482
+msgid "User Tickets"
+msgstr "Заявки пользователя"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:503
+msgid "Ticket Records"
+msgstr "Учет записей"
+
+#. translators: %s: email address
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:545
+#, php-format
+msgid "Tickets of customer having email %s has been anonymized."
+msgstr "Заявки клиента с электронной почтой %s были преобразованы в анонимные."
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:73
+msgid "reCaptcha version"
+msgstr "Версия reCaptcha"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:82
+msgid "Site key"
+msgstr "Ключ сайта"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:88
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:65
+msgid "Secret key"
+msgstr "Секретный ключ"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:193
+#: includes/frontend/class-wpsc-frontend.php:304
+#: includes/frontend/class-wpsc-frontend.php:408
+msgid "Captcha not set!"
+msgstr "Captcha не установлена!"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-advanced.php:54
+msgid "HTML pasting"
+msgstr "Вставка HTML"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:76
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:76
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:76
+msgid "Allow attachments"
+msgstr "Разрешить прикрепленные файлы"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:85
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:85
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:85
+msgid "Toolbar actions"
+msgstr "Действия на панели инструментов"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:105
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:105
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:105
+msgid "Show file attachment notice"
+msgstr "Показать уведомление о прикреплении файла"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:60
+msgid "Bold"
+msgstr "Жирный"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:64
+msgid "Italic"
+msgstr "Курсив"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:68
+msgid "Underline"
+msgstr "Подчеркнутый"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:72
+msgid "Blockquote"
+msgstr "Цитата"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:76
+msgid "Align"
+msgstr "Выровнять"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:80
+msgid "Bulleted list"
+msgstr "Маркированный список"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:84
+msgid "Numbered list"
+msgstr "Пронумерованный список"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:88
+msgid "Right to left"
+msgstr "Справа налево"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:92
+msgid "Link"
+msgstr "Ссылка"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:96
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:100
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:104
+msgid "Text Background Color"
+msgstr "Цвет фонового текста"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:108
+msgid "Strikethrough"
+msgstr "Зачеркивание"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:130
+msgid "Registered User"
+msgstr "Зарегистрированный пользователь"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:135
+msgid "Guest User"
+msgstr "Гость"
+
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:55
+msgid "Allow agent to modify working hours"
+msgstr "Разрешить специалисту изменять часы работы"
+
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:64
+msgid "Allow agent to modify his leaves"
+msgstr "Разрешить специалисту изменять время своего ухода"
+
+#: includes/admin/settings/working-hrs/class-wpsc-working-hrs.php:56
+msgid "Holidays"
+msgstr "Выходные"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:79
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:79
+msgid "List items"
+msgstr "Элементы списка"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:84
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:84
+msgid "Filter items"
+msgstr "Фильтровать элементы"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:89
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:89
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:276
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:471
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:167
+#: includes/admin/tickets/class-wpsc-ticket-list.php:379
+msgid "Default filters"
+msgstr "Фильтры по умолчанию"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:236
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:236
+msgid "Add new list item"
+msgstr "Добавить новый элемент списка"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:246
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1094
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:246
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1092
+msgid "Select fields"
+msgstr "Выбрать поля"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:443
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:442
+msgid "Add new default filter"
+msgstr "Добавить новый фильтр по умолчанию"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:463
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:680
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:462
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:679
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1068
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1389
+msgid "Parent filter"
+msgstr "Родительский фильтр"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:480
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:700
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:479
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:699
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1089
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1407
+msgid "Filters"
+msgstr "Фильтры"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:492
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:754
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:491
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:752
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1139
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1458
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1888
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:133
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:511
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:773
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:510
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:771
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1163
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1482
+msgid "Sort order"
+msgstr "Порядок сортировки"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:516
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:778
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:515
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:776
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:241
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:436
+#: includes/admin/tickets/class-wpsc-ticket-list.php:445
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1171
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1490
+msgid "ASC"
+msgstr "По возрастанию"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:517
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:779
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:516
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:777
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:240
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:435
+#: includes/admin/tickets/class-wpsc-ticket-list.php:446
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1172
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1491
+msgid "DESC"
+msgstr "По убыванию"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:659
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:658
+msgid "Edit default filter"
+msgstr "Редактировать фильтр по умолчанию"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1084
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1082
+msgid "Add New Filter Item"
+msgstr "Добавить новый элемент фильтра"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:125
+msgid "Agent view"
+msgstr "Вид специалиста"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:130
+msgid "Customer view"
+msgstr "Вид клиента"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:217
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:412
+msgid "Default sort by"
+msgstr "По умолчанию сортировать по"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:237
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:432
+msgid "Default sort order"
+msgstr "Порядок сортировки по умолчанию"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:252
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:447
+msgid "Unresolved statuses"
+msgstr "Нерешенные статусы"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:273
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:468
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:163
+msgid "Default filter"
+msgstr "Фильтр по умолчанию"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:296
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:491
+msgid "Ticket reply redirect"
+msgstr "Перенаправление ответа на заявку"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:299
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:494
+msgid "Ticket list"
+msgstr "Список заявок"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:300
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:495
+msgid "No redirect"
+msgstr "Нет перенаправления"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:583
+msgid "Closed statuses"
+msgstr "Закрытые статусы"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:604
+msgid "Auto refresh default status"
+msgstr "Автоматическое обновление состояния по умолчанию"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:607
+msgid "On"
+msgstr "Вкл"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:608
+msgid "Off"
+msgstr "Выкл"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-settings.php:70
+msgid "Agent ticket list"
+msgstr "Список заявок специалиста"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-settings.php:76
+msgid "Customer ticket list"
+msgstr "Список заявок клиента"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-settings.php:82
+msgid "More settings"
+msgstr "Больше параметров"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:64
+msgid "Working hours"
+msgstr "Часы работы"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:142
+msgid "Signature"
+msgstr "Подпись"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:144
+msgid "Signature used for emails"
+msgstr "Подпись, используемая для электронных писем"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:165
+msgid "Default filter for ticket list"
+msgstr "Фильтр по умолчанию для списка заявок"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:185
+#: includes/admin/tickets/class-wpsc-ticket-list.php:404
+msgid "Saved filters"
+msgstr "Сохраненные фильтры"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:198
+#: includes/admin/tickets/class-wpsc-current-user-profile.php:75
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:520
+#: includes/models/class-wpsc-holiday.php:473
+msgid "Add/Delete Holidays"
+msgstr "Добавить/удалить выходные дни"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:529
+#: includes/models/class-wpsc-holiday.php:482
+msgid "Action"
+msgstr "Действие"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:532
+#: includes/models/class-wpsc-holiday.php:485
+msgid "Add new holidays"
+msgstr "Добавить новые выходные дни"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:533
+#: includes/models/class-wpsc-holiday.php:486
+msgid "Delete existing holidays"
+msgstr "Удалить существующие выходные дни"
+
+#: includes/admin/tickets/class-wpsc-current-user-profile.php:76
+msgid "Logout"
+msgstr "Выйти"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:189
+#: includes/admin/tickets/class-wpsc-new-ticket.php:86
+msgid "Unathorized access!"
+msgstr "Неаторизованный доступ!"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:256
+#: includes/admin/tickets/class-wpsc-ticket-list.php:551
+msgid "Refresh"
+msgstr "Обновить"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:293
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1498
+msgid "Duplicate"
+msgstr "Дублировать"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:308
+msgid "Copy URL"
+msgstr "Скопировать ссылку"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:317
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2525
+#: includes/admin/tickets/class-wpsc-ticket-list.php:2143
+msgid "Restore"
+msgstr "Восстановить"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:325
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2532
+#: includes/admin/tickets/class-wpsc-ticket-list.php:2152
+msgid "Delete Permanently"
+msgstr "Удалить навсегда"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:340
+msgid "Reply"
+msgstr "Ответить"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:347
+msgid "Private Note"
+msgstr "Частная заметка"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:357
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:129
+msgid "Info"
+msgstr "Информация"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:362
+msgid "Create new ticket from this thread"
+msgstr "Создайте новую заявку из этой темы"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:467
+msgid "Ticket Details"
+msgstr "Информация о заявке"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:539
+msgid "CC (comma separeted list)"
+msgstr "Копия (список через запятую)"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:544
+msgid "BCC (comma separeted list)"
+msgstr "Скрытая копия (список через запятую)"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:560
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2067
+#: includes/custom-field-types/class-wpsc-df-description.php:359
+msgid "Attach Files"
+msgstr "Прикрепить файлы"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:591
+msgid "SUBMIT AS"
+msgstr "ОТПРАВИТЬ КАК"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:746
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:805
+msgid "Load older communications"
+msgstr "Загрузить старые сообщения"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:872
+#: includes/models/class-wpsc-thread.php:589
+msgid "reported"
+msgstr "сообщено"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:876
+#: includes/models/class-wpsc-thread.php:593
+msgid "replied"
+msgstr "отвечено"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:880
+#: includes/models/class-wpsc-thread.php:597
+msgid "added a note"
+msgstr "заметка добавлена"
+
+#. translators: %1$s: customer name, %2$s: datetime
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:922
+#, php-format
+msgid "This thread was deleted by %1$s on %2$s."
+msgstr "Эта тема была удалена  %1$s в %2$s."
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:928
+msgid "View thread!"
+msgstr "Показать тему!"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:940
+msgid "View More ..."
+msgstr "Показать еще …"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:949
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2371
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2411
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2499
+msgid "Attachments:"
+msgstr "Прикрепленные файлы:"
+
+#. translators: %1$s: customer name, %2$s: date time
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:984
+#, php-format
+msgid "Modified by %1$s on %2$s."
+msgstr "Изменено %1$s в %2$s."
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:990
+msgid "View change"
+msgstr "Показать измение"
+
+#. translators: %1$s: customer name, %2$s: date time
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:998
+#, php-format
+msgid "Deleted by %1$s on %2$s"
+msgstr "Удалено %1$s в %2$s"
+
+#. translators: %1$s: customer name, %2$s: date time
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1007
+#, php-format
+msgid "Restored by %1$s on %2$s"
+msgstr "Восстановлено %1$s в %2$s"
+
+#. translators: %1$s: Field Name
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1087
+#: includes/models/class-wpsc-thread.php:635
+#, php-format
+msgid "The %1$s has been changed"
+msgstr "%1$s был изменен"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1745
+msgid "Create ticket from thread"
+msgstr "Создать заявку из темы"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1804
+msgid "Thread info"
+msgstr "Информация о теме"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1822
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1823
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1824
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1825
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:111
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:62
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:115
+#: includes/class-wpsc-macros.php:523 includes/class-wpsc-macros.php:575
+#: includes/class-wpsc-macros.php:627 includes/class-wpsc-macros.php:679
+#: includes/class-wpsc-macros.php:731 includes/class-wpsc-macros.php:783
+#: includes/class-wpsc-macros.php:835 includes/class-wpsc-macros.php:869
+#: includes/class-wpsc-macros.php:954 includes/class-wpsc-macros.php:1037
+#: includes/class-wpsc-macros.php:1056 includes/class-wpsc-macros.php:1083
+#: includes/custom-field-types/class-wpsc-df-additional-recipients.php:454
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:547
+#: includes/custom-field-types/class-wpsc-df-browser.php:471
+#: includes/custom-field-types/class-wpsc-df-ip-address.php:299
+#: includes/custom-field-types/class-wpsc-df-os.php:529
+#: includes/custom-field-types/class-wpsc-df-source.php:452
+msgid "Not Applicable"
+msgstr "Не применяется"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1871
+msgid "Seen"
+msgstr "Просмотрено"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2354
+msgid "Thread log"
+msgstr "Лог темы"
+
+#. translators: %1$s: Name, %2$s: Email Address
+#: includes/admin/tickets/class-wpsc-new-ticket.php:109
+#: includes/admin/tickets/class-wpsc-new-ticket.php:322
+#: includes/admin/tickets/class-wpsc-new-ticket.php:552
+#: includes/admin/tickets/class-wpsc-new-ticket.php:607
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:559
+#: includes/models/class-wpsc-customer.php:566
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: includes/admin/tickets/class-wpsc-new-ticket.php:185
+msgid "Reset Form"
+msgstr "Перезапустить форму"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:371
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:149
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:834
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:153
+msgid "Search..."
+msgstr "Искать…"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:376
+msgid "Filter"
+msgstr "Фильтр"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:421
+msgid "Custom filters"
+msgstr "Пользовательские фильтры"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:422
+msgid "Custom..."
+msgstr "Пользовательский…"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:428
+msgid "Sort By"
+msgstr "Сортировать по"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:450
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1205
+msgid "Apply"
+msgstr "Применить"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:469
+msgid "Reset"
+msgstr ""
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:525
+msgid "Bulk Actions"
+msgstr "Перезапустить"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:541
+msgid "List Actions"
+msgstr "Перечислить действия"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:556
+#: includes/admin/tickets/class-wpsc-ticket-list.php:824
+msgid "Auto-Refresh"
+msgstr "Автоматическое обновление"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:605
+msgid "First Page"
+msgstr "Первая страница"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:654
+msgid "Last Page"
+msgstr "Последняя страница"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:673
+msgid "1 Ticket"
+msgstr "1 заявка"
+
+#. translators: %1$s: total tickets
+#: includes/admin/tickets/class-wpsc-ticket-list.php:678
+#, php-format
+msgid "%1$d Tickets"
+msgstr "%1$d заявок"
+
+#. translators: e.g. 1-20 of 100 Tickets
+#: includes/admin/tickets/class-wpsc-ticket-list.php:687
+#, php-format
+msgid "%1$d-%2$d of %3$d Tickets"
+msgstr "Заявки %1$d-%2$d из %3$d"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:786
+msgid "No tickets found!"
+msgstr "Никаких заявок не найдено!"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:829
+#: includes/models/class-wpsc-working-hour.php:553
+msgid "OFF"
+msgstr "ВЫКЛ"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:832
+msgid "ON"
+msgstr "ВКЛ"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1052
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1244
+msgid "Custom filter"
+msgstr "Пользовательский фильтр"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1212
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1265
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1527
+msgid "Save & Apply"
+msgstr "Сохранить и применить"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1530
+msgid "Save As"
+msgstr "Сохранить как"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1867
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:112
+msgid "Filter by"
+msgstr "Фильтровать по"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1891
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:136
+msgid "Workload"
+msgstr "Объем работы"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1898
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:143
+msgid "Select agent(s)"
+msgstr "Выбрать специалиста(ов)"
+
+#: includes/admin/tickets/class-wpsc-tickets.php:85
+#: includes/frontend/class-wpsc-shortcode-one.php:166
+msgid "New Ticket"
+msgstr "Новая заявка"
+
+#: includes/admin/tickets/class-wpsc-tickets.php:94
+#: includes/frontend/class-wpsc-shortcode-one.php:175
+msgid "My Profile"
+msgstr "Мой профиль"
+
+#: includes/admin/tickets/class-wpsc-tickets.php:103
+#: includes/frontend/class-wpsc-shortcode-one.php:184
+msgid "Agent Profile"
+msgstr "Профиль специалиста"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:76
+msgid "Emails"
+msgstr "Электронные письма"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:123
+msgid "Email address (one per line)"
+msgstr "Адрес электронной почты (по одному на строку)"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:125
+msgid "All customer email notifications will be sent to these email addresses."
+msgstr ""
+"Все уведомления клиентам по электронной почте будут отправляться на эти "
+"адреса электронной почты."
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:243
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:312
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:331
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:176
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:297
+msgid "Allowed for customer"
+msgstr "Разрешено для клиентов"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:252
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:285
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:321
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:108
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:340
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:185
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:306
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:109
+msgid "Allowed agent roles"
+msgstr "Разрешенные роли специалистов"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:57
+msgid "No info added"
+msgstr "Никакой информации не добавлено"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:361
+msgid "Show priority to customer"
+msgstr "Показать приоритет клиенту"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:134
+msgid "All other tickets of this user"
+msgstr "Все остальные заявки этого пользователя"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:302
+msgid "User type"
+msgstr "Тип пользователя"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:306
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:325
+msgid "Existing Customer / Registered User"
+msgstr "Существующий клиент / Зарегистрированный пользователь"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:307
+msgid "New Customer"
+msgstr "Новый клиент"
+
+#: includes/class-wpsc-cron.php:34
+msgid "Every one minute"
+msgstr "Каждую минуту"
+
+#: includes/class-wpsc-cron.php:39
+msgid "Every five minutes"
+msgstr "Каждые пять минут"
+
+#: includes/class-wpsc-current-user.php:389
+#: includes/class-wpsc-current-user.php:556
+msgid "Please sign up"
+msgstr "Пожалуйста, зарегистрируйтесь"
+
+#: includes/class-wpsc-current-user.php:391
+msgid "First Name"
+msgstr "Имя"
+
+#: includes/class-wpsc-current-user.php:392
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: includes/class-wpsc-current-user.php:395
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: includes/class-wpsc-current-user.php:397
+msgid "Username is available!"
+msgstr "Имя пользователя доступно!"
+
+#: includes/class-wpsc-current-user.php:419
+#: includes/frontend/class-wpsc-frontend.php:179
+msgid "Password"
+msgstr "Пароль"
+
+#: includes/class-wpsc-current-user.php:420
+msgid "Confirm Password"
+msgstr "Подтвердить пароль"
+
+#: includes/class-wpsc-current-user.php:449
+msgid "Sign Up"
+msgstr "Зарегистрироваться"
+
+#: includes/class-wpsc-current-user.php:557
+#: includes/class-wpsc-current-user.php:736
+msgid "We have sent 6-digit one time password on your given email address."
+msgstr ""
+"Мы отправили 6-значный одноразовый пароль на указанный вами адрес "
+"электронной почты."
+
+#: includes/class-wpsc-current-user.php:679
+#: includes/class-wpsc-current-user.php:735
+#: includes/frontend/class-wpsc-frontend.php:172
+msgid "Please sign in"
+msgstr "Пожалуйста, войдите"
+
+#: includes/class-wpsc-current-user.php:683
+#: includes/frontend/class-wpsc-frontend.php:212
+#: includes/frontend/class-wpsc-frontend.php:224
+msgid "Sign In"
+msgstr "Войти"
+
+#. translators: %d: number of years
+#: includes/class-wpsc-functions.php:677
+#, php-format
+msgid "%d years ago"
+msgstr "%d лет назад"
+
+#. translators: %d: number of months
+#: includes/class-wpsc-functions.php:686
+#, php-format
+msgid "%d months ago"
+msgstr "%d месяцев назад"
+
+#. translators: %d: number of days
+#: includes/class-wpsc-functions.php:696
+#, php-format
+msgid "%d days ago"
+msgstr "%d дней назад"
+
+#. translators: %d: number of hours
+#: includes/class-wpsc-functions.php:705
+#, php-format
+msgid "%d hours ago"
+msgstr "%d часов назад"
+
+#. translators: %d: number of minutes
+#: includes/class-wpsc-functions.php:714
+#, php-format
+msgid "%d minutes ago"
+msgstr "%d минут назад"
+
+#. translators: %d: number of seconds
+#: includes/class-wpsc-functions.php:723
+#, php-format
+msgid "%d seconds ago"
+msgstr "%d секунд назад"
+
+#: includes/class-wpsc-functions.php:728
+msgid "Just now"
+msgstr "Только что"
+
+#: includes/class-wpsc-macros.php:54
+msgid "Customer name"
+msgstr "Имя клиента"
+
+#: includes/class-wpsc-macros.php:58
+msgid "Customer first name"
+msgstr "Имя клиента"
+
+#: includes/class-wpsc-macros.php:62
+msgid "Customer email addrees"
+msgstr "Адрес электронной почты клиентов"
+
+#: includes/class-wpsc-macros.php:66
+msgid "Last reply"
+msgstr "Последний ответ"
+
+#: includes/class-wpsc-macros.php:70
+msgid "Last reply user name"
+msgstr "Имя последнего ответившего"
+
+#: includes/class-wpsc-macros.php:74
+msgid "Last reply user email"
+msgstr "Электронная почта последнего ответившего"
+
+#: includes/class-wpsc-macros.php:78
+msgid "Last reply user first name"
+msgstr "Имя последнего ответившего"
+
+#: includes/class-wpsc-macros.php:82
+msgid "Last note"
+msgstr "Последняя заметка"
+
+#: includes/class-wpsc-macros.php:86
+msgid "Last note user name"
+msgstr "Имя пользователя, оставившего последнюю заметку"
+
+#: includes/class-wpsc-macros.php:90
+msgid "Last note user email"
+msgstr "Электронная почта пользователя, оставившего последнюю заметку"
+
+#: includes/class-wpsc-macros.php:94
+msgid "Last note user first name"
+msgstr "Фамилия пользователя, оставившего последнюю заметку"
+
+#: includes/class-wpsc-macros.php:98
+msgid "Current user name"
+msgstr "Имя текущего пользователя"
+
+#: includes/class-wpsc-macros.php:102
+msgid "Current user email"
+msgstr "Текущая электронная почта"
+
+#: includes/class-wpsc-macros.php:106
+msgid "Current user first name"
+msgstr "Имя текущего пользователя"
+
+#: includes/class-wpsc-macros.php:110
+msgid "Ticket history (last few report & reply excluding last reply)"
+msgstr ""
+"История заявки (последние несколько отчетов и ответов, исключая последний "
+"ответ)"
+
+#: includes/class-wpsc-macros.php:114
+msgid "Ticket history (report & reply)"
+msgstr "История заявки (отчет и ответ)"
+
+#: includes/class-wpsc-macros.php:118
+msgid "Ticket history (note)"
+msgstr "История заявки (заметка)"
+
+#: includes/class-wpsc-macros.php:122
+msgid "Ticket history (report, reply & note)"
+msgstr "История заявки (отчет, ответ и заметка)"
+
+#: includes/class-wpsc-macros.php:126
+msgid "Ticket history (report, reply & log)"
+msgstr "История заявки (отчет, ответ и лог)"
+
+#: includes/class-wpsc-macros.php:130
+msgid "Ticket history (report, reply, note & log)"
+msgstr "История заявки (отчет, ответ, заметка и лог)"
+
+#: includes/class-wpsc-macros.php:134
+msgid "Ticket history (note & log)"
+msgstr "История заявки (заметка и лог)"
+
+#: includes/class-wpsc-macros.php:138
+msgid "Ticket URL"
+msgstr "Ссылка на заявку"
+
+#: includes/class-wpsc-macros.php:175
+msgid "Insert macro"
+msgstr "Вставить макро"
+
+#: includes/class-wpsc-macros.php:205
+msgid "Copy Tag"
+msgstr "Скопировать тег"
+
+#: includes/class-wpsc-macros.php:205
+msgid "Copy"
+msgstr "Копировать"
+
+#: includes/class-wpsc-macros.php:206
+msgid "Insert Tag"
+msgstr "Вставить тег"
+
+#: includes/class-wpsc-macros.php:206
+msgid "Insert"
+msgstr "Вставить"
+
+#: includes/class-wpsc-ticket-conditions.php:54
+msgid "Ticket submitted by"
+msgstr "Заявки, отправленные"
+
+#: includes/class-wpsc-ticket-conditions.php:55
+msgid "WP user role"
+msgstr "Роль пользователя WP"
+
+#: includes/class-wpsc-ticket-conditions.php:241
+#: includes/class-wpsc-ticket-conditions.php:252
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:212
+#: includes/custom-field-types/class-wpsc-cf-date.php:209
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:209
+#: includes/custom-field-types/class-wpsc-cf-email.php:212
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:212
+#: includes/custom-field-types/class-wpsc-cf-number.php:215
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:213
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:213
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:212
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:212
+#: includes/custom-field-types/class-wpsc-cf-time.php:1095
+#: includes/custom-field-types/class-wpsc-cf-url.php:212
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:197
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:215
+#: includes/custom-field-types/class-wpsc-df-browser.php:190
+#: includes/custom-field-types/class-wpsc-df-category.php:194
+#: includes/custom-field-types/class-wpsc-df-customer.php:207
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:187
+#: includes/custom-field-types/class-wpsc-df-date-created.php:190
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:190
+#: includes/custom-field-types/class-wpsc-df-description.php:190
+#: includes/custom-field-types/class-wpsc-df-id.php:187
+#: includes/custom-field-types/class-wpsc-df-last-reply-by.php:187
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:187
+#: includes/custom-field-types/class-wpsc-df-os.php:175
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:208
+#: includes/custom-field-types/class-wpsc-df-priority.php:197
+#: includes/custom-field-types/class-wpsc-df-source.php:215
+#: includes/custom-field-types/class-wpsc-df-status.php:197
+#: includes/custom-field-types/class-wpsc-df-subject.php:197
+#: includes/custom-field-types/class-wpsc-df-user-type.php:194
+msgid "Compare As"
+msgstr "Сравнить как"
+
+#: includes/class-wpsc-ticket-conditions.php:242
+#: includes/class-wpsc-ticket-conditions.php:253
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:213
+#: includes/custom-field-types/class-wpsc-cf-date.php:210
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:210
+#: includes/custom-field-types/class-wpsc-cf-email.php:213
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:213
+#: includes/custom-field-types/class-wpsc-cf-number.php:216
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:214
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:214
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:213
+#: includes/custom-field-types/class-wpsc-cf-time.php:1096
+#: includes/custom-field-types/class-wpsc-cf-url.php:213
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:198
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:216
+#: includes/custom-field-types/class-wpsc-df-browser.php:191
+#: includes/custom-field-types/class-wpsc-df-category.php:195
+#: includes/custom-field-types/class-wpsc-df-customer.php:208
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:188
+#: includes/custom-field-types/class-wpsc-df-date-created.php:191
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:191
+#: includes/custom-field-types/class-wpsc-df-id.php:188
+#: includes/custom-field-types/class-wpsc-df-last-reply-by.php:188
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:188
+#: includes/custom-field-types/class-wpsc-df-os.php:176
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:209
+#: includes/custom-field-types/class-wpsc-df-priority.php:198
+#: includes/custom-field-types/class-wpsc-df-source.php:216
+#: includes/custom-field-types/class-wpsc-df-status.php:198
+#: includes/custom-field-types/class-wpsc-df-user-type.php:195
+msgid "Equals"
+msgstr "Равны"
+
+#: includes/class-wpsc-ticket-conditions.php:254
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:214
+#: includes/custom-field-types/class-wpsc-cf-email.php:214
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:214
+#: includes/custom-field-types/class-wpsc-cf-number.php:217
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:215
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:215
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:214
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:213
+#: includes/custom-field-types/class-wpsc-cf-url.php:214
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:199
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:217
+#: includes/custom-field-types/class-wpsc-df-category.php:196
+#: includes/custom-field-types/class-wpsc-df-customer.php:209
+#: includes/custom-field-types/class-wpsc-df-id.php:189
+#: includes/custom-field-types/class-wpsc-df-last-reply-by.php:189
+#: includes/custom-field-types/class-wpsc-df-os.php:177
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:210
+#: includes/custom-field-types/class-wpsc-df-priority.php:199
+#: includes/custom-field-types/class-wpsc-df-source.php:217
+#: includes/custom-field-types/class-wpsc-df-status.php:199
+msgid "Matches"
+msgstr "Совпадают"
+
+#: includes/class-wpsc-ticket-conditions.php:255
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:215
+#: includes/custom-field-types/class-wpsc-cf-email.php:215
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:215
+#: includes/custom-field-types/class-wpsc-cf-number.php:218
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:216
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:216
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:215
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:214
+#: includes/custom-field-types/class-wpsc-cf-url.php:215
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:200
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:218
+#: includes/custom-field-types/class-wpsc-df-category.php:197
+#: includes/custom-field-types/class-wpsc-df-customer.php:210
+#: includes/custom-field-types/class-wpsc-df-id.php:190
+#: includes/custom-field-types/class-wpsc-df-last-reply-by.php:190
+#: includes/custom-field-types/class-wpsc-df-os.php:178
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:211
+#: includes/custom-field-types/class-wpsc-df-priority.php:200
+#: includes/custom-field-types/class-wpsc-df-source.php:218
+#: includes/custom-field-types/class-wpsc-df-status.php:200
+msgid "Not Matches"
+msgstr "Не совпадают"
+
+#: includes/class-wpsc-ticket-conditions.php:315
+msgid "User"
+msgstr "Пользователь"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:195
+msgid "Checkbox"
+msgstr "Флажок"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:867
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1015
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1142
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:886
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1026
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:784
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:925
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1054
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:825
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:967
+msgid "Field options"
+msgstr "Параметры поля"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:913
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1032
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1189
+#: includes/custom-field-types/class-wpsc-cf-date.php:915
+#: includes/custom-field-types/class-wpsc-cf-date.php:1102
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:890
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1086
+#: includes/custom-field-types/class-wpsc-cf-email.php:843
+#: includes/custom-field-types/class-wpsc-cf-email.php:968
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:903
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1073
+#: includes/custom-field-types/class-wpsc-cf-number.php:926
+#: includes/custom-field-types/class-wpsc-cf-number.php:1064
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:830
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:942
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1102
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:842
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1015
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:852
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:990
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:806
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:931
+#: includes/custom-field-types/class-wpsc-cf-time.php:633
+#: includes/custom-field-types/class-wpsc-cf-time.php:835
+#: includes/custom-field-types/class-wpsc-cf-url.php:842
+#: includes/custom-field-types/class-wpsc-cf-url.php:967
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:924
+#: includes/custom-field-types/class-wpsc-df-category.php:586
+#: includes/custom-field-types/class-wpsc-df-description.php:559
+#: includes/custom-field-types/class-wpsc-df-priority.php:584
+#: includes/custom-field-types/class-wpsc-df-status.php:546
+#: includes/custom-field-types/class-wpsc-df-subject.php:589
+msgid "Default value"
+msgstr "Значение по умолчанию"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:939
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:849
+msgid "Auto fill?"
+msgstr "Заполнить автоматически?"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:952
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:862
+msgid "Has personal info?"
+msgstr "Есть личная информация?"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:962
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1061
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1232
+#: includes/custom-field-types/class-wpsc-cf-date.php:1019
+#: includes/custom-field-types/class-wpsc-cf-date.php:1208
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1003
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1203
+#: includes/custom-field-types/class-wpsc-cf-email.php:885
+#: includes/custom-field-types/class-wpsc-cf-email.php:1010
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:945
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1129
+#: includes/custom-field-types/class-wpsc-cf-number.php:981
+#: includes/custom-field-types/class-wpsc-cf-number.php:1119
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:872
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:973
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1139
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:886
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1065
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:907
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1045
+#: includes/custom-field-types/class-wpsc-cf-time.php:752
+#: includes/custom-field-types/class-wpsc-cf-time.php:960
+#: includes/custom-field-types/class-wpsc-cf-url.php:884
+#: includes/custom-field-types/class-wpsc-cf-url.php:1009
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:482
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:1013
+#: includes/custom-field-types/class-wpsc-df-browser.php:408
+#: includes/custom-field-types/class-wpsc-df-category.php:643
+#: includes/custom-field-types/class-wpsc-df-customer-email.php:320
+#: includes/custom-field-types/class-wpsc-df-customer-name.php:307
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:465
+#: includes/custom-field-types/class-wpsc-df-date-created.php:498
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:491
+#: includes/custom-field-types/class-wpsc-df-id.php:386
+#: includes/custom-field-types/class-wpsc-df-ip-address.php:233
+#: includes/custom-field-types/class-wpsc-df-last-reply-by.php:334
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:408
+#: includes/custom-field-types/class-wpsc-df-os.php:466
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:507
+#: includes/custom-field-types/class-wpsc-df-priority.php:641
+#: includes/custom-field-types/class-wpsc-df-source.php:390
+#: includes/custom-field-types/class-wpsc-df-status.php:574
+#: includes/custom-field-types/class-wpsc-df-subject.php:644
+#: includes/custom-field-types/class-wpsc-df-user-type.php:375
+msgid "Ticket list width (pixels)"
+msgstr "Ширина списка заявок (пикселей)"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:972
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1090
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1261
+#: includes/custom-field-types/class-wpsc-cf-date.php:1048
+#: includes/custom-field-types/class-wpsc-cf-date.php:1237
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1032
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1232
+#: includes/custom-field-types/class-wpsc-cf-email.php:914
+#: includes/custom-field-types/class-wpsc-cf-email.php:1039
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:676
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:745
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:662
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:731
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:974
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1158
+#: includes/custom-field-types/class-wpsc-cf-number.php:1010
+#: includes/custom-field-types/class-wpsc-cf-number.php:1148
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:882
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1002
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1168
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:915
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1094
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:936
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1074
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:877
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1002
+#: includes/custom-field-types/class-wpsc-cf-time.php:781
+#: includes/custom-field-types/class-wpsc-cf-time.php:989
+#: includes/custom-field-types/class-wpsc-cf-url.php:913
+#: includes/custom-field-types/class-wpsc-cf-url.php:1038
+msgid "Allow in my profile?"
+msgstr "Разрешить в моем профиле?"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:981
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1106
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1277
+#: includes/custom-field-types/class-wpsc-cf-date.php:1064
+#: includes/custom-field-types/class-wpsc-cf-date.php:1253
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1048
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1248
+#: includes/custom-field-types/class-wpsc-cf-email.php:930
+#: includes/custom-field-types/class-wpsc-cf-email.php:1055
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:692
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:761
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:678
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:747
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:990
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1174
+#: includes/custom-field-types/class-wpsc-cf-number.php:1026
+#: includes/custom-field-types/class-wpsc-cf-number.php:1164
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:891
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1018
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1184
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:931
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1110
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:952
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1090
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:893
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1018
+#: includes/custom-field-types/class-wpsc-cf-time.php:797
+#: includes/custom-field-types/class-wpsc-cf-time.php:1005
+#: includes/custom-field-types/class-wpsc-cf-url.php:929
+#: includes/custom-field-types/class-wpsc-cf-url.php:1054
+msgid "Allow in ticket form?"
+msgstr "Разрешить в форме заявки?"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1045
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1216
+#: includes/custom-field-types/class-wpsc-cf-date.php:932
+#: includes/custom-field-types/class-wpsc-cf-date.php:1121
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:912
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1108
+#: includes/custom-field-types/class-wpsc-cf-email.php:856
+#: includes/custom-field-types/class-wpsc-cf-email.php:981
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:916
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1100
+#: includes/custom-field-types/class-wpsc-cf-number.php:939
+#: includes/custom-field-types/class-wpsc-cf-number.php:1077
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:957
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1123
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:857
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1036
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:865
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1003
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:819
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:944
+#: includes/custom-field-types/class-wpsc-cf-time.php:657
+#: includes/custom-field-types/class-wpsc-cf-time.php:859
+#: includes/custom-field-types/class-wpsc-cf-url.php:855
+#: includes/custom-field-types/class-wpsc-cf-url.php:980
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:984
+#: includes/custom-field-types/class-wpsc-df-category.php:614
+#: includes/custom-field-types/class-wpsc-df-description.php:572
+#: includes/custom-field-types/class-wpsc-df-priority.php:612
+#: includes/custom-field-types/class-wpsc-df-subject.php:602
+msgid "Auto-fill in ticket form"
+msgstr "Заполнить автоматически в форме заявки"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1074
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1245
+#: includes/custom-field-types/class-wpsc-cf-date.php:1032
+#: includes/custom-field-types/class-wpsc-cf-date.php:1221
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1016
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1216
+#: includes/custom-field-types/class-wpsc-cf-email.php:898
+#: includes/custom-field-types/class-wpsc-cf-email.php:1023
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:660
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:729
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:646
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:715
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:958
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1142
+#: includes/custom-field-types/class-wpsc-cf-number.php:994
+#: includes/custom-field-types/class-wpsc-cf-number.php:1132
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:986
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1152
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:899
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1078
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:920
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1058
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:861
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:986
+#: includes/custom-field-types/class-wpsc-cf-time.php:765
+#: includes/custom-field-types/class-wpsc-cf-time.php:973
+#: includes/custom-field-types/class-wpsc-cf-url.php:897
+#: includes/custom-field-types/class-wpsc-cf-url.php:1022
+msgid "Has personal info"
+msgstr "Есть личная информация"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1456
+#: includes/custom-field-types/class-wpsc-cf-date.php:1425
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1420
+#: includes/custom-field-types/class-wpsc-cf-email.php:1215
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:954
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:1002
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:886
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:912
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1358
+#: includes/custom-field-types/class-wpsc-cf-number.php:1323
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1358
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1289
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1249
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1172
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1188
+#: includes/custom-field-types/class-wpsc-cf-time.php:1351
+#: includes/custom-field-types/class-wpsc-cf-url.php:1217
+#: includes/custom-field-types/class-wpsc-cf-url.php:1234
+#: includes/custom-field-types/class-wpsc-df-additional-recipients.php:468
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:232
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:250
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:248
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:266
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:1099
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:1149
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:1185
+#: includes/custom-field-types/class-wpsc-df-category.php:750
+#: includes/custom-field-types/class-wpsc-df-customer.php:516
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:552
+#: includes/custom-field-types/class-wpsc-df-priority.php:756
+#: includes/custom-field-types/class-wpsc-df-priority.php:770
+#: includes/custom-field-types/class-wpsc-df-status.php:679
+#: includes/custom-field-types/class-wpsc-df-status.php:693
+#: includes/models/class-wpsc-agent.php:601
+msgid "None"
+msgstr "Нет"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:211
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:211
+#: includes/custom-field-types/class-wpsc-cf-number.php:219
+#: includes/custom-field-types/class-wpsc-cf-time.php:1097
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:189
+#: includes/custom-field-types/class-wpsc-df-date-created.php:192
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:192
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:189
+msgid "Less than"
+msgstr "Меньше чем"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:212
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:212
+#: includes/custom-field-types/class-wpsc-cf-number.php:220
+#: includes/custom-field-types/class-wpsc-cf-time.php:1098
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:190
+#: includes/custom-field-types/class-wpsc-df-date-created.php:193
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:193
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:190
+msgid "Less than or equals"
+msgstr "Меньше или равно"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:213
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:213
+#: includes/custom-field-types/class-wpsc-cf-number.php:221
+#: includes/custom-field-types/class-wpsc-cf-time.php:1099
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:191
+#: includes/custom-field-types/class-wpsc-df-date-created.php:194
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:194
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:191
+msgid "Greater than"
+msgstr "Больше чем"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:214
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:214
+#: includes/custom-field-types/class-wpsc-cf-number.php:222
+#: includes/custom-field-types/class-wpsc-cf-time.php:1100
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:192
+#: includes/custom-field-types/class-wpsc-df-date-created.php:195
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:195
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:192
+msgid "Greater than or equals"
+msgstr "Больше чем или равно"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:215
+#: includes/custom-field-types/class-wpsc-cf-date.php:965
+#: includes/custom-field-types/class-wpsc-cf-date.php:1154
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:215
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:945
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1141
+#: includes/custom-field-types/class-wpsc-cf-time.php:688
+#: includes/custom-field-types/class-wpsc-cf-time.php:877
+#: includes/custom-field-types/class-wpsc-cf-time.php:1101
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:193
+#: includes/custom-field-types/class-wpsc-df-date-created.php:196
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:196
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:193
+msgid "Between"
+msgstr "Между"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:238
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:238
+#: includes/custom-field-types/class-wpsc-cf-time.php:1124
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:216
+#: includes/custom-field-types/class-wpsc-df-date-created.php:219
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:219
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:216
+msgid "From date"
+msgstr "С даты"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:246
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:250
+#: includes/custom-field-types/class-wpsc-cf-time.php:1139
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:224
+#: includes/custom-field-types/class-wpsc-df-date-created.php:227
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:227
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:224
+msgid "To date"
+msgstr "До даты"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:948
+#: includes/custom-field-types/class-wpsc-cf-date.php:1137
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:928
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1124
+#: includes/custom-field-types/class-wpsc-cf-email.php:872
+#: includes/custom-field-types/class-wpsc-cf-email.php:997
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:932
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1116
+#: includes/custom-field-types/class-wpsc-cf-number.php:968
+#: includes/custom-field-types/class-wpsc-cf-number.php:1106
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:873
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1052
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:894
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1032
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:848
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:973
+#: includes/custom-field-types/class-wpsc-cf-time.php:673
+#: includes/custom-field-types/class-wpsc-cf-time.php:947
+#: includes/custom-field-types/class-wpsc-cf-url.php:871
+#: includes/custom-field-types/class-wpsc-cf-url.php:996
+#: includes/custom-field-types/class-wpsc-df-additional-recipients.php:386
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:1000
+#: includes/custom-field-types/class-wpsc-df-category.php:630
+#: includes/custom-field-types/class-wpsc-df-customer-email.php:307
+#: includes/custom-field-types/class-wpsc-df-customer-name.php:294
+#: includes/custom-field-types/class-wpsc-df-priority.php:628
+#: includes/custom-field-types/class-wpsc-df-subject.php:631
+msgid "Placeholder"
+msgstr "Заполнитель"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:959
+#: includes/custom-field-types/class-wpsc-cf-date.php:1148
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:939
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1135
+msgid "Date range"
+msgstr "Диапазон дат"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:963
+#: includes/custom-field-types/class-wpsc-cf-date.php:1152
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:943
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1139
+msgid "Future"
+msgstr "Будущее"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:964
+#: includes/custom-field-types/class-wpsc-cf-date.php:1153
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:944
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1140
+msgid "Past"
+msgstr "Прошлое"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:980
+#: includes/custom-field-types/class-wpsc-cf-date.php:1169
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:960
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1156
+msgid "Date in between"
+msgstr "Дата между"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:1008
+#: includes/custom-field-types/class-wpsc-cf-date.php:1197
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:992
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1192
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:454
+#: includes/custom-field-types/class-wpsc-df-date-created.php:487
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:480
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:397
+msgid "Date format"
+msgstr "Формат даты"
+
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:192
+msgid "Datetime"
+msgstr "Дата и время"
+
+#: includes/custom-field-types/class-wpsc-cf-email.php:216
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:216
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:215
+#: includes/custom-field-types/class-wpsc-cf-url.php:216
+#: includes/custom-field-types/class-wpsc-df-browser.php:192
+#: includes/custom-field-types/class-wpsc-df-description.php:191
+#: includes/custom-field-types/class-wpsc-df-os.php:179
+#: includes/custom-field-types/class-wpsc-df-subject.php:198
+msgid "Has Words"
+msgstr "Количество слов"
+
+#: includes/custom-field-types/class-wpsc-cf-email.php:237
+#: includes/custom-field-types/class-wpsc-cf-number.php:243
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:237
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:234
+#: includes/custom-field-types/class-wpsc-cf-url.php:237
+#: includes/custom-field-types/class-wpsc-df-browser.php:213
+#: includes/custom-field-types/class-wpsc-df-description.php:210
+#: includes/custom-field-types/class-wpsc-df-id.php:211
+#: includes/custom-field-types/class-wpsc-df-os.php:200
+#: includes/custom-field-types/class-wpsc-df-subject.php:217
+msgid "One condition per line!"
+msgstr "Одно условие на строку!"
+
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:198
+msgid "File Attachment (Multiple)"
+msgstr "Прикрепленный файл (несколько)"
+
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:195
+msgid "File Attachment (Single)"
+msgstr "Прикрепленный файл (один)"
+
+#: includes/custom-field-types/class-wpsc-cf-html.php:191
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/custom-field-types/class-wpsc-cf-html.php:244
+#: includes/custom-field-types/class-wpsc-cf-html.php:266
+msgid "HTML Content"
+msgstr "Содержание HTML"
+
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:195
+msgid "Dropdown (multi-select)"
+msgstr "Выпадающий (несколько на выбор)"
+
+#: includes/custom-field-types/class-wpsc-cf-number.php:198
+msgid "Number"
+msgstr "Номер"
+
+#: includes/custom-field-types/class-wpsc-cf-number.php:538
+msgid "Invalid Number!"
+msgstr "Неверный номер!"
+
+#: includes/custom-field-types/class-wpsc-cf-number.php:955
+#: includes/custom-field-types/class-wpsc-cf-number.php:1093
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:881
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1019
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:835
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:960
+#: includes/custom-field-types/class-wpsc-df-subject.php:618
+msgid "Character limit"
+msgstr "Ограничение по количеству символов"
+
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:196
+msgid "Radio Button"
+msgstr "Переключатель"
+
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:196
+msgid "Dropdown (single-select)"
+msgstr "Выпадающий (один на выбор)"
+
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:195
+msgid "Textfield"
+msgstr "Текстовое поле"
+
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:195
+msgid "Textarea"
+msgstr "Область текста"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:192
+msgid "Time"
+msgstr "Время"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:684
+#: includes/custom-field-types/class-wpsc-cf-time.php:873
+msgid "Time range"
+msgstr "Диапазон времени"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:703
+#: includes/custom-field-types/class-wpsc-cf-time.php:892
+msgid "Time in between"
+msgstr "Время между"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:738
+#: includes/custom-field-types/class-wpsc-cf-time.php:933
+msgid "Time format"
+msgstr "Формат времени"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:741
+#: includes/custom-field-types/class-wpsc-cf-time.php:936
+msgid "24 Hrs"
+msgstr "24 часа"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:742
+#: includes/custom-field-types/class-wpsc-cf-time.php:937
+msgid "12 Hrs"
+msgstr "12 часов"
+
+#: includes/custom-field-types/class-wpsc-cf-url.php:471
+msgid "Invalid URL!"
+msgstr "Неверная ссылка!"
+
+#: includes/custom-field-types/class-wpsc-cf-url.php:1161
+#: includes/custom-field-types/class-wpsc-cf-url.php:1203
+msgid "Click Here"
+msgstr "Нажмите здесь"
+
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:660
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:745
+msgid "Ajax loading of results?"
+msgstr "Ajax-загрузка результатов?"
+
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:670
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:755
+msgid "Is multiple?"
+msgstr "Несколько?"
+
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:680
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:765
+msgid "Allowed user"
+msgstr "Разрешенный пользователь"
+
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:685
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:770
+msgid "Both"
+msgstr "Оба"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:328
+msgid "Navigator"
+msgstr "Навигатор"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:332
+msgid "Firefox"
+msgstr "Firefox"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:336
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:340
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:344
+msgid "MAXTHON"
+msgstr "MAXTHON"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:348
+msgid "Opera"
+msgstr "Opera"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:352
+msgid "Edge"
+msgstr "Edge"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:356
+msgid "Konqueror"
+msgstr "Konqueror"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:360
+msgid "SamsungBrowser"
+msgstr "SamsungBrowser"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:364
+msgid "Safari"
+msgstr "Safari"
+
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:444
+#: includes/custom-field-types/class-wpsc-df-date-created.php:477
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:470
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:387
+msgid "Display as"
+msgstr "Отобразить как"
+
+#: includes/custom-field-types/class-wpsc-df-user-type.php:216
+#: includes/custom-field-types/class-wpsc-df-user-type.php:413
+msgid "Registered"
+msgstr "Зарегистрирован"
+
+#: includes/frontend/class-wpsc-frontend.php:178
+msgid "Username / Email address"
+msgstr "Имя пользователя / Адрес электронной почты"
+
+#: includes/frontend/class-wpsc-frontend.php:182
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: includes/frontend/class-wpsc-frontend.php:236
+msgid "Forgot your password?"
+msgstr "Забыли пароль?"
+
+#: includes/frontend/class-wpsc-frontend.php:254
+msgid "Register now"
+msgstr "Зарегистрироваться сейчас"
+
+#: includes/frontend/class-wpsc-frontend.php:259
+msgid "Sign-in using one time password"
+msgstr "Вход в систему с помощью одноразового пароля"
+
+#: includes/frontend/class-wpsc-frontend.php:265
+msgid "Create new ticket as guest"
+msgstr "Создать новую заявку как гость"
+
+#: includes/frontend/class-wpsc-frontend.php:271
+msgid "Open existing ticket using one time password"
+msgstr "Открыть существующую заявку с помощью одноразового пароля"
+
+#: includes/frontend/class-wpsc-shortcode-five.php:92
+#: includes/frontend/class-wpsc-shortcode-six.php:98
+#: includes/frontend/class-wpsc-shortcode-three.php:209
+msgid "Unauthorized access!"
+msgstr "Неаторизованный доступ!"
+
+#: includes/frontend/class-wpsc-shortcode-three.php:99
+#: includes/frontend/class-wpsc-shortcode-three.php:291
+msgid "Open existing ticket"
+msgstr "Открыть существующую заявку"
+
+#. translators: %1$s: customer name
+#: includes/frontend/class-wpsc-shortcode-three.php:164
+#, php-format
+msgid "Logged-in as %1$s"
+msgstr "Вошел в систему как %1$s"
+
+#: includes/frontend/class-wpsc-shortcode-three.php:167
+msgid "Log out"
+msgstr "Выйти"
+
+#: includes/frontend/class-wpsc-shortcode-three.php:292
+msgid ""
+"We have sent 6-digit one time password on your given email address. Please "
+"insert it below and submit to open ticket!"
+msgstr ""
+"Мы отправили 6-значный одноразовый пароль на указанный вами адрес "
+"электронной почты. Пожалуйста, вставьте его ниже и отправьте, чтобы открыть "
+"заявку!"
+
+#: includes/models/class-wpsc-attachment.php:601
+msgid "Insert/edit image"
+msgstr "Вставить/редактировать изображение"
+
+#: includes/models/class-wpsc-attachment.php:617
+#: includes/models/class-wpsc-attachment.php:790
+msgid "Upload"
+msgstr "Загрузить"
+
+#: includes/models/class-wpsc-attachment.php:623
+#: includes/models/class-wpsc-attachment.php:795
+msgid "Dimentions"
+msgstr "Размеры"
+
+#: includes/models/class-wpsc-attachment.php:633
+#: includes/models/class-wpsc-attachment.php:805
+msgid "Constraint properties"
+msgstr "Свойства ограничений"
+
+#: includes/models/class-wpsc-attachment.php:758
+msgid "Edit image"
+msgstr "Редактировать изображение"
+
+#: includes/models/class-wpsc-thread.php:559
+msgid "Attachments"
+msgstr "Прикрепленные файлы"
+
+#: includes/models/class-wpsc-wh-exception.php:501
+msgid "Add new exception"
+msgstr "Добавить новое исключение"
+
+#: includes/models/class-wpsc-wh-exception.php:722
+msgid "Edit exception"
+msgstr "Редактировать исключение"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "SupportCandy"
+msgstr "SupportCandy"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/supportcandy/"
+msgstr "https://wordpress.org/plugins/supportcandy/"
+
+#. Description of the plugin/theme
+msgid "Easy & Powerful support ticket system for WordPress"
+msgstr "Простая и мощная система заявок в службу поддержки для WordPress"
+
+#. Author URI of the plugin/theme
+msgid "https://supportcandy.net/"
+msgstr "https://supportcandy.net/"

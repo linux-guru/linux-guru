@@ -1,0 +1,12 @@
+[02-Dec-2022 01:30:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/linuxgur/public_html/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/linuxgur/public_html/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php on line 17
+[02-Dec-2022 01:31:02 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/linuxgur/public_html/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/linuxgur/public_html/wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php on line 17
+[02-Dec-2022 01:34:42 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/linuxgur/public_html/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/linuxgur/public_html/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php on line 17

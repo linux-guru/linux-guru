@@ -1,0 +1,258 @@
+[08-Nov-2022 16:09:47 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, array given in /home/linuxgur/public_html/wp-includes/formatting.php on line 4377
+[08-Nov-2022 16:09:48 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, array given in /home/linuxgur/public_html/wp-includes/formatting.php on line 4377
+[08-Nov-2022 16:09:48 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, array given in /home/linuxgur/public_html/wp-includes/formatting.php on line 4377
+[08-Nov-2022 16:09:48 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, array given in /home/linuxgur/public_html/wp-includes/formatting.php on line 4377
+[08-Nov-2022 16:09:48 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, array given in /home/linuxgur/public_html/wp-includes/formatting.php on line 4377
+[08-Nov-2022 16:09:48 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, array given in /home/linuxgur/public_html/wp-includes/formatting.php on line 4377
+[08-Nov-2022 17:59:16 UTC] whitelisted: Array
+(
+    [0] => /
+    [1] => /batch/v1
+    [2] => /oembed/1.0
+    [3] => /oembed/1.0/embed
+    [4] => /oembed/1.0/proxy
+    [5] => /monsterinsights/v1
+    [6] => /monsterinsights/v1/popular-posts/themes/(?P&lt;type&gt;[a-zA-Z0-9-]+)
+    [7] => /monsterinsights/v1/terms/(?P&lt;slug&gt;[a-zA-Z0-9-_]+)
+    [8] => /monsterinsights/v1/taxonomy/(?P&lt;slug&gt;[a-zA-Z0-9-_]+)
+    [9] => /wp/v2
+    [10] => /wp/v2/posts
+    [11] => /wp/v2/posts/(?P&lt;id&gt;[\d]+)
+    [12] => /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/revisions
+    [13] => /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+    [14] => /wp/v2/posts/(?P&lt;id&gt;[\d]+)/autosaves
+    [15] => /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+    [16] => /wp/v2/pages
+    [17] => /wp/v2/pages/(?P&lt;id&gt;[\d]+)
+    [18] => /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/revisions
+    [19] => /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+    [20] => /wp/v2/pages/(?P&lt;id&gt;[\d]+)/autosaves
+    [21] => /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+    [22] => /wp/v2/media
+    [23] => /wp/v2/media/(?P&lt;id&gt;[\d]+)
+    [24] => /wp/v2/media/(?P&lt;id&gt;[\d]+)/post-process
+    [25] => /wp/v2/media/(?P&lt;id&gt;[\d]+)/edit
+    [26] => /wp/v2/blocks
+    [27] => /wp/v2/blocks/(?P&lt;id&gt;[\d]+)
+    [28] => /wp/v2/blocks/(?P&lt;id&gt;[\d]+)/autosaves
+    [29] => /wp/v2/blocks/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+    [30] => /wp/v2/everest_form
+    [31] => /wp/v2/everest_form/(?P&lt;id&gt;[\d]+)
+    [32] => /wp/v2/everest_form/(?P&lt;id&gt;[\d]+)/autosaves
+    [33] => /wp/v2/everest_form/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+    [34] => /wp/v2/types
+    [35] => /wp/v2/types/(?P&lt;type&gt;[\w-]+)
+    [36] => /wp/v2/statuses
+    [37] => /wp/v2/statuses/(?P&lt;status&gt;[\w-]+)
+    [38] => /wp/v2/taxonomies
+    [39] => /wp/v2/taxonomies/(?P&lt;taxonomy&gt;[\w-]+)
+    [40] => /wp/v2/categories
+    [41] => /wp/v2/categories/(?P&lt;id&gt;[\d]+)
+    [42] => /wp/v2/tags
+    [43] => /wp/v2/tags/(?P&lt;id&gt;[\d]+)
+    [44] => /wp/v2/users
+    [45] => /wp/v2/users/(?P&lt;id&gt;[\d]+)
+    [46] => /wp/v2/users/me
+    [47] => /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords
+    [48] => /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords/introspect
+    [49] => /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords/(?P&lt;uuid&gt;[\w\-]+)
+    [50] => /wp/v2/comments
+    [51] => /wp/v2/comments/(?P&lt;id&gt;[\d]+)
+    [52] => /wp/v2/search
+    [53] => /wp/v2/block-renderer/(?P&lt;name&gt;[a-z0-9-]+/[a-z0-9-]+)
+    [54] => /wp/v2/block-types
+    [55] => /wp/v2/block-types/(?P&lt;namespace&gt;[a-zA-Z0-9_-]+)
+    [56] => /wp/v2/block-types/(?P&lt;namespace&gt;[a-zA-Z0-9_-]+)/(?P&lt;name&gt;[a-zA-Z0-9_-]+)
+    [57] => /wp/v2/settings
+    [58] => /wp/v2/themes
+    [59] => /wp/v2/themes/(?P&lt;stylesheet&gt;[\w-]+)
+    [60] => /wp/v2/plugins
+    [61] => /wp/v2/plugins/(?P&lt;plugin&gt;[^.\/]+(?:\/[^.\/]+)?)
+    [62] => /wp/v2/block-directory/search
+    [63] => /wp-site-health/v1
+    [64] => /wp-site-health/v1/tests/background-updates
+    [65] => /wp-site-health/v1/tests/loopback-requests
+    [66] => /wp-site-health/v1/tests/https-status
+    [67] => /wp-site-health/v1/tests/dotorg-communication
+    [68] => /wp-site-health/v1/tests/authorization-header
+    [69] => /wp-site-health/v1/directory-sizes
+)
+
+[08-Nov-2022 17:59:16 UTC] checking for /
+[08-Nov-2022 17:59:16 UTC] checking for /batch/v1
+[08-Nov-2022 17:59:16 UTC] checking for /oembed/1.0
+[08-Nov-2022 17:59:16 UTC] checking for /oembed/1.0/embed
+[08-Nov-2022 17:59:16 UTC] checking for /oembed/1.0/proxy
+[08-Nov-2022 17:59:16 UTC] checking for /api/v1
+[08-Nov-2022 17:59:16 UTC] checking for /api/v1/token-validate
+[08-Nov-2022 17:59:16 UTC] checking for /api/v1/token
+[08-Nov-2022 17:59:16 UTC] checking for /monsterinsights/v1
+[08-Nov-2022 17:59:16 UTC] checking for /monsterinsights/v1/popular-posts/themes/(?P&lt;type&gt;[a-zA-Z0-9-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /monsterinsights/v1/terms/(?P&lt;slug&gt;[a-zA-Z0-9-_]+)
+[08-Nov-2022 17:59:16 UTC] checking for /monsterinsights/v1/taxonomy/(?P&lt;slug&gt;[a-zA-Z0-9-_]+)
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/user-input-settings
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/site/data/setup-tag
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/site/data/connection
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/authentication
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/disconnect
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/modules/data/list
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/modules/data/activation
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/modules/data/info
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/modules/data/check-access
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/modules/(?P&lt;slug&gt;[a-z0-9\-]+)/data/notifications
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/modules/(?P&lt;slug&gt;[a-z0-9\-]+)/data/settings
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/modules/(?P&lt;slug&gt;[a-z0-9\-]+)/data/(?P&lt;datapoint&gt;[a-z\-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/modules/data/recover-modules
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/dismissed-items
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/dismiss-item
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/permissions
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/survey-trigger
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/survey-event
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/survey-timeout
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/survey-timeouts
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/site/data/reset
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/site/data/reset-persistent
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/site/data/developer-plugin
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/tracking
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/search/data/entity-search
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/site/data/admin-bar-settings
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/site/data/notifications
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/site/data/mark-notification
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/site/data/health-checks
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/dismissed-tours
+[08-Nov-2022 17:59:16 UTC] checking for /google-site-kit/v1/core/user/data/dismiss-tour
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/posts
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/posts/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/revisions
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/posts/(?P&lt;id&gt;[\d]+)/autosaves
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/pages
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/pages/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/revisions
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/pages/(?P&lt;id&gt;[\d]+)/autosaves
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/media
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/media/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/media/(?P&lt;id&gt;[\d]+)/post-process
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/media/(?P&lt;id&gt;[\d]+)/edit
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/menu-items
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/menu-items/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/menu-items/(?P&lt;id&gt;[\d]+)/autosaves
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/menu-items/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/blocks
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/blocks/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/blocks/(?P&lt;parent&gt;[\d]+)/revisions
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/blocks/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/blocks/(?P&lt;id&gt;[\d]+)/autosaves
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/blocks/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/templates
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/templates/lookup
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/templates/(?P&lt;id&gt;([^\/:&lt;&gt;\*\?&quot;\|]+(?:\/[^\/:&lt;&gt;\*\?&quot;\|]+)?)[\/\w-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/templates/(?P&lt;parent&gt;[\d]+)/revisions
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/templates/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/templates/(?P&lt;id&gt;[\d]+)/autosaves
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/templates/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/template-parts
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/template-parts/lookup
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/template-parts/(?P&lt;id&gt;([^\/:&lt;&gt;\*\?&quot;\|]+(?:\/[^\/:&lt;&gt;\*\?&quot;\|]+)?)[\/\w-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/template-parts/(?P&lt;parent&gt;[\d]+)/revisions
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/template-parts/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/template-parts/(?P&lt;id&gt;[\d]+)/autosaves
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/template-parts/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/navigation
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/navigation/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/navigation/(?P&lt;parent&gt;[\d]+)/revisions
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/navigation/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/navigation/(?P&lt;id&gt;[\d]+)/autosaves
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/navigation/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/everest_form
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/everest_form/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/everest_form/(?P&lt;id&gt;[\d]+)/autosaves
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/everest_form/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/types
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/types/(?P&lt;type&gt;[\w-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/statuses
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/statuses/(?P&lt;status&gt;[\w-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/taxonomies
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/taxonomies/(?P&lt;taxonomy&gt;[\w-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/categories
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/categories/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/tags
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/tags/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/menus
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/menus/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/users
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/users/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/users/me
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords/introspect
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords/(?P&lt;uuid&gt;[\w\-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/comments
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/comments/(?P&lt;id&gt;[\d]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/search
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/block-renderer/(?P&lt;name&gt;[a-z0-9-]+/[a-z0-9-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/block-types
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/block-types/(?P&lt;namespace&gt;[a-zA-Z0-9_-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/block-types/(?P&lt;namespace&gt;[a-zA-Z0-9_-]+)/(?P&lt;name&gt;[a-zA-Z0-9_-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/global-styles/themes/(?P&lt;stylesheet&gt;[\/\s%\w\.\(\)\[\]\@_\-]+)/variations
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/global-styles/themes/(?P&lt;stylesheet&gt;[^\/:&lt;&gt;\*\?&quot;\|]+(?:\/[^\/:&lt;&gt;\*\?&quot;\|]+)?)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/global-styles/(?P&lt;id&gt;[\/\w-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/settings
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/themes
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/themes/(?P&lt;stylesheet&gt;[^\/:&lt;&gt;\*\?&quot;\|]+(?:\/[^\/:&lt;&gt;\*\?&quot;\|]+)?)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/plugins
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/plugins/(?P&lt;plugin&gt;[^.\/]+(?:\/[^.\/]+)?)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/sidebars
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/sidebars/(?P&lt;id&gt;[\w-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/widget-types
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/widget-types/(?P&lt;id&gt;[a-zA-Z0-9_-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/widget-types/(?P&lt;id&gt;[a-zA-Z0-9_-]+)/encode
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/widget-types/(?P&lt;id&gt;[a-zA-Z0-9_-]+)/render
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/widgets
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/widgets/(?P&lt;id&gt;[\w\-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/block-directory/search
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/pattern-directory/patterns
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/block-patterns/patterns
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/block-patterns/categories
+[08-Nov-2022 17:59:16 UTC] checking for /wp-site-health/v1
+[08-Nov-2022 17:59:16 UTC] checking for /wp-site-health/v1/tests/background-updates
+[08-Nov-2022 17:59:16 UTC] checking for /wp-site-health/v1/tests/loopback-requests
+[08-Nov-2022 17:59:16 UTC] checking for /wp-site-health/v1/tests/https-status
+[08-Nov-2022 17:59:16 UTC] checking for /wp-site-health/v1/tests/dotorg-communication
+[08-Nov-2022 17:59:16 UTC] checking for /wp-site-health/v1/tests/authorization-header
+[08-Nov-2022 17:59:16 UTC] checking for /wp-site-health/v1/directory-sizes
+[08-Nov-2022 17:59:16 UTC] checking for /wp-site-health/v1/tests/page-cache
+[08-Nov-2022 17:59:16 UTC] checking for /wp-block-editor/v1
+[08-Nov-2022 17:59:16 UTC] checking for /wp-block-editor/v1/url-details
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/menu-locations
+[08-Nov-2022 17:59:16 UTC] checking for /wp/v2/menu-locations/(?P&lt;location&gt;[\w-]+)
+[08-Nov-2022 17:59:16 UTC] checking for /wp-block-editor/v1/export
+[30-Nov-2022 18:23:50 UTC] PHP Warning:  Declaration of WP_SimplePie_Blog_Item::get_id($hash = false) should be compatible with SimplePie_Item::get_id($hash = false, $fn = 'md5') in /home/linuxgur/staging/wp-content/plugins/blogger-importer/blogger-importer-blogitem.php on line 111
+[08-Dec-2022 07:14:55 UTC] PHP Notice:  Undefined offset: 0 in /home/linuxgur/staging/wp-content/plugins/gallery-videos/Includes/Total-Soft-Gallery-Video-New.php on line 126
+[08-Dec-2022 07:14:55 UTC] PHP Notice:  Trying to get property 'GalleryV_ID' of non-object in /home/linuxgur/staging/wp-content/plugins/gallery-videos/Includes/Total-Soft-Gallery-Video-New.php on line 126
+[08-Dec-2022 07:15:16 UTC] PHP Notice:  Undefined variable: TotalSoft_GV_GG_01 in /home/linuxgur/staging/wp-content/plugins/gallery-videos/Includes/Total-Soft-Gallery-Video-Settings.php on line 541
+[08-Dec-2022 07:15:16 UTC] PHP Notice:  Undefined variable: TotalSoft_GV_GG_02 in /home/linuxgur/staging/wp-content/plugins/gallery-videos/Includes/Total-Soft-Gallery-Video-Settings.php on line 553
+[08-Dec-2022 07:15:29 UTC] PHP Notice:  Undefined offset: 0 in /home/linuxgur/staging/wp-content/plugins/gallery-videos/Includes/Total-Soft-Gallery-Video-New.php on line 126
+[08-Dec-2022 07:15:29 UTC] PHP Notice:  Trying to get property 'GalleryV_ID' of non-object in /home/linuxgur/staging/wp-content/plugins/gallery-videos/Includes/Total-Soft-Gallery-Video-New.php on line 126
+[10-Dec-2022 07:00:42 UTC] WordPress database error Table 'linuxgur_stage.wp_aioseo_cache' doesn't exist for query SELECT 
+	`key`, `value`
+FROM wp_aioseo_cache
+WHERE 1 = 1 AND
+	( `expiration` IS NULL OR `expiration` > '2022-12-10 07:00:42' )
+	AND `key` = 'activation_redirect'
+/* 1 = 1 */ made by do_action('wp_ajax_monsterinsights_activate_addon'), WP_Hook->do_action, WP_Hook->apply_filters, monsterinsights_ajax_activate_addon, activate_plugin, do_action('activate_all-in-one-seo-pack/all_in_one_seo_pack.php'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Main\Activate->activate, AIOSEO\Plugin\Common\Utils\Cache->clear, AIOSEO\Plugin\Common\Utils\Cache->get, AIOSEO\Plugin\Common\Utils\Database->run
+[10-Dec-2022 07:00:42 UTC] WordPress database error Table 'linuxgur_stage.wp_aioseo_cache' doesn't exist for query TRUNCATE TABLE wp_aioseo_cache
+/* 1 = 1 */ made by do_action('wp_ajax_monsterinsights_activate_addon'), WP_Hook->do_action, WP_Hook->apply_filters, monsterinsights_ajax_activate_addon, activate_plugin, do_action('activate_all-in-one-seo-pack/all_in_one_seo_pack.php'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Main\Activate->activate, AIOSEO\Plugin\Common\Utils\Cache->clear, AIOSEO\Plugin\Common\Utils\Database->run
+[10-Dec-2022 07:00:42 UTC] WordPress database error Table 'linuxgur_stage.wp_aioseo_cache' doesn't exist for query INSERT INTO wp_aioseo_cache
+SET `key` = 'activation_redirect', `value` = 'b:1;', `expiration` = '2022-12-10 07:01:12', `created` = '2022-12-10 07:00:42', `updated` = '2022-12-10 07:00:42'
+ON DUPLICATE KEY UPDATE `value` = 'b:1;', `expiration` = '2022-12-10 07:01:12', `updated` = '2022-12-10 07:00:42'
+/* 1 = 1 */ made by do_action('wp_ajax_monsterinsights_activate_addon'), WP_Hook->do_action, WP_Hook->apply_filters, monsterinsights_ajax_activate_addon, activate_plugin, do_action('activate_all-in-one-seo-pack/all_in_one_seo_pack.php'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Main\Activate->activate, AIOSEO\Plugin\Common\Main\Activate->maybeRunSetupWizard, AIOSEO\Plugin\Common\Utils\Cache->update, AIOSEO\Plugin\Common\Utils\Database->run
+[10-Dec-2022 07:01:38 UTC] PHP Warning:  chmod(): No such file or directory in /home/linuxgur/staging/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[10-Dec-2022 07:02:06 UTC] PHP Warning:  chmod(): No such file or directory in /home/linuxgur/staging/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[10-Dec-2022 07:02:06 UTC] PHP Warning:  unlink(/tmp/optinmonster.2.11.1.zip): No such file or directory in /home/linuxgur/staging/wp-content/plugins/google-analytics-for-wordpress/includes/admin/licensing/plugin-upgrader.php on line 363
+[10-Dec-2022 07:02:28 UTC] PHP Warning:  chmod(): No such file or directory in /home/linuxgur/staging/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[10-Dec-2022 07:02:28 UTC] PHP Warning:  unlink(/tmp/wpforms-lite.1.7.8.zip): No such file or directory in /home/linuxgur/staging/wp-content/plugins/google-analytics-for-wordpress/includes/admin/licensing/plugin-upgrader.php on line 363

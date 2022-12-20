@@ -1,0 +1,4 @@
+[02-Dec-2022 01:34:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/linuxgur/public_html/wp-admin/user/menu.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/linuxgur/public_html/wp-admin/user/menu.php on line 10

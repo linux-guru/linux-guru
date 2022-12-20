@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+	<head>
+		<meta charset="<?php bloginfo( 'charset' ); ?>">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="profile" href="https://gmpg.org/xfn/11">
+		<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
+			<link rel="pingback" href="<?php echo esc_url(get_bloginfo( 'pingback_url' )); ?>">
+		<?php endif; ?>
+
+		<?php wp_head(); ?>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6591383935065806"
+     crossorigin="anonymous"></script>
+	</head>
+
+
+
+<body <?php body_class('avail-theme header-default header-transparent'); ?>>
+<?php wp_body_open(); ?>
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'avail' ); ?></a>
+	
+	<?php get_template_part('template-parts/sections/section','header'); ?>
+	
+	<div id="content" class="avril-content">
+	

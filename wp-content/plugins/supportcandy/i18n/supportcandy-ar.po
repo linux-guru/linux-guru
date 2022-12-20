@@ -1,0 +1,4251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SupportCandy\n"
+"POT-Creation-Date: 2022-07-23 10:30+0530\n"
+"PO-Revision-Date: 2022-07-26 14:51+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: supportcandy.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: class-wpsc-installation.php:312
+msgid "ID"
+msgstr "المعرف"
+
+#: class-wpsc-installation.php:326 class-wpsc-installation.php:1411
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:644
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:86
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:78
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:272
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:684
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:769
+msgid "Customer"
+msgstr "العميل"
+
+#: class-wpsc-installation.php:327
+msgid "Select customer for whom you wish to create a ticket"
+msgstr "حدد العميل الذي ترغب في إنشاء تذكرة له"
+
+#: class-wpsc-installation.php:342
+#: includes/admin/customers/class-wpsc-customers.php:72
+#: includes/admin/customers/class-wpsc-customers.php:226
+#: includes/admin/settings/class-wpsc-ticket-categories.php:51
+#: includes/admin/settings/class-wpsc-ticket-categories.php:138
+#: includes/admin/settings/class-wpsc-ticket-categories.php:280
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:53
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:139
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:302
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:55
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:138
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:304
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:383
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1832
+#: includes/admin/tickets/class-wpsc-new-ticket.php:483
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1892
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:137
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:383
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:739
+#: includes/class-wpsc-current-user.php:681
+msgid "Name"
+msgstr "الاسم"
+
+#: class-wpsc-installation.php:343
+msgid "Please insert your name"
+msgstr "يرجى إدخال اسمك"
+
+#: class-wpsc-installation.php:360
+#: includes/admin/customers/class-wpsc-customers.php:230
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1840
+#: includes/admin/tickets/class-wpsc-new-ticket.php:493
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:392
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:746
+#: includes/class-wpsc-current-user.php:418
+#: includes/class-wpsc-current-user.php:682
+#: includes/custom-field-types/class-wpsc-cf-email.php:195
+#: includes/frontend/class-wpsc-shortcode-three.php:107
+msgid "Email Address"
+msgstr "البريد الإلكتروني"
+
+#: class-wpsc-installation.php:361
+msgid "Please insert your email address"
+msgstr "يرجى إدخال عنوان بريدك الإلكتروني"
+
+#: class-wpsc-installation.php:378
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:59
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:381
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:59
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:453
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1505
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1752
+msgid "Subject"
+msgstr "الموضوع"
+
+#: class-wpsc-installation.php:379
+msgid "Short description of the ticket"
+msgstr "وصف مختصر لللتذكرة"
+
+#: class-wpsc-installation.php:395
+msgid "Description"
+msgstr "الوصف"
+
+#: class-wpsc-installation.php:396
+msgid "Detailed description of the ticket"
+msgstr "وصف تفصيلي للتذكرة"
+
+#: class-wpsc-installation.php:411
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:113
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:370
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:208
+msgid "Status"
+msgstr "الحالة"
+
+#: class-wpsc-installation.php:412
+msgid "Please select status"
+msgstr "يرجى تحديد الحالة"
+
+#: class-wpsc-installation.php:429
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:209
+msgid "Priority"
+msgstr "الأولوية"
+
+#: class-wpsc-installation.php:430
+msgid "Please select priority"
+msgstr "يرجى تحديد الأولوية"
+
+#: class-wpsc-installation.php:447
+msgid "Category"
+msgstr "الفئة"
+
+#: class-wpsc-installation.php:448
+msgid "Please select category"
+msgstr "يرجى تحديد الفئة"
+
+#: class-wpsc-installation.php:465 class-wpsc-installation.php:1413
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:645
+msgid "Assignee"
+msgstr "المكلف"
+
+#: class-wpsc-installation.php:466
+msgid "Please select an agent"
+msgstr "يرجى تحديد وكيل"
+
+#: class-wpsc-installation.php:482
+msgid "Date Created"
+msgstr "تاريخ الإنشاء"
+
+#: class-wpsc-installation.php:497
+msgid "Date Updated"
+msgstr "تاريخ التحديث"
+
+#: class-wpsc-installation.php:512
+msgid "Agent Created"
+msgstr "تم إنشاء وكيل"
+
+#: class-wpsc-installation.php:526
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:457
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1853
+msgid "IP Address"
+msgstr "عنوان الأي بي"
+
+#: class-wpsc-installation.php:541
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1848
+#: includes/models/class-wpsc-attachment.php:612
+#: includes/models/class-wpsc-attachment.php:785
+msgid "Source"
+msgstr "المصدر"
+
+#: class-wpsc-installation.php:555
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:461
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1858
+#: includes/custom-field-types/class-wpsc-df-source.php:199
+msgid "Browser"
+msgstr "المتصفح"
+
+#: class-wpsc-installation.php:569
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:465
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1863
+msgid "Operating System"
+msgstr "نظام التشغيل"
+
+#: class-wpsc-installation.php:583
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:656
+msgid "Additional Recipients"
+msgstr "مستلم إضافي"
+
+#: class-wpsc-installation.php:584
+msgid "Please insert email addresses (one per line)"
+msgstr "يرجى إدخال عناوين البريد الإلكتروني (واحد كل سطر)"
+
+#: class-wpsc-installation.php:600
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:649
+msgid "Previous Assignee"
+msgstr "المكلف السابق"
+
+#: class-wpsc-installation.php:615
+msgid "Date Closed"
+msgstr "تاريخ الإغلاق"
+
+#: class-wpsc-installation.php:631
+msgid "User Type"
+msgstr "نوع المستخدم"
+
+#: class-wpsc-installation.php:646
+msgid "Last Reply On"
+msgstr "آخر رد كان في"
+
+#: class-wpsc-installation.php:662
+msgid "Last Reply By"
+msgstr "آخر رد كان بواسطة"
+
+#: class-wpsc-installation.php:678
+#: includes/admin/settings/appearence/class-wpsc-appearence-settings.php:51
+#: includes/admin/settings/general-settings/class-wpsc-gs.php:51
+msgid "General"
+msgstr "عام"
+
+#: class-wpsc-installation.php:689
+msgid "Open"
+msgstr "مفتوح"
+
+#: class-wpsc-installation.php:701
+msgid "Awaiting customer reply"
+msgstr "في انتظار رد العميل"
+
+#: class-wpsc-installation.php:713
+msgid "Awaiting agent reply"
+msgstr "في انتظار رد الوكيل"
+
+#: class-wpsc-installation.php:725 class-wpsc-installation.php:1008
+#: class-wpsc-installation.php:1056
+msgid "Closed"
+msgstr "تم قفله"
+
+#: class-wpsc-installation.php:738
+msgid "Low"
+msgstr "منخفض"
+
+#: class-wpsc-installation.php:750
+msgid "Medium"
+msgstr "متوسط"
+
+#: class-wpsc-installation.php:762
+msgid "High"
+msgstr "عالي"
+
+#: class-wpsc-installation.php:1004 class-wpsc-installation.php:1054
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1874
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:119
+#: includes/custom-field-types/class-wpsc-cf-date.php:962
+#: includes/custom-field-types/class-wpsc-cf-date.php:1151
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:942
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1138
+#: includes/custom-field-types/class-wpsc-cf-time.php:687
+#: includes/custom-field-types/class-wpsc-cf-time.php:876
+msgid "All"
+msgstr "الكل"
+
+#: class-wpsc-installation.php:1005 class-wpsc-installation.php:1055
+msgid "Unresolved"
+msgstr "دون حل"
+
+#: class-wpsc-installation.php:1006
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:153
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:172
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:191
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:210
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:229
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:248
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:267
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:286
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:305
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:324
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:343
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:362
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:381
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:577
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:596
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:615
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:634
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:653
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:672
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:691
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:710
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:729
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:748
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:767
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:786
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:805
+msgid "Unassigned"
+msgstr "غير مخصص"
+
+#: class-wpsc-installation.php:1007
+msgid "Mine"
+msgstr "خاصتي"
+
+#: class-wpsc-installation.php:1009
+msgid "Deleted"
+msgstr "المحذوف"
+
+#: class-wpsc-installation.php:1410
+msgid "Ticket status"
+msgstr "حالة التذكرة"
+
+#: class-wpsc-installation.php:1412
+msgid "Ticket info"
+msgstr "معلومات عن التذكرة"
+
+#: class-wpsc-installation.php:1414
+msgid "Ticket fields"
+msgstr "حقول التذكرة"
+
+#: class-wpsc-installation.php:1415
+msgid "Agent only fields"
+msgstr "الحقول الخاصة فقط بالوكيل"
+
+#: class-wpsc-installation.php:1416
+msgid "Additional recipients"
+msgstr "مستلمون إضافيون"
+
+#: class-wpsc-installation.php:1417
+msgid "Biographical Info"
+msgstr "معلومات السيرة الذاتية"
+
+#. translators: %1$s: attachment max file size, %2$s: allowed file extenstions.
+#: class-wpsc-installation.php:1496
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:34
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:34
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:34
+#, php-format
+msgid "You can upload files maximum size %1$s mb of types %2$s."
+msgstr "يمكنك تحميل ملفات بحجم أقصى %1$s ميجابايت من الأنواع %2$s."
+
+#: framework/class-wpsc-framework.php:335
+msgid "Please wait..."
+msgstr "يرجى الانتظار..."
+
+#: framework/class-wpsc-framework.php:336
+msgid "Requied fields missing!"
+msgstr "الحقول المطلوبة مفقودة!"
+
+#: framework/class-wpsc-framework.php:337
+msgid "Are you sure?"
+msgstr "هل أنت متأكد؟"
+
+#: framework/class-wpsc-framework.php:338
+msgid "Something went wrong!"
+msgstr "حدث خطأ ما!"
+
+#: framework/class-wpsc-framework.php:339
+msgid "View more!"
+msgstr "عرض المزيد!"
+
+#: framework/class-wpsc-framework.php:340
+msgid "View less!"
+msgstr "عرض أقل!"
+
+#: framework/class-wpsc-framework.php:341
+msgid ""
+"There is unposted text in the reply area. Are you sure you want to discard "
+"and proceed?"
+msgstr ""
+"هناك نص غير مرسل في منطقة الرد. هل أنت متأكد من أنك تريد التجاهل والمضي قدمًا؟"
+
+#: framework/class-wpsc-framework.php:342
+msgid "Incorrect username or password!"
+msgstr "اسم مستخدم أو كلمة مرور غير صحيحة!"
+
+#: framework/class-wpsc-framework.php:343
+msgid "Incorrect password!"
+msgstr "كلمة مرور غير صحيحة!"
+
+#: framework/class-wpsc-framework.php:344
+#: includes/class-wpsc-current-user.php:396
+msgid "Username is already taken!"
+msgstr "اسم المستخدم مسجل بالفعل!"
+
+#: framework/class-wpsc-framework.php:345
+msgid "Incorrect email address!"
+msgstr "بريد إلكتروني غير صحيح!"
+
+#: framework/class-wpsc-framework.php:346
+msgid "Ticket URL copied!"
+msgstr "تم نسخ رابط عنوان التذكرة!"
+
+#: framework/class-wpsc-framework.php:347
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:376
+#: includes/custom-field-types/class-wpsc-cf-email.php:471
+#: includes/custom-field-types/class-wpsc-df-customer-email.php:246
+msgid "Invalid email address!"
+msgstr "بريد إلكتروني غير صالح!"
+
+#: global-functions.php:31
+msgid "Please activate your license!"
+msgstr "يرجى تفعيل رخصتك!"
+
+#: global-functions.php:34
+msgid "Your license key activated!"
+msgstr "تم تفعيل مفتاح رخصتك!"
+
+#. translators: %s: date
+#: global-functions.php:38
+#, php-format
+msgid "Your license key expires on %s"
+msgstr "سينتهي مفتاح رخصتك في %s"
+
+#. translators: %s: date
+#: global-functions.php:42
+#, php-format
+msgid "Your license key expired on %s"
+msgstr "انتهى مفتاح رخصتك في %s"
+
+#: global-functions.php:45
+msgid "View Details"
+msgstr "عرض التفاصيل"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:42
+#: includes/admin/agent-settings/class-wpsc-support-agents.php:88
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:72
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:444
+msgid "Leaves"
+msgstr "الرخص"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:90
+msgid "Are you sure to delete this leave?"
+msgstr "هل أنت متأكد من حذف هذه الرخصة؟"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:226
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:70
+#: includes/admin/agent-settings/class-wpsc-support-agents.php:70
+msgid "Agents"
+msgstr "الوكلاء"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:233
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:539
+#: includes/models/class-wpsc-holiday.php:492
+msgid "Repeate every year"
+msgstr "تكرر كل عام"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:236
+#: includes/admin/custom-fields/class-wpsc-tff.php:207
+#: includes/admin/custom-fields/class-wpsc-tff.php:459
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:77
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:68
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:60
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:68
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:71
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:80
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:109
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:71
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:80
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:109
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:71
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:80
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:109
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:526
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:791
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:525
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:789
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:542
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1873
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:238
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:247
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:280
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:307
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:316
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:103
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:326
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:335
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:365
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:171
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:180
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:292
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:301
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:104
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:942
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:955
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:976
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:985
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1049
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1078
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1094
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1110
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1220
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1249
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1265
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1281
+#: includes/custom-field-types/class-wpsc-cf-date.php:936
+#: includes/custom-field-types/class-wpsc-cf-date.php:1036
+#: includes/custom-field-types/class-wpsc-cf-date.php:1052
+#: includes/custom-field-types/class-wpsc-cf-date.php:1068
+#: includes/custom-field-types/class-wpsc-cf-date.php:1125
+#: includes/custom-field-types/class-wpsc-cf-date.php:1225
+#: includes/custom-field-types/class-wpsc-cf-date.php:1241
+#: includes/custom-field-types/class-wpsc-cf-date.php:1257
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:916
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1020
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1036
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1052
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1112
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1220
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1236
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1252
+#: includes/custom-field-types/class-wpsc-cf-email.php:860
+#: includes/custom-field-types/class-wpsc-cf-email.php:902
+#: includes/custom-field-types/class-wpsc-cf-email.php:918
+#: includes/custom-field-types/class-wpsc-cf-email.php:934
+#: includes/custom-field-types/class-wpsc-cf-email.php:985
+#: includes/custom-field-types/class-wpsc-cf-email.php:1027
+#: includes/custom-field-types/class-wpsc-cf-email.php:1043
+#: includes/custom-field-types/class-wpsc-cf-email.php:1059
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:664
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:680
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:696
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:733
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:749
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:765
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:650
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:666
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:682
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:719
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:735
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:751
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:920
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:962
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:978
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:994
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1104
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1146
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1162
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1178
+#: includes/custom-field-types/class-wpsc-cf-number.php:943
+#: includes/custom-field-types/class-wpsc-cf-number.php:998
+#: includes/custom-field-types/class-wpsc-cf-number.php:1014
+#: includes/custom-field-types/class-wpsc-cf-number.php:1030
+#: includes/custom-field-types/class-wpsc-cf-number.php:1081
+#: includes/custom-field-types/class-wpsc-cf-number.php:1136
+#: includes/custom-field-types/class-wpsc-cf-number.php:1152
+#: includes/custom-field-types/class-wpsc-cf-number.php:1168
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:852
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:865
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:886
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:895
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:961
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:990
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1006
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1022
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1127
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1156
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1172
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1188
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:861
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:903
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:919
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:935
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1040
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1082
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1098
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1114
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:869
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:924
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:940
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:956
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1007
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1062
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1078
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1094
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:823
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:865
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:881
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:897
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:948
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:990
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1006
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1022
+#: includes/custom-field-types/class-wpsc-cf-time.php:661
+#: includes/custom-field-types/class-wpsc-cf-time.php:769
+#: includes/custom-field-types/class-wpsc-cf-time.php:785
+#: includes/custom-field-types/class-wpsc-cf-time.php:801
+#: includes/custom-field-types/class-wpsc-cf-time.php:863
+#: includes/custom-field-types/class-wpsc-cf-time.php:977
+#: includes/custom-field-types/class-wpsc-cf-time.php:993
+#: includes/custom-field-types/class-wpsc-cf-time.php:1009
+#: includes/custom-field-types/class-wpsc-cf-url.php:859
+#: includes/custom-field-types/class-wpsc-cf-url.php:901
+#: includes/custom-field-types/class-wpsc-cf-url.php:917
+#: includes/custom-field-types/class-wpsc-cf-url.php:933
+#: includes/custom-field-types/class-wpsc-cf-url.php:984
+#: includes/custom-field-types/class-wpsc-cf-url.php:1026
+#: includes/custom-field-types/class-wpsc-cf-url.php:1042
+#: includes/custom-field-types/class-wpsc-cf-url.php:1058
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:664
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:674
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:749
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:759
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:988
+#: includes/custom-field-types/class-wpsc-df-category.php:618
+#: includes/custom-field-types/class-wpsc-df-description.php:576
+#: includes/custom-field-types/class-wpsc-df-priority.php:616
+#: includes/custom-field-types/class-wpsc-df-subject.php:606
+#: includes/models/class-wpsc-holiday.php:495
+msgid "No"
+msgstr "لا"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:237
+#: includes/admin/custom-fields/class-wpsc-tff.php:206
+#: includes/admin/custom-fields/class-wpsc-tff.php:458
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:76
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:67
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:59
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:67
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:70
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:79
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:108
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:70
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:79
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:108
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:70
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:79
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:108
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:525
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:790
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:524
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:788
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:543
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:237
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:246
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:279
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:306
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:315
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:102
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:325
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:334
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:364
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:170
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:179
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:291
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:300
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:103
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:943
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:956
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:975
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:984
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1050
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1079
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1095
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1111
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1221
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1250
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1266
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1282
+#: includes/custom-field-types/class-wpsc-cf-date.php:937
+#: includes/custom-field-types/class-wpsc-cf-date.php:1037
+#: includes/custom-field-types/class-wpsc-cf-date.php:1053
+#: includes/custom-field-types/class-wpsc-cf-date.php:1069
+#: includes/custom-field-types/class-wpsc-cf-date.php:1126
+#: includes/custom-field-types/class-wpsc-cf-date.php:1226
+#: includes/custom-field-types/class-wpsc-cf-date.php:1242
+#: includes/custom-field-types/class-wpsc-cf-date.php:1258
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:917
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1021
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1037
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1053
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1113
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1221
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1237
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1253
+#: includes/custom-field-types/class-wpsc-cf-email.php:861
+#: includes/custom-field-types/class-wpsc-cf-email.php:903
+#: includes/custom-field-types/class-wpsc-cf-email.php:919
+#: includes/custom-field-types/class-wpsc-cf-email.php:935
+#: includes/custom-field-types/class-wpsc-cf-email.php:986
+#: includes/custom-field-types/class-wpsc-cf-email.php:1028
+#: includes/custom-field-types/class-wpsc-cf-email.php:1044
+#: includes/custom-field-types/class-wpsc-cf-email.php:1060
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:665
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:681
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:697
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:734
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:750
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:766
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:651
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:667
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:683
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:720
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:736
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:752
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:921
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:963
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:979
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:995
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1105
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1147
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1163
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1179
+#: includes/custom-field-types/class-wpsc-cf-number.php:944
+#: includes/custom-field-types/class-wpsc-cf-number.php:999
+#: includes/custom-field-types/class-wpsc-cf-number.php:1015
+#: includes/custom-field-types/class-wpsc-cf-number.php:1031
+#: includes/custom-field-types/class-wpsc-cf-number.php:1082
+#: includes/custom-field-types/class-wpsc-cf-number.php:1137
+#: includes/custom-field-types/class-wpsc-cf-number.php:1153
+#: includes/custom-field-types/class-wpsc-cf-number.php:1169
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:853
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:866
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:885
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:894
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:962
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:991
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1007
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1023
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1128
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1157
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1173
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1189
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:862
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:904
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:920
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:936
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1041
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1083
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1099
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1115
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:870
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:925
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:941
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:957
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1008
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1063
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1079
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1095
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:824
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:866
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:882
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:898
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:949
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:991
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1007
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1023
+#: includes/custom-field-types/class-wpsc-cf-time.php:662
+#: includes/custom-field-types/class-wpsc-cf-time.php:770
+#: includes/custom-field-types/class-wpsc-cf-time.php:786
+#: includes/custom-field-types/class-wpsc-cf-time.php:802
+#: includes/custom-field-types/class-wpsc-cf-time.php:864
+#: includes/custom-field-types/class-wpsc-cf-time.php:978
+#: includes/custom-field-types/class-wpsc-cf-time.php:994
+#: includes/custom-field-types/class-wpsc-cf-time.php:1010
+#: includes/custom-field-types/class-wpsc-cf-url.php:860
+#: includes/custom-field-types/class-wpsc-cf-url.php:902
+#: includes/custom-field-types/class-wpsc-cf-url.php:918
+#: includes/custom-field-types/class-wpsc-cf-url.php:934
+#: includes/custom-field-types/class-wpsc-cf-url.php:985
+#: includes/custom-field-types/class-wpsc-cf-url.php:1027
+#: includes/custom-field-types/class-wpsc-cf-url.php:1043
+#: includes/custom-field-types/class-wpsc-cf-url.php:1059
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:663
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:673
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:748
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:758
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:989
+#: includes/custom-field-types/class-wpsc-df-category.php:619
+#: includes/custom-field-types/class-wpsc-df-description.php:577
+#: includes/custom-field-types/class-wpsc-df-priority.php:617
+#: includes/custom-field-types/class-wpsc-df-subject.php:607
+#: includes/models/class-wpsc-holiday.php:496
+msgid "Yes"
+msgstr "نعم"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:285
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:427
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:853
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:224
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:359
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:214
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:615
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:875
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:410
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:616
+#: includes/admin/custom-fields/class-wpsc-tff.php:293
+#: includes/admin/custom-fields/class-wpsc-tff.php:604
+#: includes/admin/customers/class-wpsc-customers.php:353
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:145
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:106
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:228
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:505
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:146
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:100
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:161
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:121
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:138
+#: includes/admin/settings/class-wpsc-ticket-categories.php:173
+#: includes/admin/settings/class-wpsc-ticket-categories.php:320
+#: includes/admin/settings/class-wpsc-ticket-categories.php:467
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:185
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:353
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:510
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:187
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:358
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:515
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:89
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:236
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:215
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:143
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:284
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:167
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:100
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:77
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:145
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-advanced.php:69
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:135
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:135
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:135
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:79
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:283
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:561
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:827
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1132
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1314
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1456
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:284
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:560
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:825
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1130
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1313
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1455
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:312
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:507
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:620
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:566
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:616
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1520
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1768
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2096
+#: includes/admin/tickets/class-wpsc-new-ticket.php:184
+#: includes/admin/tickets/class-wpsc-new-ticket.php:507
+#: includes/admin/tickets/class-wpsc-ticket-list.php:839
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1762
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1949
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:139
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:282
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:198
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:314
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:204
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:350
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:137
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:224
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:378
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:214
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:408
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:894
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:204
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:335
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:138
+#: includes/class-wpsc-current-user.php:560
+#: includes/class-wpsc-current-user.php:739
+#: includes/custom-field-types/class-wpsc-df-subject.php:486
+#: includes/frontend/class-wpsc-shortcode-three.php:116
+#: includes/frontend/class-wpsc-shortcode-three.php:295
+#: includes/models/class-wpsc-attachment.php:731
+#: includes/models/class-wpsc-attachment.php:866
+#: includes/models/class-wpsc-holiday.php:519
+#: includes/models/class-wpsc-wh-exception.php:595
+#: includes/models/class-wpsc-wh-exception.php:821
+#: includes/models/class-wpsc-working-hour.php:457
+msgid "Submit"
+msgstr "إرسال"
+
+#: includes/admin/agent-settings/class-wpsc-agent-leaves.php:288
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:430
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:856
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:227
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:362
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:620
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:880
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:414
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:620
+#: includes/admin/custom-fields/class-wpsc-tff.php:296
+#: includes/admin/custom-fields/class-wpsc-tff.php:607
+#: includes/admin/customers/class-wpsc-customers.php:356
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:231
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:510
+#: includes/admin/settings/class-wpsc-ticket-categories.php:176
+#: includes/admin/settings/class-wpsc-ticket-categories.php:323
+#: includes/admin/settings/class-wpsc-ticket-categories.php:470
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:188
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:356
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:513
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:190
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:361
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:518
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:286
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:564
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:830
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1135
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1317
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1459
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:287
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:563
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:828
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1133
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1316
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1458
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:569
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1523
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1771
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2097
+#: includes/admin/tickets/class-wpsc-new-ticket.php:510
+#: includes/admin/tickets/class-wpsc-ticket-list.php:842
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1219
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1268
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1533
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1765
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1952
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:142
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:285
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:201
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:317
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:207
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:353
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:140
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:227
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:381
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:217
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:411
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:897
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:207
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:338
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:141
+#: includes/class-wpsc-current-user.php:450
+#: includes/class-wpsc-current-user.php:684
+#: includes/custom-field-types/class-wpsc-df-subject.php:489
+#: includes/frontend/class-wpsc-shortcode-three.php:117
+#: includes/models/class-wpsc-attachment.php:734
+#: includes/models/class-wpsc-attachment.php:869
+#: includes/models/class-wpsc-holiday.php:522
+#: includes/models/class-wpsc-wh-exception.php:598
+#: includes/models/class-wpsc-wh-exception.php:824
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:45
+#: includes/admin/agent-settings/class-wpsc-support-agents.php:76
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:683
+msgid "Agent Roles"
+msgstr "أدوار الوكيل"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:53
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:81
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:336
+msgid "Role"
+msgstr "الدور"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:54
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:82
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:370
+#: includes/admin/custom-fields/class-wpsc-aof.php:76
+#: includes/admin/custom-fields/class-wpsc-cf.php:76
+#: includes/admin/custom-fields/class-wpsc-tf.php:73
+#: includes/admin/custom-fields/class-wpsc-tff.php:62
+#: includes/admin/customers/class-wpsc-customers.php:75
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:114
+#: includes/admin/settings/class-wpsc-ticket-categories.php:52
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:54
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:56
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:161
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1009
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:160
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1006
+#: includes/class-wpsc-macros.php:191
+#: includes/models/class-wpsc-wh-exception.php:419
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:65
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:95
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:391
+#: includes/admin/custom-fields/class-wpsc-aof.php:90
+#: includes/admin/custom-fields/class-wpsc-cf.php:90
+#: includes/admin/custom-fields/class-wpsc-tf.php:87
+#: includes/admin/custom-fields/class-wpsc-tff.php:76
+#: includes/admin/customers/class-wpsc-customers.php:158
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:127
+#: includes/admin/settings/class-wpsc-ticket-categories.php:63
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:65
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:67
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:176
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1023
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:174
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1020
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:370
+#: includes/admin/tickets/class-wpsc-ticket-list.php:476
+#: includes/models/class-wpsc-wh-exception.php:446
+msgid "Edit"
+msgstr "تحرير"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:69
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:96
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:392
+#: includes/admin/custom-fields/class-wpsc-aof.php:95
+#: includes/admin/custom-fields/class-wpsc-cf.php:95
+#: includes/admin/custom-fields/class-wpsc-tf.php:92
+#: includes/admin/custom-fields/class-wpsc-tff.php:81
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:129
+#: includes/admin/settings/class-wpsc-ticket-categories.php:67
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:69
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:69
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:177
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1024
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:175
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1021
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:301
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:378
+#: includes/admin/tickets/class-wpsc-ticket-list.php:483
+#: includes/admin/tickets/class-wpsc-ticket-list.php:2134
+#: includes/models/class-wpsc-wh-exception.php:447
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:93
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:132
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:117
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:156
+#: includes/admin/custom-fields/class-wpsc-aof.php:118
+#: includes/admin/custom-fields/class-wpsc-cf.php:118
+#: includes/admin/custom-fields/class-wpsc-tf.php:115
+#: includes/admin/custom-fields/class-wpsc-tff.php:105
+#: includes/admin/custom-fields/class-wpsc-tff.php:254
+#: includes/admin/custom-fields/class-wpsc-tff.php:558
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:150
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:190
+#: includes/admin/settings/class-wpsc-ticket-categories.php:92
+#: includes/admin/settings/class-wpsc-ticket-categories.php:130
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:94
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:131
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:94
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:130
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:197
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:414
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:486
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:748
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1045
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:195
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:413
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:485
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:746
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1041
+#: includes/admin/tickets/class-wpsc-new-ticket.php:113
+#: includes/admin/tickets/class-wpsc-new-ticket.php:473
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1133
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1452
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:903
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1022
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1179
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:893
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1063
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:820
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:932
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1091
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:832
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1004
+#: includes/models/class-wpsc-wh-exception.php:467
+msgid "Add new"
+msgstr "إضافة جديد"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:140
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:564
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:324
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:555
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:454
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:668
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:453
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:667
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1252
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1380
+msgid "Label"
+msgstr "ملصق"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:148
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:572
+msgid "View Tickets"
+msgstr "عرض التذاكر"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:157
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:176
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:195
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:214
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:233
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:252
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:271
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:290
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:309
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:328
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:347
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:366
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:385
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:581
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:600
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:619
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:638
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:657
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:676
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:695
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:714
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:733
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:752
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:771
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:790
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:809
+msgid "Assigned to me"
+msgstr "الموكلة إلي"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:161
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:180
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:199
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:218
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:237
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:256
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:275
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:294
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:313
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:332
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:351
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:370
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:389
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:585
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:604
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:623
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:642
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:661
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:680
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:699
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:718
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:737
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:756
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:775
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:794
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:813
+msgid "Assigned to others"
+msgstr "الموكلة إلى آخرين"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:167
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:591
+msgid "Reply Tickets"
+msgstr "رد على التذاكر"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:186
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:610
+msgid "Private Notes"
+msgstr "ملاحظات خاصة"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:205
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:629
+#: includes/admin/tickets/class-wpsc-ticket-list.php:2125
+msgid "Assign Agents"
+msgstr "تعيين وكلاء"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:224
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:648
+#: includes/admin/tickets/class-wpsc-ticket-list.php:2116
+msgid "Change Status"
+msgstr "تغيير الحالة"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:243
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:667
+msgid "Change Ticket Fields"
+msgstr "تغيير حقول التذكرة"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:262
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:686
+msgid "Change Agent Only Fields"
+msgstr "تغيير الحقول الخاصة فقط بالوكيل"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:281
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:705
+msgid "Change Raised By"
+msgstr "تم التغيير بواسطة"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:300
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:724
+msgid "Modify Additional Recipients"
+msgstr "تعديل المستلمين الإضافيين"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:319
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:743
+msgid "Edit Threads"
+msgstr "تحرير المواضيع"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:338
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:762
+msgid "Delete Threads"
+msgstr "حذف المواضيع"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:357
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:781
+msgid "View Logs"
+msgstr "عرض السجلات"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:376
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:800
+msgid "Delete Ticket"
+msgstr "حذف التذكرة"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:396
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:820
+msgid "Other permissions"
+msgstr "أذونات أخرى"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:401
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:825
+msgid "WP dashboard accees"
+msgstr "الوصول إلى لوحة تحكم وورد بريس"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:405
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:829
+msgid "Create ticket on others behalf"
+msgstr "إنشاء تذكرة نيابة عن آخري"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:409
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:833
+msgid "Deleted filter access"
+msgstr "الوصول إلى معامل التصفية المحذوف"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:413
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:837
+#: includes/admin/customers/class-wpsc-customers.php:308
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:828
+msgid "Edit customer info"
+msgstr "تحرير معلومات العميل"
+
+#: includes/admin/agent-settings/class-wpsc-agent-roles.php:556
+msgid "Edit role"
+msgstr "تحرير الدور"
+
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:79
+msgid "Agent name"
+msgstr "اسم الوكيل"
+
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:80
+msgid "Agent Email"
+msgstr "البريد الإلكتروني للوكيل"
+
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:163
+msgid "Select users"
+msgstr "اختر المستخدمين"
+
+#: includes/admin/agent-settings/class-wpsc-agent-settings.php:202
+msgid "Select role"
+msgstr "اختر الدور"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:82
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:93
+#: includes/admin/agent-settings/class-wpsc-support-agents.php:82
+#: includes/admin/settings/class-wpsc-settings.php:112
+#: includes/admin/settings/working-hrs/class-wpsc-working-hrs.php:51
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:323
+msgid "Working Hours"
+msgstr "ساعات العمل"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:86
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:79
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:273
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:125
+#: includes/class-wpsc-ticket-conditions.php:316
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:683
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:768
+msgid "Agent"
+msgstr "الوكيل"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:94
+#: includes/admin/settings/working-hrs/class-wpsc-working-hrs.php:61
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:324
+msgid "Exceptions"
+msgstr "الاستثناءات"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:367
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:530
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:785
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:111
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:198
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:354
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:228
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:270
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:297
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:93
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:316
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:161
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:282
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:94
+#: includes/class-wpsc-macros.php:190
+#: includes/models/class-wpsc-wh-exception.php:416
+#: includes/models/class-wpsc-wh-exception.php:509
+#: includes/models/class-wpsc-wh-exception.php:730
+msgid "Title"
+msgstr "العنوان"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:368
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:537
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:796
+#: includes/custom-field-types/class-wpsc-cf-date.php:192
+#: includes/models/class-wpsc-wh-exception.php:417
+#: includes/models/class-wpsc-wh-exception.php:516
+#: includes/models/class-wpsc-wh-exception.php:741
+msgid "Date"
+msgstr "التاريخ"
+
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:369
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:544
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:803
+#: includes/models/class-wpsc-wh-exception.php:418
+#: includes/models/class-wpsc-wh-exception.php:523
+#: includes/models/class-wpsc-wh-exception.php:748
+msgid "Schedule"
+msgstr "الجدول"
+
+#. translators: %1$s: start time, %2$s: end time e.g. 04:00 - 05:00
+#: includes/admin/agent-settings/class-wpsc-agent-working-hrs.php:387
+#: includes/models/class-wpsc-wh-exception.php:438
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: includes/admin/agent-settings/class-wpsc-support-agents.php:139
+#: includes/admin/class-wpsc-admin.php:140
+#: includes/admin/class-wpsc-admin.php:141
+msgid "Support Agents"
+msgstr "وكلاء الدعم"
+
+#: includes/admin/class-wpsc-admin.php:111
+#: includes/admin/class-wpsc-admin.php:112
+#: upgrade/class-wpsc-upgrade-db-v1.php:50
+#: upgrade/class-wpsc-upgrade-db-v1.php:51
+#: upgrade/class-wpsc-upgrade-db-v2.php:42
+#: upgrade/class-wpsc-upgrade-db-v2.php:43
+msgid "Support"
+msgstr "الدعم"
+
+#: includes/admin/class-wpsc-admin.php:122
+#: includes/admin/class-wpsc-admin.php:158
+#: includes/admin/class-wpsc-admin.php:159
+#: includes/admin/settings/appearence/class-wpsc-appearence-settings.php:56
+#: includes/admin/ticket-list/class-wpsc-ticket-list-settings.php:132
+#: includes/admin/tickets/class-wpsc-tickets.php:75
+#: includes/frontend/class-wpsc-shortcode-one.php:156
+msgid "Ticket List"
+msgstr "قائمة التذكرة"
+
+#: includes/admin/class-wpsc-admin.php:123
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:360
+msgid "Tickets"
+msgstr "التذاكر"
+
+#: includes/admin/class-wpsc-admin.php:131
+#: includes/admin/class-wpsc-admin.php:132
+#: includes/admin/customers/class-wpsc-customers.php:47
+msgid "Customers"
+msgstr "العملاء"
+
+#: includes/admin/class-wpsc-admin.php:149
+#: includes/admin/class-wpsc-admin.php:150
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:172
+msgid "Custom Fields"
+msgstr "حقول مخصصة"
+
+#: includes/admin/class-wpsc-admin.php:167
+#: includes/admin/class-wpsc-admin.php:168
+#: includes/admin/email-notifications/class-wpsc-en-settings.php:125
+msgid "Email Notifications"
+msgstr "إشعارات بالبريد الإلكتروني"
+
+#: includes/admin/class-wpsc-admin.php:178
+#: includes/admin/class-wpsc-admin.php:179
+#: includes/admin/settings/working-hrs/class-wpsc-working-hrs.php:66
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: includes/admin/class-wpsc-admin.php:187
+#: includes/admin/class-wpsc-admin.php:188
+#: includes/admin/misc/class-wpsc-license.php:27
+msgid "Licenses"
+msgstr "التراخيص"
+
+#: includes/admin/class-wpsc-admin.php:196
+#: includes/admin/class-wpsc-admin.php:197
+msgid "Addons"
+msgstr "الإضافات"
+
+#: includes/admin/class-wpsc-admin.php:224
+#: includes/frontend/class-wpsc-frontend.php:127
+msgid "Required fields can not be empty!"
+msgstr "لا يمكن ترك الحقول المطلوبة فارغة!"
+
+#: includes/admin/class-wpsc-admin.php:226
+#: includes/admin/class-wpsc-admin.php:227
+#: includes/frontend/class-wpsc-frontend.php:129
+#: includes/frontend/class-wpsc-frontend.php:130
+msgid "No Records"
+msgstr "لا سجلات"
+
+#. translators: e.g. Showing 1 to 20 of 300 records
+#: includes/admin/class-wpsc-admin.php:230
+#: includes/frontend/class-wpsc-frontend.php:133
+#, php-format
+msgid "Showing %1$s to %2$s of %3$s records"
+msgstr "عرض %1$s إلى %2$s من %3$s سجل"
+
+#: includes/admin/class-wpsc-admin.php:239
+#: includes/frontend/class-wpsc-frontend.php:142
+msgid "Search:"
+msgstr "بحث:"
+
+#: includes/admin/class-wpsc-admin.php:241
+#: includes/frontend/class-wpsc-frontend.php:144
+msgid "First"
+msgstr "الأول"
+
+#: includes/admin/class-wpsc-admin.php:242
+#: includes/frontend/class-wpsc-frontend.php:145
+msgid "Previous"
+msgstr "السابق"
+
+#: includes/admin/class-wpsc-admin.php:243
+#: includes/frontend/class-wpsc-frontend.php:146
+msgid "Next"
+msgstr "التالي"
+
+#: includes/admin/class-wpsc-admin.php:244
+#: includes/frontend/class-wpsc-frontend.php:147
+msgid "Last"
+msgstr "الأخير"
+
+#: includes/admin/custom-fields/class-wpsc-aof.php:68
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:121
+msgid "Agent Only Fields"
+msgstr "الحقول الخاصة فقط بالوكيل"
+
+#: includes/admin/custom-fields/class-wpsc-aof.php:74
+#: includes/admin/custom-fields/class-wpsc-cf.php:74
+#: includes/admin/custom-fields/class-wpsc-tf.php:71
+#: includes/admin/custom-fields/class-wpsc-tff.php:61
+#: includes/admin/customers/class-wpsc-customers.php:220
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:160
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1008
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:159
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1005
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:733
+msgid "Field"
+msgstr "حقل"
+
+#: includes/admin/custom-fields/class-wpsc-aof.php:75
+#: includes/admin/custom-fields/class-wpsc-cf.php:75
+#: includes/admin/custom-fields/class-wpsc-tf.php:72
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1004
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1131
+#: includes/custom-field-types/class-wpsc-cf-date.php:903
+#: includes/custom-field-types/class-wpsc-cf-date.php:1089
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:878
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1073
+#: includes/custom-field-types/class-wpsc-cf-email.php:831
+#: includes/custom-field-types/class-wpsc-cf-email.php:955
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:648
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:717
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:634
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:703
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:875
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1015
+#: includes/custom-field-types/class-wpsc-cf-number.php:914
+#: includes/custom-field-types/class-wpsc-cf-number.php:1051
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:914
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1043
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:814
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:956
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:840
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:977
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:794
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:918
+#: includes/custom-field-types/class-wpsc-cf-time.php:621
+#: includes/custom-field-types/class-wpsc-cf-time.php:822
+#: includes/custom-field-types/class-wpsc-cf-url.php:830
+#: includes/custom-field-types/class-wpsc-cf-url.php:954
+#: includes/custom-field-types/class-wpsc-df-additional-recipients.php:374
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:910
+#: includes/custom-field-types/class-wpsc-df-category.php:573
+#: includes/custom-field-types/class-wpsc-df-customer-email.php:295
+#: includes/custom-field-types/class-wpsc-df-customer-name.php:282
+#: includes/custom-field-types/class-wpsc-df-customer.php:467
+#: includes/custom-field-types/class-wpsc-df-description.php:546
+#: includes/custom-field-types/class-wpsc-df-priority.php:571
+#: includes/custom-field-types/class-wpsc-df-status.php:533
+#: includes/custom-field-types/class-wpsc-df-subject.php:576
+msgid "Extra info"
+msgstr "معلومات إضافية"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:103
+#: includes/admin/custom-fields/class-wpsc-tff.php:55
+msgid "Ticket Form Fields"
+msgstr "حقول نموذج التذكرة"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:109
+#: includes/admin/custom-fields/class-wpsc-tf.php:64
+msgid "Ticket Fields"
+msgstr "حقول التذكرة"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:115
+#: includes/admin/custom-fields/class-wpsc-cf.php:68
+msgid "Customer Fields"
+msgstr "حقول العميل"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:334
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:565
+#: includes/admin/custom-fields/class-wpsc-tff.php:222
+#: includes/admin/custom-fields/class-wpsc-tff.php:477
+#: includes/admin/settings/class-wpsc-ticket-categories.php:146
+#: includes/admin/settings/class-wpsc-ticket-categories.php:288
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:158
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:321
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:158
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:324
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1285
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1427
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1284
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1426
+msgid "Load after"
+msgstr "الحمولة بعد"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:338
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:569
+#: includes/admin/custom-fields/class-wpsc-tff.php:225
+#: includes/admin/custom-fields/class-wpsc-tff.php:480
+#: includes/admin/settings/class-wpsc-ticket-categories.php:150
+#: includes/admin/settings/class-wpsc-ticket-categories.php:292
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:162
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:325
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:162
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:328
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1288
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1430
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1287
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1429
+msgid "TOP"
+msgstr "أعلى"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:349
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:581
+#: includes/admin/custom-fields/class-wpsc-tff.php:237
+#: includes/admin/custom-fields/class-wpsc-tff.php:492
+#: includes/admin/settings/class-wpsc-ticket-categories.php:158
+#: includes/admin/settings/class-wpsc-ticket-categories.php:304
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:170
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:337
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:170
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:340
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1300
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1442
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1299
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1441
+msgid "END"
+msgstr "نهاية"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:357
+msgid "Select field type"
+msgstr "اختر نوع الحقل"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:592
+msgid "Field Type"
+msgstr "نوع الحقل"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:799
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:862
+msgid "Default value exceeds character limit!"
+msgstr "القيمة الافتراضية تتجاوز حد عدد الأحرف!"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:813
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:876
+msgid "Default value is not in the range!"
+msgstr "القيمة الافتراضية ليست في النطاق!"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:946
+msgid "Incorrect number value!"
+msgstr "قيمة رقم غير صحيحة!"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:959
+msgid "Incorrect email!"
+msgstr "بريد إلكتروني غير صحيح!"
+
+#: includes/admin/custom-fields/class-wpsc-cf-settings.php:972
+msgid "Incorrect url!"
+msgstr "عنوان رابط غير صحيح!"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:141
+msgid "Add new field"
+msgstr "إضافة حقل جديد"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:152
+#: includes/admin/custom-fields/class-wpsc-tff.php:265
+#: includes/admin/custom-fields/class-wpsc-tff.php:524
+#: includes/admin/custom-fields/class-wpsc-tff.php:573
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:537
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:720
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:803
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:536
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:719
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:801
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1106
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1181
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1425
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1503
+#: includes/class-wpsc-ticket-conditions.php:107
+#: includes/class-wpsc-ticket-conditions.php:163
+msgid "Select field"
+msgstr "اختر الحقل"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:203
+#: includes/admin/custom-fields/class-wpsc-tff.php:455
+msgid "Is required?"
+msgstr "هل هذا مطلوب؟"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:212
+#: includes/admin/custom-fields/class-wpsc-tff.php:467
+msgid "Width"
+msgstr "العرض"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:215
+#: includes/admin/custom-fields/class-wpsc-tff.php:470
+msgid "1/3rd of row"
+msgstr "ثلث الصف"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:216
+#: includes/admin/custom-fields/class-wpsc-tff.php:471
+msgid "Half-width of row"
+msgstr "نصف عرض الصف"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:217
+#: includes/admin/custom-fields/class-wpsc-tff.php:472
+msgid "Full-width of row"
+msgstr "عرض الصف بالكامل"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:245
+#: includes/admin/custom-fields/class-wpsc-tff.php:504
+msgid "Visibility conditions"
+msgstr "شروط الرؤية"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:249
+#: includes/admin/custom-fields/class-wpsc-tff.php:508
+#: includes/class-wpsc-ticket-conditions.php:82
+msgid "AND"
+msgstr "و"
+
+#: includes/admin/custom-fields/class-wpsc-tff.php:250
+#: includes/admin/custom-fields/class-wpsc-tff.php:509
+#: includes/class-wpsc-ticket-conditions.php:83
+#: includes/frontend/class-wpsc-shortcode-three.php:65
+msgid "OR"
+msgstr "أو"
+
+#: includes/admin/customers/class-wpsc-customers.php:73
+msgid "Email address"
+msgstr "البريد الإلكتروني"
+
+#: includes/admin/customers/class-wpsc-customers.php:74
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:246
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:441
+msgid "Number of tickets"
+msgstr "عدد التذاكر"
+
+#: includes/admin/customers/class-wpsc-customers.php:155
+msgid "View"
+msgstr "عرض"
+
+#: includes/admin/customers/class-wpsc-customers.php:161
+msgid "Logs"
+msgstr "السجلات"
+
+#: includes/admin/customers/class-wpsc-customers.php:209
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:720
+msgid "Customer info"
+msgstr "معلومات العميل"
+
+#: includes/admin/customers/class-wpsc-customers.php:221
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:734
+msgid "Value"
+msgstr "القيمة"
+
+#: includes/admin/customers/class-wpsc-customers.php:266
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:788
+msgid "Edit Info"
+msgstr "تحرير المعلومات"
+
+#: includes/admin/customers/class-wpsc-customers.php:269
+#: includes/admin/customers/class-wpsc-customers.php:491
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:285
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1887
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2441
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2538
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:688
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:794
+#: includes/class-wpsc-macros.php:266
+msgid "Close"
+msgstr "غلق"
+
+#: includes/admin/customers/class-wpsc-customers.php:453
+msgid "Customer logs"
+msgstr "سجلات العميل"
+
+#. translators: %1$s: User Name, %2$s: Field Name
+#: includes/admin/customers/class-wpsc-customers.php:542
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1078
+#: includes/models/class-wpsc-thread.php:626
+#, php-format
+msgid "%1$s changed the %2$s"
+msgstr "%1$s غير الـ %2$s"
+
+#: includes/admin/email-notifications/class-wpsc-en-add-private-note.php:51
+msgid "Submit private note"
+msgstr "إرسال ملاحظات حاصة"
+
+#: includes/admin/email-notifications/class-wpsc-en-assign-agent.php:63
+msgid "Change assignee"
+msgstr "تغيير المكلف"
+
+#: includes/admin/email-notifications/class-wpsc-en-change-ticket-category.php:58
+msgid "Change ticket category"
+msgstr "تغيير فئة التذكرة"
+
+#: includes/admin/email-notifications/class-wpsc-en-change-ticket-priority.php:58
+msgid "Change ticket priority"
+msgstr "تغيير أولوية التذكرة"
+
+#: includes/admin/email-notifications/class-wpsc-en-change-ticket-status.php:58
+msgid "Change ticket status"
+msgstr "تغيير حالة التذكرة"
+
+#: includes/admin/email-notifications/class-wpsc-en-create-ticket.php:44
+msgid "Create new ticket"
+msgstr "إنشاء تذكرة جديدة"
+
+#: includes/admin/email-notifications/class-wpsc-en-delete-ticket.php:44
+msgid "Delete ticket"
+msgstr "حذف التذكرة"
+
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:54
+#: includes/class-wpsc-current-user.php:887
+msgid "Guest Login OTP"
+msgstr "رمز تسجيل دخول كضيف"
+
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:67
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:394
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:67
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:77
+msgid "Body"
+msgstr "البنية"
+
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:72
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:401
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:72
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:64
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:87
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:78
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:151
+msgid "Visual"
+msgstr "المنظور"
+
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:73
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:402
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:73
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:65
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:88
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:79
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:152
+msgid "Text"
+msgstr "النص"
+
+#: includes/admin/email-notifications/class-wpsc-en-guest-login-otp.php:149
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:110
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:150
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:104
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:165
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:125
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:142
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:93
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:240
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:219
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:147
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:288
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:171
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:104
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:81
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:149
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-advanced.php:73
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:139
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:139
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:139
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:83
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:316
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:511
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:624
+msgid "Reset default"
+msgstr "إعادة للافتراضي"
+
+#: includes/admin/email-notifications/class-wpsc-en-reply-ticket.php:51
+msgid "Ticket reply"
+msgstr "رد على التذكرة"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:54
+#: includes/admin/email-notifications/class-wpsc-en-settings.php:68
+#: includes/admin/settings/class-wpsc-settings.php:70
+#: includes/admin/settings/class-wpsc-settings.php:169
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:54
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:137
+msgid "General Settings"
+msgstr "إعدادات عامة"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:60
+msgid "From name"
+msgstr "من اسم"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:66
+msgid "From email"
+msgstr "من بريد إلكتروني"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:72
+msgid "Reply to"
+msgstr "رد إلى"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:78
+msgid "Number of emails per cron job (background emails)"
+msgstr ""
+"عدد رسائل البريد الإلكتروني لكل وظيفة كرون (رسائل البريد الإلكتروني الخلفية)"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:84
+msgid "Blocked emails (one per line)"
+msgstr "عناوين البريد الإلكتروني المحظورة (واحد كل سطر)"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:91
+msgid "Email sending preference"
+msgstr "أفضلية إرسال البريد الإلكتروني"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:94
+msgid "Instant"
+msgstr "فوري"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-gs.php:95
+msgid "Backgound"
+msgstr "الخلفية"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:105
+#: includes/admin/email-notifications/class-wpsc-en-settings.php:74
+msgid "Ticket Notifications"
+msgstr "إشعارات التذكرة"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:112
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:206
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:363
+msgid "Event"
+msgstr "الحدث"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:125
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:373
+msgid "Enabled"
+msgstr "تم تمكينه"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:125
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:374
+msgid "Disabled"
+msgstr "تم تعطيله"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:128
+msgid "Clone"
+msgstr "استنساخ"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:412
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:75
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:565
+#: includes/custom-field-types/class-wpsc-df-description.php:365
+msgid "Insert Macro"
+msgstr "أدخل ماكرو"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:466
+msgid "To address"
+msgstr "إلى عنوان"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:653
+msgid "Current User"
+msgstr "المستخدم الحالي"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:670
+msgid "General Recipients"
+msgstr "مستلمون عموميون"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:696
+msgid "Custom Email Addresses (one per line)"
+msgstr "عناوين بريد إلكتروني مخصصة (واحد كل سطر)"
+
+#: includes/admin/email-notifications/class-wpsc-en-settings-tn.php:703
+msgid "Click to select options"
+msgstr "أنقر لاختيار الخصائص"
+
+#: includes/admin/email-notifications/class-wpsc-en-user-reg-otp.php:54
+#: includes/class-wpsc-current-user.php:659
+msgid "User Registration OTP"
+msgstr "رمز تسجيل اشتراك مستخدم"
+
+#: includes/admin/misc/class-wpsc-license.php:29
+msgid "Activate license keys for add-ons in order to get support and updates."
+msgstr "قم بتفعيل مفاتيح الترخيص للإضافات من أجل الحصول على الدعم والتحديثات."
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:58
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:76
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:94
+msgid "Primary color"
+msgstr "اللون الأساسي"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:65
+msgid "Main container"
+msgstr "الحاوية الرئيسية"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:69
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:119
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:135
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:65
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:81
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:66
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:82
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:98
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:114
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:151
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:314
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:150
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:316
+msgid "Background color"
+msgstr "لون الخلفية"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:70
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:120
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:137
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:66
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:83
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:67
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:83
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:99
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:115
+msgid "Text color"
+msgstr "لون النص"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-general.php:81
+msgid "Link color"
+msgstr "لون الرابط"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:72
+msgid "Reply thread"
+msgstr "موضوع الرد"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:77
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:95
+msgid "Secondary color"
+msgstr "اللون الثانوي"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:78
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:96
+msgid "Icon color"
+msgstr "لون الأيقونة"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:90
+msgid "Private note thread"
+msgstr "موضوع الملاحظات الخاصة"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:108
+msgid "Log text"
+msgstr "نص السجل"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:115
+msgid "Widget header"
+msgstr "ترويسة العنصر"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:131
+msgid "Widget body"
+msgstr "بنية العنصر"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-indidual-ticket.php:136
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:82
+msgid "Label color"
+msgstr "لون الملصق"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:61
+msgid "Header"
+msgstr "ترويسة"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:95
+msgid "Footer background color"
+msgstr "لون خلفية تذييل الصفحة"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-modal-popup.php:102
+msgid "z-index"
+msgstr "فهرسة باستخدام z-index"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-settings.php:61
+msgid "Individual Ticket"
+msgstr "تذكرة فردية"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-settings.php:66
+msgid "Modal Popup"
+msgstr "انبثاق مشروط"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:62
+msgid "List header"
+msgstr "ترويسة القائمة"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:78
+msgid "List item (odd)"
+msgstr "عنصر القائمة (فردي)"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:94
+msgid "List item (even)"
+msgstr "عنصر القائمة (زوجي)"
+
+#: includes/admin/settings/appearence/class-wpsc-appearence-ticket-list.php:110
+msgid "List item (hover)"
+msgstr "عنصر القائمة (تمرير)"
+
+#: includes/admin/settings/class-wpsc-settings.php:76
+#: includes/admin/settings/class-wpsc-ticket-categories.php:45
+msgid "Ticket Categories"
+msgstr "فئات التذكرة"
+
+#: includes/admin/settings/class-wpsc-settings.php:82
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:49
+msgid "Ticket Statuses"
+msgstr "حالات التذكرة"
+
+#: includes/admin/settings/class-wpsc-settings.php:88
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:46
+msgid "Ticket Priorities"
+msgstr "أولويات التذكرة"
+
+#: includes/admin/settings/class-wpsc-settings.php:94
+msgid "Miscellaneous"
+msgstr "متفرقات"
+
+#: includes/admin/settings/class-wpsc-settings.php:100
+#: includes/admin/settings/class-wpsc-ticket-widgets.php:36
+msgid "Ticket Widgets"
+msgstr "عناصر التذكرة"
+
+#: includes/admin/settings/class-wpsc-settings.php:106
+msgid "Rich Text Editor"
+msgstr "محرر النص المنسق"
+
+#: includes/admin/settings/class-wpsc-settings.php:118
+msgid "Appearence"
+msgstr "المظهر"
+
+#: includes/admin/settings/class-wpsc-ticket-categories.php:424
+msgid "Delete category"
+msgstr "حذف الفئة"
+
+#: includes/admin/settings/class-wpsc-ticket-categories.php:442
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:485
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:490
+msgid "Replace with"
+msgstr "استبدال ب"
+
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:145
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:308
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:144
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:310
+msgid "Color"
+msgstr "اللون"
+
+#: includes/admin/settings/class-wpsc-ticket-priorities.php:467
+msgid "Delete priority"
+msgstr "حذف الأولوية"
+
+#: includes/admin/settings/class-wpsc-ticket-statuses.php:472
+msgid "Delete status"
+msgstr "حذف الحالة"
+
+#: includes/admin/settings/class-wpsc-ticket-widgets.php:64
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:415
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:414
+msgid "Save Order"
+msgstr "حفظ الطلب"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:62
+msgid "Attachment max file size(mb)"
+msgstr "الحد الأقصى لحجم الملف المرفق (بالميجابايت)"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:68
+msgid "Allowed file extensions(comma seperated)"
+msgstr "امتداد الملفات المسموح بها (مفصولة بفاصلة)"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:74
+msgid "Download behaviour"
+msgstr "سلوك التنزيل"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:77
+msgid "Try opening in browser"
+msgstr "محاولة الفتح في المتصفح"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:78
+msgid "Download"
+msgstr "تنزيل"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:166
+msgid "Attached file type not allowed!"
+msgstr "غير مسموح بنوع الملف المرفق!"
+
+#. translators: %1$s: attachment max file size in MB
+#: includes/admin/settings/general-settings/class-wpsc-gs-file-attachments.php:173
+#, php-format
+msgid "File size exceeds allowed limit (%1$s MB)!"
+msgstr "لقد تجاوز حجم الملف الحد المسموح به (%1$s ميجابايت)!"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:78
+msgid "Registered user"
+msgstr "مستخدم مسجل"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:79
+#: includes/custom-field-types/class-wpsc-df-user-type.php:217
+#: includes/custom-field-types/class-wpsc-df-user-type.php:413
+msgid "Guest"
+msgstr "ضيف"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:95
+msgid "Ticket status after customer reply"
+msgstr "حالة التذكرة بعد رد العميل"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:98
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:119
+msgid "Do not change"
+msgstr "لا تقم بالتغيير"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:116
+msgid "Ticket status after agent reply"
+msgstr "حالة التذكرة بعد رد الوكيل"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:137
+msgid "Close ticket status"
+msgstr "قفل حالة التذكرة"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:157
+msgid "Reply form position"
+msgstr "موقف نموذج الرد"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:160
+msgid "Top"
+msgstr "أعلى"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:161
+msgid "Bottom"
+msgstr "أسفل"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:166
+msgid "Default date format"
+msgstr "التنسيق الافتراضي للتاريخ"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:172
+msgid "Ticket alice"
+msgstr "أليس التذكرة"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:178
+msgid "Allow close ticket"
+msgstr "السماح بقفل التذكرة"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:194
+msgid "Allow create new ticket"
+msgstr "السماح بإنشاء تذكرة جديدة"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-general.php:210
+msgid "Thread email visibility"
+msgstr "رؤية موضوع البريد الإلكتروني"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:70
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:111
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:120
+msgid "Support page"
+msgstr "صفحة الدعم"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:89
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:112
+msgid "Open ticket page"
+msgstr "فتح صفحة التذكرة"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:108
+msgid "Ticket url page"
+msgstr "صفحة عنوان رابط التذكرة"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:117
+msgid "New ticket page"
+msgstr "صفحة تذكرة جديدة"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:121
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:134
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:148
+msgid "Custom"
+msgstr "مخصص"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:129
+msgid "User login"
+msgstr "تسجيل دخول المستخدم"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:132
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:146
+msgid "Default"
+msgstr "الافتراضي"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:133
+msgid "WP Default Login"
+msgstr "تسجيل الدخول الافتراضي إلى وورد بريس"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:142
+msgid "User registration"
+msgstr "تسجيل اشتراك المستخدم"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:145
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:159
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:91
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:100
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:109
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:133
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:195
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:230
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:239
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:248
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-advanced.php:58
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:59
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:68
+msgid "Disable"
+msgstr "تعطيل"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:147
+msgid "WP Default Registration"
+msgstr "تسجيل الاشتراك الافتراضي لوورد بريس"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:156
+msgid "OTP Login"
+msgstr "رمز تسجيل الدخول"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-page-settings.php:160
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:90
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:99
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:108
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:132
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:194
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:229
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:238
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:247
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:73
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:64
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:56
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:64
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-advanced.php:57
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:67
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:67
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:67
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:58
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:67
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:522
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:787
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:521
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:785
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:234
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:276
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:303
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:99
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:322
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:167
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:288
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:100
+msgid "Enable"
+msgstr "تمكين"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:59
+msgid "Thank you text"
+msgstr "نص شكرًا لك"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs-thankyou-page-settings.php:129
+msgid "Thank you page url (optional)"
+msgstr "عنوان رابط صفحة شكرًا لك (اختياري)"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs.php:56
+msgid "Page Settings"
+msgstr "إعدادات الصفحة"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs.php:61
+msgid "File Attachments"
+msgstr "مرفقات الملف"
+
+#: includes/admin/settings/general-settings/class-wpsc-gs.php:66
+msgid "Thank you page"
+msgstr "صفحة شكرًا لك"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-miscellaneous-settings.php:51
+msgid "Term & Conditions"
+msgstr "الشروط والأحكام"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-miscellaneous-settings.php:56
+msgid "GDPR"
+msgstr "GDPR"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-miscellaneous-settings.php:61
+msgid "reCaptcha"
+msgstr "ري كابتشا"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-miscellaneous-settings.php:74
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:140
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:135
+msgid "Advanced"
+msgstr "متقدم"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:87
+msgid "Public mode"
+msgstr "الوضع العام"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:96
+msgid "Allow others to reply to public tickets"
+msgstr "السماح للآخرين بالرد على التذاكر العامة"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:105
+msgid "Reply confirmation"
+msgstr "تأكيد الرد"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:114
+msgid "Thread date display as"
+msgstr "يتم عرض تاريخ الموضوع كـ"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:117
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:447
+#: includes/custom-field-types/class-wpsc-df-date-created.php:480
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:473
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:390
+msgid "Date Format"
+msgstr "تنسيق التاريخ"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:118
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:448
+#: includes/custom-field-types/class-wpsc-df-date-created.php:481
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:474
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:391
+msgid "Date Difference (e.g. 1 hour ago)"
+msgstr "اختلاف التاريخ (مثلاً : منذ ساعة)"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:123
+msgid "Thread date format"
+msgstr "تنسيق تاريخ الموضوع"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:129
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:385
+msgid "Do not notify owner"
+msgstr "لا تخطر للمالك"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:138
+msgid "Do not notify owner status"
+msgstr "لا تخطر حالة المالك"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:141
+msgid "Checked"
+msgstr "تم فحصه"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:142
+msgid "Unchecked"
+msgstr "لم يتم فحصه"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:147
+#: includes/class-wpsc-macros.php:50
+msgid "Ticket id"
+msgstr "معرف التذكرة"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:150
+msgid "Sequential"
+msgstr "تسلسلي"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:151
+msgid "Random"
+msgstr "عشوائي"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:170
+msgid "Starting ticket id"
+msgstr "بدأ معرف التذكرة"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:179
+msgid "Random id length"
+msgstr "طول المعرف العشوائي"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:185
+msgid "Ticket history macro threads"
+msgstr "مواضيع ماكرو سجل التذاكر"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:191
+msgid "Register user if not exist"
+msgstr "تسجيل مستخدم إن لم يكن موجودًا"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:200
+msgid "Auto delete closed tickets"
+msgstr "الحذف التلقائي للتذاكر المقفلة"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:205
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:218
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:152
+msgid "Day(s)"
+msgstr "يوم (أيام)"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:206
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:219
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:153
+msgid "Month(s)"
+msgstr "شهر (شهور)"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:207
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:220
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:154
+msgid "Year(s)"
+msgstr "سنة (سنوات)"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:213
+msgid "Permanently delete tickets"
+msgstr "حذف التذاكر نهائيًا"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:244
+msgid "View more/less thread"
+msgstr "عرض موضوعات أكثر/أقل"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:253
+msgid "Allow reply to closed tickets"
+msgstr "السماح بالرد على التذاكر المقفلة"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-advanced.php:269
+msgid "Raised By User"
+msgstr "تم بواسطة المستخدم"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:82
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-tac.php:73
+msgid "Checkbox text"
+msgstr "نص مربع الاختيار"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:147
+msgid "Personal data retention"
+msgstr "الاحتفاظ بالبيانات الشخصية"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:355
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:406
+msgid "Ticket Customer"
+msgstr "تذكرة العميل"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:387
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:449
+#: includes/frontend/class-wpsc-shortcode-three.php:102
+msgid "Ticket ID"
+msgstr "معرف التذكرة"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:482
+msgid "User Tickets"
+msgstr "تذاكر المستخدم"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:503
+msgid "Ticket Records"
+msgstr "سجلات التذكرة"
+
+#. translators: %s: email address
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-gdpr.php:545
+#, php-format
+msgid "Tickets of customer having email %s has been anonymized."
+msgstr "تم إخفاء الهوية لتذاكر العميل الذي لديه بريد إلكتروني %s."
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:73
+msgid "reCaptcha version"
+msgstr "إصدار ري كابتشا"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:82
+msgid "Site key"
+msgstr "مفتاح الموقع"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:88
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-rest-api.php:65
+msgid "Secret key"
+msgstr "المفتاح السري"
+
+#: includes/admin/settings/miscellaneous-settings/class-wpsc-ms-recaptcha.php:193
+#: includes/frontend/class-wpsc-frontend.php:304
+#: includes/frontend/class-wpsc-frontend.php:408
+msgid "Captcha not set!"
+msgstr "لم يتم تعيين كلمة التحقق!"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-advanced.php:54
+msgid "HTML pasting"
+msgstr "لصق HTML"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:76
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:76
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:76
+msgid "Allow attachments"
+msgstr "السماح بالمرفقات"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:85
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:85
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:85
+msgid "Toolbar actions"
+msgstr "إجراءات شريط الأدوات"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-agent.php:105
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-guest-user.php:105
+#: includes/admin/settings/text-editor-settings/class-wpsc-te-registered-user.php:105
+msgid "Show file attachment notice"
+msgstr "عرض إشعار إرفاق الملف"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:60
+msgid "Bold"
+msgstr "غليظ"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:64
+msgid "Italic"
+msgstr "مائل"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:68
+msgid "Underline"
+msgstr "تحته خط"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:72
+msgid "Blockquote"
+msgstr "بين قوسين"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:76
+msgid "Align"
+msgstr "محاذاة"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:80
+msgid "Bulleted list"
+msgstr "قائمة نقطية"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:84
+msgid "Numbered list"
+msgstr "قائمة مرقمة"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:88
+msgid "Right to left"
+msgstr "من اليمين إلى اليسار"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:92
+msgid "Link"
+msgstr "رابط"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:96
+msgid "Image"
+msgstr "صورة"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:100
+msgid "Text Color"
+msgstr "لون النص"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:104
+msgid "Text Background Color"
+msgstr "لون خلفية النص"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:108
+msgid "Strikethrough"
+msgstr "يتوسطه خط"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:130
+msgid "Registered User"
+msgstr "مستخدم مسجل"
+
+#: includes/admin/settings/text-editor-settings/class-wpsc-text-editor.php:135
+msgid "Guest User"
+msgstr "مستخدم ضيف"
+
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:55
+msgid "Allow agent to modify working hours"
+msgstr "السماح للوكيل بتعديل ساعات العمل"
+
+#: includes/admin/settings/working-hrs/class-wpsc-wh-settings.php:64
+msgid "Allow agent to modify his leaves"
+msgstr "السماح للوكيل بتعديل رخصه"
+
+#: includes/admin/settings/working-hrs/class-wpsc-working-hrs.php:56
+msgid "Holidays"
+msgstr "الإجازات"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:79
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:79
+msgid "List items"
+msgstr "عناصر القائمة"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:84
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:84
+msgid "Filter items"
+msgstr "عناصر الفرز"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:89
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:89
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:276
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:471
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:167
+#: includes/admin/tickets/class-wpsc-ticket-list.php:379
+msgid "Default filters"
+msgstr "المرشحات الافتراضية"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:236
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:236
+msgid "Add new list item"
+msgstr "إضافة عنصر قائمة جديد"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:246
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1094
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:246
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1092
+msgid "Select fields"
+msgstr "اختر الحقول"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:443
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:442
+msgid "Add new default filter"
+msgstr "إضافة مرشح افتراضي جديد"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:463
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:680
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:462
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:679
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1068
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1389
+msgid "Parent filter"
+msgstr "مرشح الوالدين"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:480
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:700
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:479
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:699
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1089
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1407
+msgid "Filters"
+msgstr "المرشحات"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:492
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:754
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:491
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:752
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1139
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1458
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1888
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:133
+msgid "Sort by"
+msgstr "ترتيب بواسطة"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:511
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:773
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:510
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:771
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1163
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1482
+msgid "Sort order"
+msgstr "أمر الترتيب"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:516
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:778
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:515
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:776
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:241
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:436
+#: includes/admin/tickets/class-wpsc-ticket-list.php:445
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1171
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1490
+msgid "ASC"
+msgstr "تصاعدي"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:517
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:779
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:516
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:777
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:240
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:435
+#: includes/admin/tickets/class-wpsc-ticket-list.php:446
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1172
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1491
+msgid "DESC"
+msgstr "تنازلي"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:659
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:658
+msgid "Edit default filter"
+msgstr "تحرير المرشح الافتراضي"
+
+#: includes/admin/ticket-list/class-wpsc-agent-ticket-list-settings.php:1084
+#: includes/admin/ticket-list/class-wpsc-customer-ticket-list-settings.php:1082
+msgid "Add New Filter Item"
+msgstr "إضافة عنصر ترشيح جديد"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:125
+msgid "Agent view"
+msgstr "عرض الوكيل"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:130
+msgid "Customer view"
+msgstr "عرض العميل"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:217
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:412
+msgid "Default sort by"
+msgstr "الترتيب الافتراضي بواسطة"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:237
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:432
+msgid "Default sort order"
+msgstr "أمر الترتيب الافتراضي"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:252
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:447
+msgid "Unresolved statuses"
+msgstr "حالات دون حل"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:273
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:468
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:163
+msgid "Default filter"
+msgstr "المرشح الافتراضي"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:296
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:491
+msgid "Ticket reply redirect"
+msgstr "إعادة توجيه الرد على التذكرة"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:299
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:494
+msgid "Ticket list"
+msgstr "قائمة التذكرة"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:300
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:495
+msgid "No redirect"
+msgstr "لم يتم إعادة التوجيه"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:583
+msgid "Closed statuses"
+msgstr "الحالات المغلقة"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:604
+msgid "Auto refresh default status"
+msgstr "التحديث التلقائي للحالة الافتراضية"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:607
+msgid "On"
+msgstr "تشغيل"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-more-settings.php:608
+msgid "Off"
+msgstr "إيقاف"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-settings.php:70
+msgid "Agent ticket list"
+msgstr "قائمة تذاكر الوكيل"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-settings.php:76
+msgid "Customer ticket list"
+msgstr "قائمة تذاكر العميل"
+
+#: includes/admin/ticket-list/class-wpsc-ticket-list-settings.php:82
+msgid "More settings"
+msgstr "مزيد من الإعدادات"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:64
+msgid "Working hours"
+msgstr "ساعات العمل"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:142
+msgid "Signature"
+msgstr "التوقيع"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:144
+msgid "Signature used for emails"
+msgstr "التوقيع المستخدم لرسائل البريد الإلكتروني"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:165
+msgid "Default filter for ticket list"
+msgstr "المرشح الافتراضي لقائمة التذاكر"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:185
+#: includes/admin/tickets/class-wpsc-ticket-list.php:404
+msgid "Saved filters"
+msgstr "المرشحات المحفوظة"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:198
+#: includes/admin/tickets/class-wpsc-current-user-profile.php:75
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:520
+#: includes/models/class-wpsc-holiday.php:473
+msgid "Add/Delete Holidays"
+msgstr "إضافة/حذف الإجازات"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:529
+#: includes/models/class-wpsc-holiday.php:482
+msgid "Action"
+msgstr "الإجراء"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:532
+#: includes/models/class-wpsc-holiday.php:485
+msgid "Add new holidays"
+msgstr "إضافة إجازات جديدة"
+
+#: includes/admin/tickets/class-wpsc-current-agent-profile.php:533
+#: includes/models/class-wpsc-holiday.php:486
+msgid "Delete existing holidays"
+msgstr "حذف إجازات موجودة"
+
+#: includes/admin/tickets/class-wpsc-current-user-profile.php:76
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:189
+#: includes/admin/tickets/class-wpsc-new-ticket.php:86
+msgid "Unathorized access!"
+msgstr "وصول غير مصرح به!"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:256
+#: includes/admin/tickets/class-wpsc-ticket-list.php:551
+msgid "Refresh"
+msgstr "تحديث"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:293
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1498
+msgid "Duplicate"
+msgstr "تكرار"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:308
+msgid "Copy URL"
+msgstr "نسخ الرابط"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:317
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2525
+#: includes/admin/tickets/class-wpsc-ticket-list.php:2143
+msgid "Restore"
+msgstr "استعادة"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:325
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2532
+#: includes/admin/tickets/class-wpsc-ticket-list.php:2152
+msgid "Delete Permanently"
+msgstr "الحذف نهائيًا"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:340
+msgid "Reply"
+msgstr "رد"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:347
+msgid "Private Note"
+msgstr "ملاحظة خاصة"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:357
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:129
+msgid "Info"
+msgstr "معلومات"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:362
+msgid "Create new ticket from this thread"
+msgstr "إنشاء تذكرة جديدة من هذا الموضوع"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:467
+msgid "Ticket Details"
+msgstr "تفاصيل التذكرة"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:539
+msgid "CC (comma separeted list)"
+msgstr "نسخة كربونية (قائمة مفصولة بفواصل)"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:544
+msgid "BCC (comma separeted list)"
+msgstr "نسخة كربونية عمياء (قائمة مفصول بفواصل)"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:560
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2067
+#: includes/custom-field-types/class-wpsc-df-description.php:359
+msgid "Attach Files"
+msgstr "إرفاق ملف"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:591
+msgid "SUBMIT AS"
+msgstr "إرسال كـ"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:746
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:805
+msgid "Load older communications"
+msgstr "تحميل الاتصالات الأقدم"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:872
+#: includes/models/class-wpsc-thread.php:589
+msgid "reported"
+msgstr "تم الإبلاغ عنه"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:876
+#: includes/models/class-wpsc-thread.php:593
+msgid "replied"
+msgstr "تم الرد عليه"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:880
+#: includes/models/class-wpsc-thread.php:597
+msgid "added a note"
+msgstr "تم إضافة ملاحظة"
+
+#. translators: %1$s: customer name, %2$s: datetime
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:922
+#, php-format
+msgid "This thread was deleted by %1$s on %2$s."
+msgstr "تم حذف هذا الموضوع بواسطة %1$s في %2$s."
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:928
+msgid "View thread!"
+msgstr "عرض الموضوع!"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:940
+msgid "View More ..."
+msgstr "عرض المزيد ..."
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:949
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2371
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2411
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2499
+msgid "Attachments:"
+msgstr "المرفقات:"
+
+#. translators: %1$s: customer name, %2$s: date time
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:984
+#, php-format
+msgid "Modified by %1$s on %2$s."
+msgstr "تم التعديل بواسطة %1$s في %2$s."
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:990
+msgid "View change"
+msgstr "عرض التغيير"
+
+#. translators: %1$s: customer name, %2$s: date time
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:998
+#, php-format
+msgid "Deleted by %1$s on %2$s"
+msgstr "حذفت بواسطة %1$s في %2$s"
+
+#. translators: %1$s: customer name, %2$s: date time
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1007
+#, php-format
+msgid "Restored by %1$s on %2$s"
+msgstr "تم استعادته بواسطة %1$s في %2$s"
+
+#. translators: %1$s: Field Name
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1087
+#: includes/models/class-wpsc-thread.php:635
+#, php-format
+msgid "The %1$s has been changed"
+msgstr "تم تغيير الـ %1$s"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1745
+msgid "Create ticket from thread"
+msgstr "إنشائ تذكرة من الموضوع"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1804
+msgid "Thread info"
+msgstr "معلومات الموضوع"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1822
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1823
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1824
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1825
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:111
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:62
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:115
+#: includes/class-wpsc-macros.php:523 includes/class-wpsc-macros.php:575
+#: includes/class-wpsc-macros.php:627 includes/class-wpsc-macros.php:679
+#: includes/class-wpsc-macros.php:731 includes/class-wpsc-macros.php:783
+#: includes/class-wpsc-macros.php:835 includes/class-wpsc-macros.php:869
+#: includes/class-wpsc-macros.php:954 includes/class-wpsc-macros.php:1037
+#: includes/class-wpsc-macros.php:1056 includes/class-wpsc-macros.php:1083
+#: includes/custom-field-types/class-wpsc-df-additional-recipients.php:454
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:547
+#: includes/custom-field-types/class-wpsc-df-browser.php:471
+#: includes/custom-field-types/class-wpsc-df-ip-address.php:299
+#: includes/custom-field-types/class-wpsc-df-os.php:529
+#: includes/custom-field-types/class-wpsc-df-source.php:452
+msgid "Not Applicable"
+msgstr "لا ينطبق"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:1871
+msgid "Seen"
+msgstr "تمت رؤيته"
+
+#: includes/admin/tickets/class-wpsc-individual-ticket.php:2354
+msgid "Thread log"
+msgstr "سجل الموضوعات"
+
+#. translators: %1$s: Name, %2$s: Email Address
+#: includes/admin/tickets/class-wpsc-new-ticket.php:109
+#: includes/admin/tickets/class-wpsc-new-ticket.php:322
+#: includes/admin/tickets/class-wpsc-new-ticket.php:552
+#: includes/admin/tickets/class-wpsc-new-ticket.php:607
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:559
+#: includes/models/class-wpsc-customer.php:566
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: includes/admin/tickets/class-wpsc-new-ticket.php:185
+msgid "Reset Form"
+msgstr "إعادة تعيين النموذج"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:371
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:149
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:834
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:153
+msgid "Search..."
+msgstr "بحث…"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:376
+msgid "Filter"
+msgstr "فرز"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:421
+msgid "Custom filters"
+msgstr "مرشحات مخصصة"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:422
+msgid "Custom..."
+msgstr "مخصص..."
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:428
+msgid "Sort By"
+msgstr "ترتيب بواسطة"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:450
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1205
+msgid "Apply"
+msgstr "تطبيق"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:469
+msgid "Reset"
+msgstr "إعادة التعيين"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:525
+msgid "Bulk Actions"
+msgstr "إجراءات بالجملة"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:541
+msgid "List Actions"
+msgstr "إجراءات القائمة"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:556
+#: includes/admin/tickets/class-wpsc-ticket-list.php:824
+msgid "Auto-Refresh"
+msgstr "تحديث تلقائي"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:605
+msgid "First Page"
+msgstr "الصفحة الأولى"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:654
+msgid "Last Page"
+msgstr "الصفحة الأخيرة"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:673
+msgid "1 Ticket"
+msgstr "1 تذكرة"
+
+#. translators: %1$s: total tickets
+#: includes/admin/tickets/class-wpsc-ticket-list.php:678
+#, php-format
+msgid "%1$d Tickets"
+msgstr "%1$d تذاكر"
+
+#. translators: e.g. 1-20 of 100 Tickets
+#: includes/admin/tickets/class-wpsc-ticket-list.php:687
+#, php-format
+msgid "%1$d-%2$d of %3$d Tickets"
+msgstr "%1$d إلى %2$d من %3$d تذاكر"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:786
+msgid "No tickets found!"
+msgstr "لم يتم العثور على تذاكر!"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:829
+#: includes/models/class-wpsc-working-hour.php:553
+msgid "OFF"
+msgstr "إيقاف"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:832
+msgid "ON"
+msgstr "تشغيل"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1052
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1244
+msgid "Custom filter"
+msgstr "مرشح مخصص"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1212
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1265
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1527
+msgid "Save & Apply"
+msgstr "حفظ وتطبيق"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1530
+msgid "Save As"
+msgstr "حفظ كـ"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1867
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:112
+msgid "Filter by"
+msgstr "فرز بواسطة"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1891
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:136
+msgid "Workload"
+msgstr "عبء العمل"
+
+#: includes/admin/tickets/class-wpsc-ticket-list.php:1898
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:143
+msgid "Select agent(s)"
+msgstr "اختر الوكيل(وكلاء)"
+
+#: includes/admin/tickets/class-wpsc-tickets.php:85
+#: includes/frontend/class-wpsc-shortcode-one.php:166
+msgid "New Ticket"
+msgstr "تذكرة جديدة"
+
+#: includes/admin/tickets/class-wpsc-tickets.php:94
+#: includes/frontend/class-wpsc-shortcode-one.php:175
+msgid "My Profile"
+msgstr "ملفي الشخصي"
+
+#: includes/admin/tickets/class-wpsc-tickets.php:103
+#: includes/frontend/class-wpsc-shortcode-one.php:184
+msgid "Agent Profile"
+msgstr "الملف الشخصي للوكيل"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:76
+msgid "Emails"
+msgstr "رسائل البريد الإلكتروني"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:123
+msgid "Email address (one per line)"
+msgstr "عناوين البريد الإلكتروني (واحد كل سطر)"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:125
+msgid "All customer email notifications will be sent to these email addresses."
+msgstr ""
+"سيتم إرسال جميع إشعارات البريد الإلكتروني للعملاء إلى عناوين البريد "
+"الإلكتروني هذه."
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:243
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:312
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:331
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:176
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:297
+msgid "Allowed for customer"
+msgstr "مسموح للعملاء"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-additional-recipients.php:252
+#: includes/admin/tickets/widgets/class-wpsc-itw-agentonly-fields.php:285
+#: includes/admin/tickets/widgets/class-wpsc-itw-assigned-agents.php:321
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:108
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:340
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:185
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-fields.php:306
+#: includes/admin/tickets/widgets/class-wpsc-itw-ticket-info.php:109
+msgid "Allowed agent roles"
+msgstr "أدوار الوكيل المسموح بها"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-biographical-info.php:57
+msgid "No info added"
+msgstr "لم يتم إضافة معلومات"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-change-status.php:361
+msgid "Show priority to customer"
+msgstr "إظهار الأولوية للعميل"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:134
+msgid "All other tickets of this user"
+msgstr "جميع التذاكر الأخرى لهذا المستخدم"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:302
+msgid "User type"
+msgstr "نوع المستخدم"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:306
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:325
+msgid "Existing Customer / Registered User"
+msgstr "عميل موجود / مستخدم مسجل"
+
+#: includes/admin/tickets/widgets/class-wpsc-itw-raisedby.php:307
+msgid "New Customer"
+msgstr "عميل جديد"
+
+#: includes/class-wpsc-cron.php:34
+msgid "Every one minute"
+msgstr "كل دقيقة"
+
+#: includes/class-wpsc-cron.php:39
+msgid "Every five minutes"
+msgstr "كل خمس دقائق"
+
+#: includes/class-wpsc-current-user.php:389
+#: includes/class-wpsc-current-user.php:556
+msgid "Please sign up"
+msgstr "يرجى الاشتراك"
+
+#: includes/class-wpsc-current-user.php:391
+msgid "First Name"
+msgstr "الاسم الأول"
+
+#: includes/class-wpsc-current-user.php:392
+msgid "Last Name"
+msgstr "الاسم الأخير"
+
+#: includes/class-wpsc-current-user.php:395
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: includes/class-wpsc-current-user.php:397
+msgid "Username is available!"
+msgstr "اسم المستخدم متاح!"
+
+#: includes/class-wpsc-current-user.php:419
+#: includes/frontend/class-wpsc-frontend.php:179
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: includes/class-wpsc-current-user.php:420
+msgid "Confirm Password"
+msgstr "تأكيد كلمة المرور"
+
+#: includes/class-wpsc-current-user.php:449
+msgid "Sign Up"
+msgstr "الاشتراك"
+
+#: includes/class-wpsc-current-user.php:557
+#: includes/class-wpsc-current-user.php:736
+msgid "We have sent 6-digit one time password on your given email address."
+msgstr ""
+"لقد أرسلنا كلمة مرور تستخدم مرة واحدة مكونة من 6 أرقام على عنوان بريدك "
+"الإلكتروني المحدد."
+
+#: includes/class-wpsc-current-user.php:679
+#: includes/class-wpsc-current-user.php:735
+#: includes/frontend/class-wpsc-frontend.php:172
+msgid "Please sign in"
+msgstr "يرجى تسجيل الدخول"
+
+#: includes/class-wpsc-current-user.php:683
+#: includes/frontend/class-wpsc-frontend.php:212
+#: includes/frontend/class-wpsc-frontend.php:224
+msgid "Sign In"
+msgstr "تسجيل الدخول"
+
+#. translators: %d: number of years
+#: includes/class-wpsc-functions.php:677
+#, php-format
+msgid "%d years ago"
+msgstr "منذ %d سنوات"
+
+#. translators: %d: number of months
+#: includes/class-wpsc-functions.php:686
+#, php-format
+msgid "%d months ago"
+msgstr "منذ %d أشهر"
+
+#. translators: %d: number of days
+#: includes/class-wpsc-functions.php:696
+#, php-format
+msgid "%d days ago"
+msgstr "منذ %d أيام"
+
+#. translators: %d: number of hours
+#: includes/class-wpsc-functions.php:705
+#, php-format
+msgid "%d hours ago"
+msgstr "منذ %d ساعات"
+
+#. translators: %d: number of minutes
+#: includes/class-wpsc-functions.php:714
+#, php-format
+msgid "%d minutes ago"
+msgstr "منذ %d دقائق"
+
+#. translators: %d: number of seconds
+#: includes/class-wpsc-functions.php:723
+#, php-format
+msgid "%d seconds ago"
+msgstr "منذ %d ثواني"
+
+#: includes/class-wpsc-functions.php:728
+msgid "Just now"
+msgstr "الآن"
+
+#: includes/class-wpsc-macros.php:54
+msgid "Customer name"
+msgstr "اسم العميل"
+
+#: includes/class-wpsc-macros.php:58
+msgid "Customer first name"
+msgstr "الاسم الأول للعميل"
+
+#: includes/class-wpsc-macros.php:62
+msgid "Customer email addrees"
+msgstr "البريد الإلكتروني للعميل"
+
+#: includes/class-wpsc-macros.php:66
+msgid "Last reply"
+msgstr "آخر رد"
+
+#: includes/class-wpsc-macros.php:70
+msgid "Last reply user name"
+msgstr "اسم المستخدم آخر رد"
+
+#: includes/class-wpsc-macros.php:74
+msgid "Last reply user email"
+msgstr "البريد الإلكتروني للمستخدم آخر رد"
+
+#: includes/class-wpsc-macros.php:78
+msgid "Last reply user first name"
+msgstr "الاسم الأول للمستخدم آخر رد"
+
+#: includes/class-wpsc-macros.php:82
+msgid "Last note"
+msgstr "آخر ملاحظة"
+
+#: includes/class-wpsc-macros.php:86
+msgid "Last note user name"
+msgstr "اسم المستخدم آخر ملاحظة"
+
+#: includes/class-wpsc-macros.php:90
+msgid "Last note user email"
+msgstr "البريد الإلكتروني للمستخدم آخر ملاحظة"
+
+#: includes/class-wpsc-macros.php:94
+msgid "Last note user first name"
+msgstr "الاسم الأول للمستخدم آخر ملاحظة"
+
+#: includes/class-wpsc-macros.php:98
+msgid "Current user name"
+msgstr "اسم المستخدم الحالي"
+
+#: includes/class-wpsc-macros.php:102
+msgid "Current user email"
+msgstr "البريد الإلكتروني للمستخدم الحالي"
+
+#: includes/class-wpsc-macros.php:106
+msgid "Current user first name"
+msgstr "الاسم الأول للمستخدم الحالي"
+
+#: includes/class-wpsc-macros.php:110
+msgid "Ticket history (last few report & reply excluding last reply)"
+msgstr "سجل التذكرة (التقرير القليل الأخير والرد باستثناء الرد الأخير)"
+
+#: includes/class-wpsc-macros.php:114
+msgid "Ticket history (report & reply)"
+msgstr "سجل التذكرة (التقرير والرد)"
+
+#: includes/class-wpsc-macros.php:118
+msgid "Ticket history (note)"
+msgstr "سجل التذكرة (الملاحظة)"
+
+#: includes/class-wpsc-macros.php:122
+msgid "Ticket history (report, reply & note)"
+msgstr "سجل التذكرة (التقرير والرد والملاحظة)"
+
+#: includes/class-wpsc-macros.php:126
+msgid "Ticket history (report, reply & log)"
+msgstr "سجل التذكرة (التقرير والرد والسجل)"
+
+#: includes/class-wpsc-macros.php:130
+msgid "Ticket history (report, reply, note & log)"
+msgstr "سجل التذكرة (التقرير والرد والملاحظة والسجل)"
+
+#: includes/class-wpsc-macros.php:134
+msgid "Ticket history (note & log)"
+msgstr "سجل التذكرة (الملاحظة والسجل)"
+
+#: includes/class-wpsc-macros.php:138
+msgid "Ticket URL"
+msgstr "عنوان رابط التذكرة"
+
+#: includes/class-wpsc-macros.php:175
+msgid "Insert macro"
+msgstr "أدخل ماكرو"
+
+#: includes/class-wpsc-macros.php:205
+msgid "Copy Tag"
+msgstr "نسخ العلامة"
+
+#: includes/class-wpsc-macros.php:205
+msgid "Copy"
+msgstr "نسخ"
+
+#: includes/class-wpsc-macros.php:206
+msgid "Insert Tag"
+msgstr "إدراج علامة"
+
+#: includes/class-wpsc-macros.php:206
+msgid "Insert"
+msgstr "إدراج"
+
+#: includes/class-wpsc-ticket-conditions.php:54
+msgid "Ticket submitted by"
+msgstr "تم إرسال التذكرة بواسطة"
+
+#: includes/class-wpsc-ticket-conditions.php:55
+msgid "WP user role"
+msgstr "دور مستخدم وورد بريس"
+
+#: includes/class-wpsc-ticket-conditions.php:241
+#: includes/class-wpsc-ticket-conditions.php:252
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:212
+#: includes/custom-field-types/class-wpsc-cf-date.php:209
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:209
+#: includes/custom-field-types/class-wpsc-cf-email.php:212
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:212
+#: includes/custom-field-types/class-wpsc-cf-number.php:215
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:213
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:213
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:212
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:212
+#: includes/custom-field-types/class-wpsc-cf-time.php:1095
+#: includes/custom-field-types/class-wpsc-cf-url.php:212
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:197
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:215
+#: includes/custom-field-types/class-wpsc-df-browser.php:190
+#: includes/custom-field-types/class-wpsc-df-category.php:194
+#: includes/custom-field-types/class-wpsc-df-customer.php:207
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:187
+#: includes/custom-field-types/class-wpsc-df-date-created.php:190
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:190
+#: includes/custom-field-types/class-wpsc-df-description.php:190
+#: includes/custom-field-types/class-wpsc-df-id.php:187
+#: includes/custom-field-types/class-wpsc-df-last-reply-by.php:187
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:187
+#: includes/custom-field-types/class-wpsc-df-os.php:175
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:208
+#: includes/custom-field-types/class-wpsc-df-priority.php:197
+#: includes/custom-field-types/class-wpsc-df-source.php:215
+#: includes/custom-field-types/class-wpsc-df-status.php:197
+#: includes/custom-field-types/class-wpsc-df-subject.php:197
+#: includes/custom-field-types/class-wpsc-df-user-type.php:194
+msgid "Compare As"
+msgstr "مقارنة كـ"
+
+#: includes/class-wpsc-ticket-conditions.php:242
+#: includes/class-wpsc-ticket-conditions.php:253
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:213
+#: includes/custom-field-types/class-wpsc-cf-date.php:210
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:210
+#: includes/custom-field-types/class-wpsc-cf-email.php:213
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:213
+#: includes/custom-field-types/class-wpsc-cf-number.php:216
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:214
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:214
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:213
+#: includes/custom-field-types/class-wpsc-cf-time.php:1096
+#: includes/custom-field-types/class-wpsc-cf-url.php:213
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:198
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:216
+#: includes/custom-field-types/class-wpsc-df-browser.php:191
+#: includes/custom-field-types/class-wpsc-df-category.php:195
+#: includes/custom-field-types/class-wpsc-df-customer.php:208
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:188
+#: includes/custom-field-types/class-wpsc-df-date-created.php:191
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:191
+#: includes/custom-field-types/class-wpsc-df-id.php:188
+#: includes/custom-field-types/class-wpsc-df-last-reply-by.php:188
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:188
+#: includes/custom-field-types/class-wpsc-df-os.php:176
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:209
+#: includes/custom-field-types/class-wpsc-df-priority.php:198
+#: includes/custom-field-types/class-wpsc-df-source.php:216
+#: includes/custom-field-types/class-wpsc-df-status.php:198
+#: includes/custom-field-types/class-wpsc-df-user-type.php:195
+msgid "Equals"
+msgstr "يساوي"
+
+#: includes/class-wpsc-ticket-conditions.php:254
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:214
+#: includes/custom-field-types/class-wpsc-cf-email.php:214
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:214
+#: includes/custom-field-types/class-wpsc-cf-number.php:217
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:215
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:215
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:214
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:213
+#: includes/custom-field-types/class-wpsc-cf-url.php:214
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:199
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:217
+#: includes/custom-field-types/class-wpsc-df-category.php:196
+#: includes/custom-field-types/class-wpsc-df-customer.php:209
+#: includes/custom-field-types/class-wpsc-df-id.php:189
+#: includes/custom-field-types/class-wpsc-df-last-reply-by.php:189
+#: includes/custom-field-types/class-wpsc-df-os.php:177
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:210
+#: includes/custom-field-types/class-wpsc-df-priority.php:199
+#: includes/custom-field-types/class-wpsc-df-source.php:217
+#: includes/custom-field-types/class-wpsc-df-status.php:199
+msgid "Matches"
+msgstr "مطابق"
+
+#: includes/class-wpsc-ticket-conditions.php:255
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:215
+#: includes/custom-field-types/class-wpsc-cf-email.php:215
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:215
+#: includes/custom-field-types/class-wpsc-cf-number.php:218
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:216
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:216
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:215
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:214
+#: includes/custom-field-types/class-wpsc-cf-url.php:215
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:200
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:218
+#: includes/custom-field-types/class-wpsc-df-category.php:197
+#: includes/custom-field-types/class-wpsc-df-customer.php:210
+#: includes/custom-field-types/class-wpsc-df-id.php:190
+#: includes/custom-field-types/class-wpsc-df-last-reply-by.php:190
+#: includes/custom-field-types/class-wpsc-df-os.php:178
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:211
+#: includes/custom-field-types/class-wpsc-df-priority.php:200
+#: includes/custom-field-types/class-wpsc-df-source.php:218
+#: includes/custom-field-types/class-wpsc-df-status.php:200
+msgid "Not Matches"
+msgstr "غير مطابق"
+
+#: includes/class-wpsc-ticket-conditions.php:315
+msgid "User"
+msgstr "المستخدم"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:195
+msgid "Checkbox"
+msgstr "مربع الاختيار"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:867
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1015
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1142
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:886
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1026
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:784
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:925
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1054
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:825
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:967
+msgid "Field options"
+msgstr "خيارات الحقل"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:913
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1032
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1189
+#: includes/custom-field-types/class-wpsc-cf-date.php:915
+#: includes/custom-field-types/class-wpsc-cf-date.php:1102
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:890
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1086
+#: includes/custom-field-types/class-wpsc-cf-email.php:843
+#: includes/custom-field-types/class-wpsc-cf-email.php:968
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:903
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1073
+#: includes/custom-field-types/class-wpsc-cf-number.php:926
+#: includes/custom-field-types/class-wpsc-cf-number.php:1064
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:830
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:942
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1102
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:842
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1015
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:852
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:990
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:806
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:931
+#: includes/custom-field-types/class-wpsc-cf-time.php:633
+#: includes/custom-field-types/class-wpsc-cf-time.php:835
+#: includes/custom-field-types/class-wpsc-cf-url.php:842
+#: includes/custom-field-types/class-wpsc-cf-url.php:967
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:924
+#: includes/custom-field-types/class-wpsc-df-category.php:586
+#: includes/custom-field-types/class-wpsc-df-description.php:559
+#: includes/custom-field-types/class-wpsc-df-priority.php:584
+#: includes/custom-field-types/class-wpsc-df-status.php:546
+#: includes/custom-field-types/class-wpsc-df-subject.php:589
+msgid "Default value"
+msgstr "القيمة الافتراضية"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:939
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:849
+msgid "Auto fill?"
+msgstr "هل تريد الملء التلقائي؟"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:952
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:862
+msgid "Has personal info?"
+msgstr "لديه معلومات شخصية؟"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:962
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1061
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1232
+#: includes/custom-field-types/class-wpsc-cf-date.php:1019
+#: includes/custom-field-types/class-wpsc-cf-date.php:1208
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1003
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1203
+#: includes/custom-field-types/class-wpsc-cf-email.php:885
+#: includes/custom-field-types/class-wpsc-cf-email.php:1010
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:945
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1129
+#: includes/custom-field-types/class-wpsc-cf-number.php:981
+#: includes/custom-field-types/class-wpsc-cf-number.php:1119
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:872
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:973
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1139
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:886
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1065
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:907
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1045
+#: includes/custom-field-types/class-wpsc-cf-time.php:752
+#: includes/custom-field-types/class-wpsc-cf-time.php:960
+#: includes/custom-field-types/class-wpsc-cf-url.php:884
+#: includes/custom-field-types/class-wpsc-cf-url.php:1009
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:482
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:1013
+#: includes/custom-field-types/class-wpsc-df-browser.php:408
+#: includes/custom-field-types/class-wpsc-df-category.php:643
+#: includes/custom-field-types/class-wpsc-df-customer-email.php:320
+#: includes/custom-field-types/class-wpsc-df-customer-name.php:307
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:465
+#: includes/custom-field-types/class-wpsc-df-date-created.php:498
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:491
+#: includes/custom-field-types/class-wpsc-df-id.php:386
+#: includes/custom-field-types/class-wpsc-df-ip-address.php:233
+#: includes/custom-field-types/class-wpsc-df-last-reply-by.php:334
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:408
+#: includes/custom-field-types/class-wpsc-df-os.php:466
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:507
+#: includes/custom-field-types/class-wpsc-df-priority.php:641
+#: includes/custom-field-types/class-wpsc-df-source.php:390
+#: includes/custom-field-types/class-wpsc-df-status.php:574
+#: includes/custom-field-types/class-wpsc-df-subject.php:644
+#: includes/custom-field-types/class-wpsc-df-user-type.php:375
+msgid "Ticket list width (pixels)"
+msgstr "عرض قائمة التذاكر (بالبيكسل)"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:972
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1090
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1261
+#: includes/custom-field-types/class-wpsc-cf-date.php:1048
+#: includes/custom-field-types/class-wpsc-cf-date.php:1237
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1032
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1232
+#: includes/custom-field-types/class-wpsc-cf-email.php:914
+#: includes/custom-field-types/class-wpsc-cf-email.php:1039
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:676
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:745
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:662
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:731
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:974
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1158
+#: includes/custom-field-types/class-wpsc-cf-number.php:1010
+#: includes/custom-field-types/class-wpsc-cf-number.php:1148
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:882
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1002
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1168
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:915
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1094
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:936
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1074
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:877
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1002
+#: includes/custom-field-types/class-wpsc-cf-time.php:781
+#: includes/custom-field-types/class-wpsc-cf-time.php:989
+#: includes/custom-field-types/class-wpsc-cf-url.php:913
+#: includes/custom-field-types/class-wpsc-cf-url.php:1038
+msgid "Allow in my profile?"
+msgstr "السماح في ملفي الشخصي؟"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:981
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1106
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1277
+#: includes/custom-field-types/class-wpsc-cf-date.php:1064
+#: includes/custom-field-types/class-wpsc-cf-date.php:1253
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1048
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1248
+#: includes/custom-field-types/class-wpsc-cf-email.php:930
+#: includes/custom-field-types/class-wpsc-cf-email.php:1055
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:692
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:761
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:678
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:747
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:990
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1174
+#: includes/custom-field-types/class-wpsc-cf-number.php:1026
+#: includes/custom-field-types/class-wpsc-cf-number.php:1164
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:891
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1018
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1184
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:931
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1110
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:952
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1090
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:893
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1018
+#: includes/custom-field-types/class-wpsc-cf-time.php:797
+#: includes/custom-field-types/class-wpsc-cf-time.php:1005
+#: includes/custom-field-types/class-wpsc-cf-url.php:929
+#: includes/custom-field-types/class-wpsc-cf-url.php:1054
+msgid "Allow in ticket form?"
+msgstr "السماح في نموذج التذكرة؟"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1045
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1216
+#: includes/custom-field-types/class-wpsc-cf-date.php:932
+#: includes/custom-field-types/class-wpsc-cf-date.php:1121
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:912
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1108
+#: includes/custom-field-types/class-wpsc-cf-email.php:856
+#: includes/custom-field-types/class-wpsc-cf-email.php:981
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:916
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1100
+#: includes/custom-field-types/class-wpsc-cf-number.php:939
+#: includes/custom-field-types/class-wpsc-cf-number.php:1077
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:957
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1123
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:857
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1036
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:865
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1003
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:819
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:944
+#: includes/custom-field-types/class-wpsc-cf-time.php:657
+#: includes/custom-field-types/class-wpsc-cf-time.php:859
+#: includes/custom-field-types/class-wpsc-cf-url.php:855
+#: includes/custom-field-types/class-wpsc-cf-url.php:980
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:984
+#: includes/custom-field-types/class-wpsc-df-category.php:614
+#: includes/custom-field-types/class-wpsc-df-description.php:572
+#: includes/custom-field-types/class-wpsc-df-priority.php:612
+#: includes/custom-field-types/class-wpsc-df-subject.php:602
+msgid "Auto-fill in ticket form"
+msgstr "الملء التلقائي في نموذج التذكرة"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1074
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1245
+#: includes/custom-field-types/class-wpsc-cf-date.php:1032
+#: includes/custom-field-types/class-wpsc-cf-date.php:1221
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1016
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1216
+#: includes/custom-field-types/class-wpsc-cf-email.php:898
+#: includes/custom-field-types/class-wpsc-cf-email.php:1023
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:660
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:729
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:646
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:715
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:958
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1142
+#: includes/custom-field-types/class-wpsc-cf-number.php:994
+#: includes/custom-field-types/class-wpsc-cf-number.php:1132
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:986
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1152
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:899
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1078
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:920
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1058
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:861
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:986
+#: includes/custom-field-types/class-wpsc-cf-time.php:765
+#: includes/custom-field-types/class-wpsc-cf-time.php:973
+#: includes/custom-field-types/class-wpsc-cf-url.php:897
+#: includes/custom-field-types/class-wpsc-cf-url.php:1022
+msgid "Has personal info"
+msgstr "لديه معلومات شخصية"
+
+#: includes/custom-field-types/class-wpsc-cf-checkbox.php:1456
+#: includes/custom-field-types/class-wpsc-cf-date.php:1425
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1420
+#: includes/custom-field-types/class-wpsc-cf-email.php:1215
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:954
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:1002
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:886
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:912
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1358
+#: includes/custom-field-types/class-wpsc-cf-number.php:1323
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:1358
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1289
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1249
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1172
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:1188
+#: includes/custom-field-types/class-wpsc-cf-time.php:1351
+#: includes/custom-field-types/class-wpsc-cf-url.php:1217
+#: includes/custom-field-types/class-wpsc-cf-url.php:1234
+#: includes/custom-field-types/class-wpsc-df-additional-recipients.php:468
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:232
+#: includes/custom-field-types/class-wpsc-df-agent-created.php:250
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:248
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:266
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:1099
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:1149
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:1185
+#: includes/custom-field-types/class-wpsc-df-category.php:750
+#: includes/custom-field-types/class-wpsc-df-customer.php:516
+#: includes/custom-field-types/class-wpsc-df-prev-assignee.php:552
+#: includes/custom-field-types/class-wpsc-df-priority.php:756
+#: includes/custom-field-types/class-wpsc-df-priority.php:770
+#: includes/custom-field-types/class-wpsc-df-status.php:679
+#: includes/custom-field-types/class-wpsc-df-status.php:693
+#: includes/models/class-wpsc-agent.php:601
+msgid "None"
+msgstr "لا شئ"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:211
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:211
+#: includes/custom-field-types/class-wpsc-cf-number.php:219
+#: includes/custom-field-types/class-wpsc-cf-time.php:1097
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:189
+#: includes/custom-field-types/class-wpsc-df-date-created.php:192
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:192
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:189
+msgid "Less than"
+msgstr "أصغر من"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:212
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:212
+#: includes/custom-field-types/class-wpsc-cf-number.php:220
+#: includes/custom-field-types/class-wpsc-cf-time.php:1098
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:190
+#: includes/custom-field-types/class-wpsc-df-date-created.php:193
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:193
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:190
+msgid "Less than or equals"
+msgstr "أصغر من أو يساوي"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:213
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:213
+#: includes/custom-field-types/class-wpsc-cf-number.php:221
+#: includes/custom-field-types/class-wpsc-cf-time.php:1099
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:191
+#: includes/custom-field-types/class-wpsc-df-date-created.php:194
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:194
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:191
+msgid "Greater than"
+msgstr "أكبر من"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:214
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:214
+#: includes/custom-field-types/class-wpsc-cf-number.php:222
+#: includes/custom-field-types/class-wpsc-cf-time.php:1100
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:192
+#: includes/custom-field-types/class-wpsc-df-date-created.php:195
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:195
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:192
+msgid "Greater than or equals"
+msgstr "أكبر من أو يساوي"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:215
+#: includes/custom-field-types/class-wpsc-cf-date.php:965
+#: includes/custom-field-types/class-wpsc-cf-date.php:1154
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:215
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:945
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1141
+#: includes/custom-field-types/class-wpsc-cf-time.php:688
+#: includes/custom-field-types/class-wpsc-cf-time.php:877
+#: includes/custom-field-types/class-wpsc-cf-time.php:1101
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:193
+#: includes/custom-field-types/class-wpsc-df-date-created.php:196
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:196
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:193
+msgid "Between"
+msgstr "بين"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:238
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:238
+#: includes/custom-field-types/class-wpsc-cf-time.php:1124
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:216
+#: includes/custom-field-types/class-wpsc-df-date-created.php:219
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:219
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:216
+msgid "From date"
+msgstr "من تاريخ"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:246
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:250
+#: includes/custom-field-types/class-wpsc-cf-time.php:1139
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:224
+#: includes/custom-field-types/class-wpsc-df-date-created.php:227
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:227
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:224
+msgid "To date"
+msgstr "إلى تاريخ"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:948
+#: includes/custom-field-types/class-wpsc-cf-date.php:1137
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:928
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1124
+#: includes/custom-field-types/class-wpsc-cf-email.php:872
+#: includes/custom-field-types/class-wpsc-cf-email.php:997
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:932
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:1116
+#: includes/custom-field-types/class-wpsc-cf-number.php:968
+#: includes/custom-field-types/class-wpsc-cf-number.php:1106
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:873
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:1052
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:894
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1032
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:848
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:973
+#: includes/custom-field-types/class-wpsc-cf-time.php:673
+#: includes/custom-field-types/class-wpsc-cf-time.php:947
+#: includes/custom-field-types/class-wpsc-cf-url.php:871
+#: includes/custom-field-types/class-wpsc-cf-url.php:996
+#: includes/custom-field-types/class-wpsc-df-additional-recipients.php:386
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:1000
+#: includes/custom-field-types/class-wpsc-df-category.php:630
+#: includes/custom-field-types/class-wpsc-df-customer-email.php:307
+#: includes/custom-field-types/class-wpsc-df-customer-name.php:294
+#: includes/custom-field-types/class-wpsc-df-priority.php:628
+#: includes/custom-field-types/class-wpsc-df-subject.php:631
+msgid "Placeholder"
+msgstr "العنصر النائب"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:959
+#: includes/custom-field-types/class-wpsc-cf-date.php:1148
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:939
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1135
+msgid "Date range"
+msgstr "نطاق التاريخ"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:963
+#: includes/custom-field-types/class-wpsc-cf-date.php:1152
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:943
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1139
+msgid "Future"
+msgstr "المستقبل"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:964
+#: includes/custom-field-types/class-wpsc-cf-date.php:1153
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:944
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1140
+msgid "Past"
+msgstr "الماضي"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:980
+#: includes/custom-field-types/class-wpsc-cf-date.php:1169
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:960
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1156
+msgid "Date in between"
+msgstr "التاريخ ما بين"
+
+#: includes/custom-field-types/class-wpsc-cf-date.php:1008
+#: includes/custom-field-types/class-wpsc-cf-date.php:1197
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:992
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:1192
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:454
+#: includes/custom-field-types/class-wpsc-df-date-created.php:487
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:480
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:397
+msgid "Date format"
+msgstr "تنسيق التاريخ"
+
+#: includes/custom-field-types/class-wpsc-cf-datetime.php:192
+msgid "Datetime"
+msgstr "التاريخ والوقت"
+
+#: includes/custom-field-types/class-wpsc-cf-email.php:216
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:216
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:215
+#: includes/custom-field-types/class-wpsc-cf-url.php:216
+#: includes/custom-field-types/class-wpsc-df-browser.php:192
+#: includes/custom-field-types/class-wpsc-df-description.php:191
+#: includes/custom-field-types/class-wpsc-df-os.php:179
+#: includes/custom-field-types/class-wpsc-df-subject.php:198
+msgid "Has Words"
+msgstr "لديه كلمات"
+
+#: includes/custom-field-types/class-wpsc-cf-email.php:237
+#: includes/custom-field-types/class-wpsc-cf-number.php:243
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:237
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:234
+#: includes/custom-field-types/class-wpsc-cf-url.php:237
+#: includes/custom-field-types/class-wpsc-df-browser.php:213
+#: includes/custom-field-types/class-wpsc-df-description.php:210
+#: includes/custom-field-types/class-wpsc-df-id.php:211
+#: includes/custom-field-types/class-wpsc-df-os.php:200
+#: includes/custom-field-types/class-wpsc-df-subject.php:217
+msgid "One condition per line!"
+msgstr "شرط واحد في كل سطر!"
+
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-multiple.php:198
+msgid "File Attachment (Multiple)"
+msgstr "إرفاق الملف (متعدد)"
+
+#: includes/custom-field-types/class-wpsc-cf-file-attachment-single.php:195
+msgid "File Attachment (Single)"
+msgstr "إرفاق الملف (فردي)"
+
+#: includes/custom-field-types/class-wpsc-cf-html.php:191
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/custom-field-types/class-wpsc-cf-html.php:244
+#: includes/custom-field-types/class-wpsc-cf-html.php:266
+msgid "HTML Content"
+msgstr "محتوى HTML"
+
+#: includes/custom-field-types/class-wpsc-cf-multi-select.php:195
+msgid "Dropdown (multi-select)"
+msgstr "قائمة منسدلة (تحديد متعدد)"
+
+#: includes/custom-field-types/class-wpsc-cf-number.php:198
+msgid "Number"
+msgstr "رقم"
+
+#: includes/custom-field-types/class-wpsc-cf-number.php:538
+msgid "Invalid Number!"
+msgstr "رقم غير صالح!"
+
+#: includes/custom-field-types/class-wpsc-cf-number.php:955
+#: includes/custom-field-types/class-wpsc-cf-number.php:1093
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:881
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:1019
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:835
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:960
+#: includes/custom-field-types/class-wpsc-df-subject.php:618
+msgid "Character limit"
+msgstr "حد الأحرف المسموح به"
+
+#: includes/custom-field-types/class-wpsc-cf-radio-button.php:196
+msgid "Radio Button"
+msgstr "زر الاختيار"
+
+#: includes/custom-field-types/class-wpsc-cf-single-select.php:196
+msgid "Dropdown (single-select)"
+msgstr "قائمة منسدلة (تحديد مفرد)"
+
+#: includes/custom-field-types/class-wpsc-cf-text-field.php:195
+msgid "Textfield"
+msgstr "حقل النص"
+
+#: includes/custom-field-types/class-wpsc-cf-textarea.php:195
+msgid "Textarea"
+msgstr "منطقة النص"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:192
+msgid "Time"
+msgstr "الوقت"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:684
+#: includes/custom-field-types/class-wpsc-cf-time.php:873
+msgid "Time range"
+msgstr "نطاق الوقت"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:703
+#: includes/custom-field-types/class-wpsc-cf-time.php:892
+msgid "Time in between"
+msgstr "الوقت ما بين"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:738
+#: includes/custom-field-types/class-wpsc-cf-time.php:933
+msgid "Time format"
+msgstr "تنسيق الوقت"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:741
+#: includes/custom-field-types/class-wpsc-cf-time.php:936
+msgid "24 Hrs"
+msgstr "24 ساعة"
+
+#: includes/custom-field-types/class-wpsc-cf-time.php:742
+#: includes/custom-field-types/class-wpsc-cf-time.php:937
+msgid "12 Hrs"
+msgstr "12 ساعة"
+
+#: includes/custom-field-types/class-wpsc-cf-url.php:471
+msgid "Invalid URL!"
+msgstr "عنوان رابط غير صالح!"
+
+#: includes/custom-field-types/class-wpsc-cf-url.php:1161
+#: includes/custom-field-types/class-wpsc-cf-url.php:1203
+msgid "Click Here"
+msgstr "أنقر هنا"
+
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:660
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:745
+msgid "Ajax loading of results?"
+msgstr "تحميل نتائج Ajax؟"
+
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:670
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:755
+msgid "Is multiple?"
+msgstr "هل هو متعدد؟"
+
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:680
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:765
+msgid "Allowed user"
+msgstr "مستخدم مسموح به"
+
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:685
+#: includes/custom-field-types/class-wpsc-df-assigned-agent.php:770
+msgid "Both"
+msgstr "كليهما"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:328
+msgid "Navigator"
+msgstr "المستكشف"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:332
+msgid "Firefox"
+msgstr "فايرفوكس"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:336
+msgid "Internet Explorer"
+msgstr "إنترنت إكسبلورر"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:340
+msgid "Google Chrome"
+msgstr "جوجل كروم"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:344
+msgid "MAXTHON"
+msgstr "ماكسثون"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:348
+msgid "Opera"
+msgstr "أوبرا"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:352
+msgid "Edge"
+msgstr "إيدج"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:356
+msgid "Konqueror"
+msgstr "كونكورر"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:360
+msgid "SamsungBrowser"
+msgstr "متصفح سامسونج"
+
+#: includes/custom-field-types/class-wpsc-df-browser.php:364
+msgid "Safari"
+msgstr "سفاري"
+
+#: includes/custom-field-types/class-wpsc-df-date-closed.php:444
+#: includes/custom-field-types/class-wpsc-df-date-created.php:477
+#: includes/custom-field-types/class-wpsc-df-date-updated.php:470
+#: includes/custom-field-types/class-wpsc-df-last-reply-on.php:387
+msgid "Display as"
+msgstr "عرض كـ"
+
+#: includes/custom-field-types/class-wpsc-df-user-type.php:216
+#: includes/custom-field-types/class-wpsc-df-user-type.php:413
+msgid "Registered"
+msgstr "مشترك"
+
+#: includes/frontend/class-wpsc-frontend.php:178
+msgid "Username / Email address"
+msgstr "اسم المستخدم / عنوان البريد الإلكتروني"
+
+#: includes/frontend/class-wpsc-frontend.php:182
+msgid "Remember me"
+msgstr "تذكرني"
+
+#: includes/frontend/class-wpsc-frontend.php:236
+msgid "Forgot your password?"
+msgstr "نسيت كلمة السر؟"
+
+#: includes/frontend/class-wpsc-frontend.php:254
+msgid "Register now"
+msgstr "اشترك الآن"
+
+#: includes/frontend/class-wpsc-frontend.php:259
+msgid "Sign-in using one time password"
+msgstr "تسجيل الدخول باستخدام كلمة المرور لمرة واحدة"
+
+#: includes/frontend/class-wpsc-frontend.php:265
+msgid "Create new ticket as guest"
+msgstr "إنشاء تذكرة كضيف"
+
+#: includes/frontend/class-wpsc-frontend.php:271
+msgid "Open existing ticket using one time password"
+msgstr "فتح تذكرة موجودة باستخدام كلمة المرور لمرة واحدة"
+
+#: includes/frontend/class-wpsc-shortcode-five.php:92
+#: includes/frontend/class-wpsc-shortcode-six.php:98
+#: includes/frontend/class-wpsc-shortcode-three.php:209
+msgid "Unauthorized access!"
+msgstr "وضول غير مصرح به!"
+
+#: includes/frontend/class-wpsc-shortcode-three.php:99
+#: includes/frontend/class-wpsc-shortcode-three.php:291
+msgid "Open existing ticket"
+msgstr "فتح تذكرة موجوة"
+
+#. translators: %1$s: customer name
+#: includes/frontend/class-wpsc-shortcode-three.php:164
+#, php-format
+msgid "Logged-in as %1$s"
+msgstr "تم تسجيل الدخول كـ %1$s"
+
+#: includes/frontend/class-wpsc-shortcode-three.php:167
+msgid "Log out"
+msgstr "تسجيل الخروج"
+
+#: includes/frontend/class-wpsc-shortcode-three.php:292
+msgid ""
+"We have sent 6-digit one time password on your given email address. Please "
+"insert it below and submit to open ticket!"
+msgstr ""
+"لقد أرسلنا كلمة مرور تستخدم لمرة واحدة مكونة من 6 أرقام على عنوان بريدك "
+"الإلكتروني المحدد. يرجى إدخالها أدناه والنقر على إرسال لفتح التذكرة!"
+
+#: includes/models/class-wpsc-attachment.php:601
+msgid "Insert/edit image"
+msgstr "إدراج/تحرير الصورة"
+
+#: includes/models/class-wpsc-attachment.php:617
+#: includes/models/class-wpsc-attachment.php:790
+msgid "Upload"
+msgstr "رفع"
+
+#: includes/models/class-wpsc-attachment.php:623
+#: includes/models/class-wpsc-attachment.php:795
+msgid "Dimentions"
+msgstr "المقاسات"
+
+#: includes/models/class-wpsc-attachment.php:633
+#: includes/models/class-wpsc-attachment.php:805
+msgid "Constraint properties"
+msgstr "خواص التقييد"
+
+#: includes/models/class-wpsc-attachment.php:758
+msgid "Edit image"
+msgstr "تحرير الصورة"
+
+#: includes/models/class-wpsc-thread.php:559
+msgid "Attachments"
+msgstr "المرفقات"
+
+#: includes/models/class-wpsc-wh-exception.php:501
+msgid "Add new exception"
+msgstr "إضافة استثناء جديد"
+
+#: includes/models/class-wpsc-wh-exception.php:722
+msgid "Edit exception"
+msgstr "تحرير الاستثناء"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "SupportCandy"
+msgstr "SupportCandy"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/supportcandy/"
+msgstr "https://wordpress.org/plugins/supportcandy/"
+
+#. Description of the plugin/theme
+msgid "Easy & Powerful support ticket system for WordPress"
+msgstr "نظام تذاكر الدعم السهل والقوي لوورد بريس"
+
+#. Author URI of the plugin/theme
+msgid "https://supportcandy.net/"
+msgstr "https://supportcandy.net/"
